@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace Sigea\Events;
 
 abstract class Event {
 

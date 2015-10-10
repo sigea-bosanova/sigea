@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace Sigea\Services;
 
-use App\User;
+use Sigea\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

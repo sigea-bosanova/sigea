@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace Sigea\Commands;
 
 abstract class Command {
 

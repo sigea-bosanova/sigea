@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: Sigea
+        psr4_prefix: Sigea
         src_path: app
