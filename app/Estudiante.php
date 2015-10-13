@@ -6,7 +6,7 @@ use Sigea\Acudiente;
 class Estudiante extends Model {
 
 
-    public function acudientes(){
+    public function padre(){
         return $this->belongsToMany('Acudiente');
     }
 

@@ -23,6 +23,7 @@ class CreateAcudientesTable extends Migration {
 			$table->string('nivel_educativo');
 			$table->string('direccion');
 			$table->string('barrio');
+			$table->string('email');
 			$table->bigInteger('telefono');
 			$table->bigInteger('celular');
 			$table->timestamps();

@@ -36,7 +36,7 @@ class CreateEstudiantesTable extends Migration {
 			$table->bigInteger('celular');
 			$table->string('direccion');
 			$table->string('barrio');
-			$table->string('correo');
+			$table->string('email');
 
 			$table->timestamps();
 		});
