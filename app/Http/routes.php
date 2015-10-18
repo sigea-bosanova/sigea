@@ -19,9 +19,18 @@
 
     Route::get('probar-usuario', 'EstudiantesController@probarUsuario');
 
+    //Route::get('login', function(){
+     //  return view('base.login');
+    //});
+
     Route::get('login', function(){
-       return view('base.login');
+        return view('compartido.login');
     });
+
+    Route::get('baseest', function(){
+        return view('estudiante.base');
+    });
+
 
     Route::controllers([
         'auth' => 'Auth\AuthController',
