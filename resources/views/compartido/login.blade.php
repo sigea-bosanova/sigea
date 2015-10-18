@@ -8,16 +8,16 @@
 		<meta name="description" content="User login page" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-		<!-- bootstrap & fontawesome -->
-		{!! Html::style('assets/css/bootstrap.css') !!}
-		{!! Html::style('assets/css/font-awesome.css') !!}
-		{!! Html::style('assets/css/ace-fonts.css') !!}
-		{!! Html::style('assets/css/ace.css') !!}
-		{!! Html::style('assets/css/ace-part2.css') !!}
-		{!! Html::style('assets/css/ace-rtl.css') !!}
-		{!! Html::style('assets/css/ace-ie.css') !!}
-		{!! Html::script('assets/js/html5shiv.js') !!}
-		{!! Html::script('assets/js/respond.js') !!}
+		{!! Html::style('css/bootstrap.css') !!}
+		{!! Html::style('css/font-awesome.css') !!}
+		{!! Html::style('css/ace-fonts.css') !!}
+		{!! Html::style('css/ace.css') !!}
+		{!! Html::style('css/ace-part2.css') !!}
+		{!! Html::style('css/ace-rtl.css') !!}
+		{!! Html::style('css/ace-ie.css') !!}
+		{!! Html::script('js/html5shiv.js') !!}
+		{!! Html::script('js/respond.js') !!}
+
 
 
 	</head>

@@ -2,7 +2,149 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aa8f738-710d-49e9-850f-c6ef80fb39d5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ace-ie.css" afterPath="$PROJECT_DIR$/public/css/ace-ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/ace-nav.less" afterPath="$PROJECT_DIR$/public/css/less/ace-nav.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ace-part2.css" afterPath="$PROJECT_DIR$/public/css/ace-part2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ace-rtl.css" afterPath="$PROJECT_DIR$/public/css/ace-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ace-skins.css" afterPath="$PROJECT_DIR$/public/css/ace-skins.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ace.css" afterPath="$PROJECT_DIR$/public/css/ace.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/alerts.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/alerts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/alerts.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/alerts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/background-variant.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/background-variant.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/badges.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/badges.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cooacademico/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/cooacademico/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/docente/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/docente/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/estudiante/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/estudiante/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/secretaria/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/secretaria/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/basic.less" afterPath="$PROJECT_DIR$/public/css/less/basic.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap-datetimepicker.css" afterPath="$PROJECT_DIR$/public/css/bootstrap-datetimepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap-duallistbox.css" afterPath="$PROJECT_DIR$/public/css/bootstrap-duallistbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap-editable.css" afterPath="$PROJECT_DIR$/public/css/bootstrap-editable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/ext/bootstrap-tag.less" afterPath="$PROJECT_DIR$/public/css/less/ext/bootstrap-tag.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap-timepicker.css" afterPath="$PROJECT_DIR$/public/css/bootstrap-timepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/bootstrap.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/border-radius.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/border-radius.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/public/css/less/breadcrumbs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/breadcrumbs.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/breadcrumbs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bs3-reset.less" afterPath="$PROJECT_DIR$/public/css/less/bs3-reset.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/button-groups.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/button-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/buttons.less" afterPath="$PROJECT_DIR$/public/css/less/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/buttons.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/buttons.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/carousel.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/carousel.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/center-block.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/center-block.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/form/checkbox.less" afterPath="$PROJECT_DIR$/public/css/less/form/checkbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/chosen.css" afterPath="$PROJECT_DIR$/public/css/chosen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/clearfix.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/clearfix.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/close.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/close.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/code.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/code.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/colorbox.css" afterPath="$PROJECT_DIR$/public/css/colorbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/colorpicker.css" afterPath="$PROJECT_DIR$/public/css/colorpicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/sidebar/compact.less" afterPath="$PROJECT_DIR$/public/css/less/sidebar/compact.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/component-animations.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/component-animations.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/datepicker.css" afterPath="$PROJECT_DIR$/public/css/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/daterangepicker.css" afterPath="$PROJECT_DIR$/public/css/daterangepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/dropdown.less" afterPath="$PROJECT_DIR$/public/css/less/dropdown.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/dropdowns.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/dropdowns.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/dropzone.css" afterPath="$PROJECT_DIR$/public/css/dropzone.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/form/file.less" afterPath="$PROJECT_DIR$/public/css/less/form/file.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/form.less" afterPath="$PROJECT_DIR$/public/css/less/form.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/forms.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/forms.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/fullcalendar.css" afterPath="$PROJECT_DIR$/public/css/fullcalendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/fullcalendar.print.css" afterPath="$PROJECT_DIR$/public/css/fullcalendar.print.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/gallery.less" afterPath="$PROJECT_DIR$/public/css/less/gallery.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/general.less" afterPath="$PROJECT_DIR$/public/css/less/general.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/glyphicons.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/glyphicons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/gradients.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/gradients.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/grid-framework.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/grid.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/grid.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/hide-text.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/hide-text.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/sidebar/highlight.less" afterPath="$PROJECT_DIR$/public/css/less/sidebar/highlight.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/sidebar/hover.less" afterPath="$PROJECT_DIR$/public/css/less/sidebar/hover.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/icon-animated.less" afterPath="$PROJECT_DIR$/public/css/less/icon-animated.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/image.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/image.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/infobox.less" afterPath="$PROJECT_DIR$/public/css/less/infobox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/input-groups.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/input-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/items.less" afterPath="$PROJECT_DIR$/public/css/less/items.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/jquery-ui.css" afterPath="$PROJECT_DIR$/public/css/jquery-ui.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/jquery-ui.custom.css" afterPath="$PROJECT_DIR$/public/css/jquery-ui.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/jquery.gritter.css" afterPath="$PROJECT_DIR$/public/css/jquery.gritter.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/jumbotron.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/jumbotron.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/label-badge.less" afterPath="$PROJECT_DIR$/public/css/less/label-badge.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/labels.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/labels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/labels.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/labels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/list-group.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/list-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/list-group.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/list-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/compartido/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/compartido/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/media.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/media.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/mixins.less" afterPath="$PROJECT_DIR$/public/css/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/modals.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/modals.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/nav-divider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/nav-vertical-align.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/navbar.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/navs.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/navs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/normalize.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/normalize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/opacity.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/opacity.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/other.less" afterPath="$PROJECT_DIR$/public/css/less/other.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/page.error.less" afterPath="$PROJECT_DIR$/public/css/less/page.error.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/page.invoice.less" afterPath="$PROJECT_DIR$/public/css/less/page.invoice.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/page.login.less" afterPath="$PROJECT_DIR$/public/css/less/page.login.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/page.pricing.less" afterPath="$PROJECT_DIR$/public/css/less/page.pricing.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/pager.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/pager.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/pagination.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/pagination.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/pagination.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/pagination.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/panels.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/panels.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/popovers.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/popovers.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/prettify.css" afterPath="$PROJECT_DIR$/public/css/prettify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/print.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/print.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/progress-bar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/progress-bars.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/progress-bars.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/progressbar.less" afterPath="$PROJECT_DIR$/public/css/less/progressbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/reset-filter.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/resize.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/resize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/responsive-embed.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/responsive-embed.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/responsive-utilities.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/responsive-utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/responsive-visibility.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/scaffolding.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/scaffolding.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/select2.css" afterPath="$PROJECT_DIR$/public/css/select2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/sidebar.less" afterPath="$PROJECT_DIR$/public/css/less/sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/size.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/size.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/tab-accordion.less" afterPath="$PROJECT_DIR$/public/css/less/tab-accordion.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/tab-focus.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/table-row.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/table-row.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/tables.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/tables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/text-emphasis.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/text-overflow.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/theme.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/theme.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-calendar.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-calendar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-chosen.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-chosen.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-colorbox.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-colorbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-fuelux.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-fuelux.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-gritter.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-gritter.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-nestable.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-nestable.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-select2.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-select2.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-slider.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-slider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/thirdparty-wysiwyg.less" afterPath="$PROJECT_DIR$/public/css/less/thirdparty-wysiwyg.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/thumbnails.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/thumbnails.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/tooltip-popover.less" afterPath="$PROJECT_DIR$/public/css/less/tooltip-popover.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/tooltip.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/tooltip.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/type.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/type.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/utilities.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/utility.less" afterPath="$PROJECT_DIR$/public/css/less/utility.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/variables.less" afterPath="$PROJECT_DIR$/public/css/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/variables.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/mixins/vendor-prefixes.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/bootstrap/wells.less" afterPath="$PROJECT_DIR$/public/css/less/bootstrap/wells.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/less/widget.less" afterPath="$PROJECT_DIR$/public/css/less/widget.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sigea.iws" />
@@ -29,33 +171,31 @@
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-12.423077">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
               <folding>
-                <marker date="1445176116688" expanded="true" signature="1049:1050" placeholder="..." />
+                <marker date="1445197742641" expanded="true" signature="1825:1826" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/estudiante/base.blade.php">
+      <file leaf-file-name="form-wizard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/form-wizard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.991072">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <marker date="1445179148917" expanded="true" signature="12240:12350" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-18.961538">
+              <caret line="1568" column="42" selection-start-line="1056" selection-start-column="32" selection-end-line="1568" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/compartido/login.blade.php">
+      <file leaf-file-name="xxx.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/base/xxx.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8846154">
-              <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
               <folding>
-                <marker date="1445138600058" expanded="true" signature="6977:7088" placeholder="..." />
+                <marker date="1445018885475" expanded="true" signature="12542:12647" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -64,45 +204,9 @@
       <file leaf-file-name="prueba.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/base/prueba.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/docente/base.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="434" column="18" selection-start-line="434" selection-start-column="18" selection-end-line="434" selection-end-column="18" />
-              <folding>
-                <marker date="1445143418590" expanded="true" signature="17064:17169" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/cooacademico/base.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="593" column="18" selection-start-line="593" selection-start-column="18" selection-end-line="593" selection-end-column="18" />
-              <folding>
-                <marker date="1445143418627" expanded="true" signature="22150:22255" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="494" column="18" selection-start-line="494" selection-start-column="18" selection-end-line="494" selection-end-column="18" />
-              <folding>
-                <marker date="1445143418610" expanded="true" signature="18790:18895" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +214,29 @@
       <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/base.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="791" column="18" selection-start-line="791" selection-start-column="18" selection-end-line="791" selection-end-column="18" />
-              <folding>
-                <marker date="1445143418521" expanded="true" signature="29476:29581" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="4.6538463">
+              <caret line="707" column="0" selection-start-line="707" selection-start-column="0" selection-end-line="707" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observacion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Observacion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registroestudiante.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/registroestudiante.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="7.5384617">
+              <caret line="515" column="14" selection-start-line="515" selection-start-column="14" selection-end-line="515" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,18 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_175152_create_acudiente_estudiante.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_182405_create_notas_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_184429_create_observacions_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185014_create_preguntas_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185101_create_respuestas_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185617_create_cargo_persona.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185628_create_curso_persona.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185643_create_materia_persona.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185702_create_acudiente_estudiante.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185702_create_estudiante_materia.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_191212_create_demograficos_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_10_12_182126_create_logros_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_10_12_173754_create_acudientes_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/AcudienteTableSeeder.php" />
@@ -176,8 +286,20 @@
         <option value="$PROJECT_DIR$/database/seeds/PeriodoTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_10_12_182004_create_periodos_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/base/base.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/base/pruebautf.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/base/prueba.blade" />
+        <option value="$PROJECT_DIR$/resources/views/admin/base/l.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/l.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/compartido/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/secretaria/base.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/estudiante/base.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/cooacademico/base.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/docente/base.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/base.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/registroestudiante.blade.php" />
       </list>
     </option>
   </component>
@@ -321,7 +443,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="compartido" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,7 +465,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,6 +497,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sigea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sigea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -390,28 +530,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,9 +542,15 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sigea_vr1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\sigea\resources\views" />
+      <recent name="C:\Dev\sigea\resources\views\admin\base" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -474,7 +598,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20574887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -505,7 +629,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20574887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -536,7 +660,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1445176116688" expanded="true" signature="1049:1050" placeholder="..." />
+            <marker date="1445197742641" expanded="true" signature="1825:1826" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -545,9 +669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1445179148917" expanded="true" signature="12240:12350" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -555,9 +677,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="412" column="56" selection-start-line="412" selection-start-column="56" selection-end-line="412" selection-end-column="56" />
-          <folding>
-            <marker date="1445143485676" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -573,9 +693,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="434" column="18" selection-start-line="434" selection-start-column="18" selection-end-line="434" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418590" expanded="true" signature="17064:17169" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -583,9 +701,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="593" column="18" selection-start-line="593" selection-start-column="18" selection-end-line="593" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418627" expanded="true" signature="22150:22255" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -593,9 +709,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="494" column="18" selection-start-line="494" selection-start-column="18" selection-end-line="494" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418610" expanded="true" signature="18790:18895" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -603,9 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="791" column="18" selection-start-line="791" selection-start-column="18" selection-end-line="791" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418521" expanded="true" signature="29476:29581" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +726,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding>
-            <marker date="1445176116688" expanded="true" signature="1049:1050" placeholder="..." />
+            <marker date="1445197742641" expanded="true" signature="1825:1826" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -623,9 +735,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1445179148917" expanded="true" signature="12240:12350" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -633,9 +743,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="412" column="56" selection-start-line="412" selection-start-column="56" selection-end-line="412" selection-end-column="56" />
-          <folding>
-            <marker date="1445143485676" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,9 +759,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="434" column="18" selection-start-line="434" selection-start-column="18" selection-end-line="434" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418590" expanded="true" signature="17064:17169" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,9 +767,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="593" column="18" selection-start-line="593" selection-start-column="18" selection-end-line="593" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418627" expanded="true" signature="22150:22255" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -671,9 +775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="494" column="18" selection-start-line="494" selection-start-column="18" selection-end-line="494" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418610" expanded="true" signature="18790:18895" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -681,9 +783,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="791" column="18" selection-start-line="791" selection-start-column="18" selection-end-line="791" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418521" expanded="true" signature="29476:29581" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +799,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
-            <marker date="1445176116688" expanded="true" signature="1049:1050" placeholder="..." />
+            <marker date="1445197742641" expanded="true" signature="1825:1826" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -716,9 +816,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="813" column="31" selection-start-line="813" selection-start-column="31" selection-end-line="813" selection-end-column="31" />
-          <folding>
-            <marker date="1445143418521" expanded="true" signature="29476:29581" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +832,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
-            <marker date="1445176116688" expanded="true" signature="1049:1050" placeholder="..." />
+            <marker date="1445197742641" expanded="true" signature="1825:1826" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -751,9 +849,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1445143418521" expanded="true" signature="29476:29581" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -792,67 +888,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/base/xxx.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/base/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        <state vertical-scroll-proportion="-9.730769">
+          <caret line="774" column="80" selection-start-line="774" selection-start-column="80" selection-end-line="774" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cooacademico/base.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/base/l.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="593" column="18" selection-start-line="593" selection-start-column="18" selection-end-line="593" selection-end-column="18" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/compartido/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60714287">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <marker date="1445143418627" expanded="true" signature="22150:22255" placeholder="..." />
+            <marker date="1445187189735" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/css/less/skins/skin-3.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="494" column="18" selection-start-line="494" selection-start-column="18" selection-end-line="494" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418610" expanded="true" signature="18790:18895" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/docente/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="434" column="18" selection-start-line="434" selection-start-column="18" selection-end-line="434" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418590" expanded="true" signature="17064:17169" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-1.754717">
+          <caret line="467" column="9" selection-start-line="467" selection-start-column="9" selection-end-line="467" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/secretaria/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="412" column="56" selection-start-line="412" selection-start-column="56" selection-end-line="412" selection-end-column="56" />
-          <folding>
-            <marker date="1445143485676" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="468" column="45" selection-start-line="468" selection-start-column="45" selection-end-line="468" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/base.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/estudiante/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="791" column="18" selection-start-line="791" selection-start-column="18" selection-end-line="791" selection-end-column="18" />
-          <folding>
-            <marker date="1445143418521" expanded="true" signature="29476:29581" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="294" column="60" selection-start-line="294" selection-start-column="60" selection-end-line="294" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/base/prueba.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/cooacademico/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state vertical-scroll-proportion="-13.653846">
+          <caret line="501" column="60" selection-start-line="501" selection-start-column="60" selection-end-line="501" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="402" column="60" selection-start-line="402" selection-start-column="60" selection-end-line="402" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/docente/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="342" column="60" selection-start-line="342" selection-start-column="60" selection-end-line="342" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Observacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -860,30 +973,52 @@
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.423077">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
           <folding>
-            <marker date="1445176116688" expanded="true" signature="1049:1050" placeholder="..." />
+            <marker date="1445197742641" expanded="true" signature="1825:1826" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/base/xxx.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8846154">
-          <caret line="190" column="4" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
           <folding>
-            <marker date="1445138600058" expanded="true" signature="6977:7088" placeholder="..." />
+            <marker date="1445018885475" expanded="true" signature="12542:12647" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/estudiante/base.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/base/prueba.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.991072">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <marker date="1445179148917" expanded="true" signature="12240:12350" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/form-wizard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538">
+          <caret line="1568" column="42" selection-start-line="1056" selection-start-column="32" selection-end-line="1568" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.6538463">
+          <caret line="707" column="0" selection-start-line="707" selection-start-column="0" selection-end-line="707" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/registroestudiante.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.5384617">
+          <caret line="515" column="14" selection-start-line="515" selection-start-column="14" selection-end-line="515" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

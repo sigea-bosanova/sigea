@@ -5040,7 +5040,7 @@ input.typeahead.scrollable ~ .tt-dropdown-menu {
   border: 2px solid;
   border-width: 0 2px 0 0;
   border-color: #2b7dbc;
-}
+  }
 .no-skin .sidebar-scroll .nav-list > li.active:after {
   right: 0;
 }
@@ -5302,6 +5302,7 @@ input.typeahead.scrollable ~ .tt-dropdown-menu {
     border-width: 0 1px 0 0;
   }
   .no-skin .sidebar.navbar-collapse {
+
     border-width: 0;
     border-bottom-width: 1px !important;
     border-bottom-color: #cccccc;

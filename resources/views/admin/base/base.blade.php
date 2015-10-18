@@ -9,14 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     <!-- bootstrap & fontawesome -->
-    <!-- bootstrap & fontawesome -->
     {!! Html::style('css/bootstrap.css') !!}
     {!! Html::style('css/font-awesome.css') !!}
     {!! Html::style('css/ace-fonts.css') !!}
     {!! Html::style('css/ace.css') !!}
     {!! Html::style('css/ace-part2.css') !!}
+    {!! Html::style('css/ace-rtl.css') !!}
     {!! Html::style('css/ace-ie.css') !!}
-    {!! Html::script('js/ace-extra.js') !!}
     {!! Html::script('js/html5shiv.js') !!}
     {!! Html::script('js/respond.js') !!}
 
@@ -168,7 +167,7 @@
             <li class="">
                 <a href="index.html">
                     <i class="menu-icon fa fa-tachometer"></i>
-                    <span class="menu-text"> Men&uacute;</span>
+                    <span class="menu-text"> Menú</span>
                 </a>
 
                 <b class="arrow"></b>
@@ -234,7 +233,7 @@
             <li class="" >
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-book"></i>
-                    <span class="menu-text">Gestionar Coordinador &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Acad&eacute;mico </span>
+                    <span class="menu-text">Gestionar Coordinador &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Académico </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
 
@@ -245,7 +244,7 @@
                         <a href="typography.html">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
-                            Crear Coordinador Acad&eacute;mico
+                            Crear Coordinador Académico
                         </a>
 
                         <b class="arrow"></b>
@@ -254,7 +253,7 @@
                     <li class="">
                         <a href="elements.html">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
-                            Modificar Coordinador Acad&eacute;mico
+                            Modificar Coordinador Académico
                         </a>
 
                         <b class="arrow"></b>
@@ -263,7 +262,7 @@
                     <li class="">
                         <a href="buttons.html">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Coordinador Acad&eacute;mico
+                            Consultar Coordinador Académico
                         </a>
 
                         <b class="arrow"></b>
@@ -272,7 +271,7 @@
                     <li class="">
                         <a href="content-slider.html">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
-                            Eliminar Coordinador Acad&eacute;mico
+                            Eliminar Coordinador Académico
                         </a>
 
                         <b class="arrow"></b>
@@ -540,7 +539,7 @@
             <li class="">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-key"></i>
-                    <span class="menu-text">Gestionar Contrase&ntilde;a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Estudiante </span>
+                    <span class="menu-text">Gestionar Contraseña &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Estudiante </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
 
@@ -551,7 +550,7 @@
                         <a href="typography.html">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
-                            Crear Contrase&ntilde;a Estudiante
+                            Crear Contraseña Estudiante
                         </a>
 
                         <b class="arrow"></b>
@@ -560,7 +559,7 @@
                     <li class="">
                         <a href="elements.html">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
-                            Modificar Contrase&ntilde;a Estudiante
+                            Modificar Contraseña Estudiante
                         </a>
 
                         <b class="arrow"></b>
@@ -569,7 +568,7 @@
                     <li class="">
                         <a href="buttons.html">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Contrase&ntilde;a Estudiante
+                            Consultar Contraseña Estudiante
                         </a>
 
                         <b class="arrow"></b>
@@ -578,7 +577,7 @@
                     <li class="">
                         <a href="content-slider.html">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
-                            Eliminar Contrase&ntilde;a Estudiante
+                            Eliminar Contraseña Estudiante
                         </a>
 
                         <b class="arrow"></b>
@@ -591,7 +590,7 @@
             <li class="">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-key"></i>
-                    <span class="menu-text">Gestionar Contrase&ntilde;a  </span>
+                    <span class="menu-text">Gestionar Contraseña  </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
 
@@ -602,7 +601,7 @@
                         <a href="typography.html">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
-                            Crear Contrase&ntilde;a
+                            Crear Contraseña
                         </a>
 
                         <b class="arrow"></b>
@@ -611,7 +610,7 @@
                     <li class="">
                         <a href="elements.html">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
-                            Modificar Contrase&ntilde;a
+                            Modificar Contraseña
                         </a>
 
                         <b class="arrow"></b>
@@ -620,7 +619,7 @@
                     <li class="">
                         <a href="buttons.html">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Contrase&ntilde;a
+                            Consultar Contraseña
                         </a>
 
                         <b class="arrow"></b>
@@ -629,7 +628,7 @@
                     <li class="">
                         <a href="content-slider.html">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
-                            Eliminar Contrase&ntilde;a
+                            Eliminar Contraseña
                         </a>
 
                         <b class="arrow"></b>
@@ -663,7 +662,7 @@
                 <ul class="breadcrumb">
                     <li>
                         <i class="ace-icon fa fa-home home-icon"></i>
-                        <a href="#">Men&uacute; Principal</a>
+                        <a href="#">Menu Principal</a>
                     </li>
                     <!--
                         <li>
@@ -698,37 +697,83 @@
                                         <option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
                                     </select>
                                 </div>
-                                <span>&nbsp; Escoja un color</span>
+                                <span>&nbsp; Choose Skin</span>
                             </div>
 
                             <!-- /section:settings.skins -->
 
                             <!-- #section:settings.navbar -->
                             <div class="ace-settings-item">
-
-                                &nbsp;&nbsp; <label class="lbl" for="ace-settings-navbar">  <hr>       </label>
+                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-navbar" />
+                                <label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
                             </div>
 
                             <!-- /section:settings.navbar -->
 
+                            <!-- #section:settings.sidebar -->
+                            <div class="ace-settings-item">
+                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-sidebar" />
+                                <label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+                            </div>
 
+                            <!-- /section:settings.sidebar -->
+
+                            <!-- #section:settings.breadcrumbs -->
+                            <div class="ace-settings-item">
+                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-breadcrumbs" />
+                                <label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+                            </div>
+
+                            <!-- /section:settings.breadcrumbs -->
+
+                            <!-- #section:settings.rtl -->
+                            <div class="ace-settings-item">
+                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" />
+                                <label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+                            </div>
+
+                            <!-- /section:settings.rtl -->
+
+                            <!-- #section:settings.container -->
+                            <div class="ace-settings-item">
+                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-add-container" />
+                                <label class="lbl" for="ace-settings-add-container">
+                                    Inside
+                                    <b>.container</b>
+                                </label>
+                            </div>
 
                             <!-- /section:settings.container -->
                         </div><!-- /.pull-left -->
 
+                        <div class="pull-left width-50">
+                            <!-- #section:basics/sidebar.options -->
+                            <div class="ace-settings-item">
+                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" />
+                                <label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+                            </div>
 
+                            <div class="ace-settings-item">
+                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" />
+                                <label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+                            </div>
 
-                        <!-- /section:basics/sidebar.options -->
-                    </div><!-- /.pull-left -->
-                </div><!-- /.ace-settings-box -->
-            </div><!-- /.ace-settings-container -->
+                            <div class="ace-settings-item">
+                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" />
+                                <label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
+                            </div>
+
+                            <!-- /section:basics/sidebar.options -->
+                        </div><!-- /.pull-left -->
+                    </div><!-- /.ace-settings-box -->
+                </div><!-- /.ace-settings-container -->
 
                 <!-- /section:settings.box -->
                 <div class="row">
                     <div class="col-xs-12">
                         <!-- PAGE CONTENT BEGINS -->
-                        @yield('contenido')
-                        <!-- PAGE CONTENT ENDS -->
+                        @yield('contenido') menú  ñoño ñññññ'o'oóóó   pruuebaaaa?
+                                <!-- PAGE CONTENT ENDS -->
                     </div><!-- /.col -->
                 </div><!-- /.row -->
             </div><!-- /.page-content -->
@@ -756,7 +801,6 @@
 </div><!-- /.main-container -->
 
 <!-- basic scripts -->
-
 
 <!--[if !IE]> -->
 <script type="text/javascript">

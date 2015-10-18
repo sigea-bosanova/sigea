@@ -9,15 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     <!-- bootstrap & fontawesome -->
-    {!! Html::style('assets/css/bootstrap.css') !!}
-    {!! Html::style('assets/css/font-awesome.css') !!}
-    {!! Html::style('assets/css/ace-fonts.css') !!}
-    {!! Html::style('assets/css/ace.css') !!}
-    {!! Html::style('assets/css/ace-part2.css') !!}
-    {!! Html::style('assets/css/ace-rtl.css') !!}
-    {!! Html::style('assets/css/ace-ie.css') !!}
-    {!! Html::script('assets/js/html5shiv.js') !!}
-    {!! Html::script('assets/js/respond.js') !!}
+    {!! Html::style('css/bootstrap.css') !!}
+    {!! Html::style('css/font-awesome.css') !!}
+    {!! Html::style('css/ace-fonts.css') !!}
+    {!! Html::style('css/ace.css') !!}
+    {!! Html::style('css/ace-part2.css') !!}
+    {!! Html::style('css/ace-rtl.css') !!}
+    {!! Html::style('css/ace-ie.css') !!}
+    {!! Html::script('js/html5shiv.js') !!}
+    {!! Html::script('js/respond.js') !!}
 
 
 </head>
@@ -74,10 +74,10 @@
                 <!-- #section:basics/navbar.user_menu -->
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="../assets/avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>Bienvenido,</small>
-									USUARIOX
+									Docentex
 								</span>
 
                         <i class="ace-icon fa fa-caret-down"></i>
@@ -167,7 +167,7 @@
             <li class="">
                 <a href="index.html">
                     <i class="menu-icon fa fa-tachometer"></i>
-                    <span class="menu-text"> Menú</span>
+                    <span class="menu-text"> Men&uacute;</span>
                 </a>
 
                 <b class="arrow"></b>
@@ -200,7 +200,7 @@
 
             <li class="">
                 <a href="#" class="dropdown-toggle">
-                    <i class="menu-icon fa fa-user"></i>
+                    <i class="menu-icon fa fa-pencil-square-o"></i>
                     <span class="menu-text">Gestionar Nota </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
@@ -247,7 +247,7 @@
             <li class="">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-key"></i>
-                    <span class="menu-text">Gestionar Contraseña  </span>
+                    <span class="menu-text">Gestionar Contrase&ntilde;a  </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
 
@@ -258,7 +258,7 @@
                         <a href="typography.html">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
-                            Crear Contraseña
+                            Crear Contrase&ntilde;a
                         </a>
 
                         <b class="arrow"></b>
@@ -269,7 +269,7 @@
                     <li class="">
                         <a href="buttons.html">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Contraseña
+                            Consultar Contrase&ntilde;a
                         </a>
 
                         <b class="arrow"></b>
@@ -305,7 +305,7 @@
                 <ul class="breadcrumb">
                     <li>
                         <i class="ace-icon fa fa-home home-icon"></i>
-                        <a href="#">Menu Principal</a>
+                        <a href="#">Men&uacute; Principal</a>
                     </li>
                     <!--
                         <li>
@@ -340,76 +340,30 @@
                                         <option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
                                     </select>
                                 </div>
-                                <span>&nbsp; Choose Skin</span>
+                                <span>&nbsp; Escoja un color</span>
                             </div>
 
                             <!-- /section:settings.skins -->
 
                             <!-- #section:settings.navbar -->
                             <div class="ace-settings-item">
-                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-navbar" />
-                                <label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+
+                                &nbsp;&nbsp; <label class="lbl" for="ace-settings-navbar">  <hr>       </label>
                             </div>
 
                             <!-- /section:settings.navbar -->
 
-                            <!-- #section:settings.sidebar -->
-                            <div class="ace-settings-item">
-                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-sidebar" />
-                                <label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
-                            </div>
 
-                            <!-- /section:settings.sidebar -->
-
-                            <!-- #section:settings.breadcrumbs -->
-                            <div class="ace-settings-item">
-                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-breadcrumbs" />
-                                <label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
-                            </div>
-
-                            <!-- /section:settings.breadcrumbs -->
-
-                            <!-- #section:settings.rtl -->
-                            <div class="ace-settings-item">
-                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" />
-                                <label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
-                            </div>
-
-                            <!-- /section:settings.rtl -->
-
-                            <!-- #section:settings.container -->
-                            <div class="ace-settings-item">
-                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-add-container" />
-                                <label class="lbl" for="ace-settings-add-container">
-                                    Inside
-                                    <b>.container</b>
-                                </label>
-                            </div>
 
                             <!-- /section:settings.container -->
                         </div><!-- /.pull-left -->
 
-                        <div class="pull-left width-50">
-                            <!-- #section:basics/sidebar.options -->
-                            <div class="ace-settings-item">
-                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" />
-                                <label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
-                            </div>
 
-                            <div class="ace-settings-item">
-                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" />
-                                <label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
-                            </div>
 
-                            <div class="ace-settings-item">
-                                <input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" />
-                                <label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
-                            </div>
-
-                            <!-- /section:basics/sidebar.options -->
-                        </div><!-- /.pull-left -->
-                    </div><!-- /.ace-settings-box -->
-                </div><!-- /.ace-settings-container -->
+                        <!-- /section:basics/sidebar.options -->
+                    </div><!-- /.pull-left -->
+                </div><!-- /.ace-settings-box -->
+            </div><!-- /.ace-settings-container -->
 
                 <!-- /section:settings.box -->
                 <div class="row">
@@ -447,60 +401,58 @@
 
 <!--[if !IE]> -->
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='../assets/js/jquery.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='js/jquery.js'>"+"<"+"/script>");
 </script>
 
-<!-- <![endif]-->
-
-<!--[if IE]>
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='../assets/js/jquery1x.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src= {!! asset('js/jquery1x.js')!!}>"+"<"+"/script>");
 </script>
-<![endif]-->
-<script type="text/javascript">
-    if('ontouchstart' in document.documentElement) document.write("<script src='../assets/js/jquery.mobile.custom.js'>"+"<"+"/script>");
-</script>
-<script src="../assets/js/bootstrap.js"></script>
 
-<!-- page specific plugin scripts -->
+<script type="text/javascript">
+    if('ontouchstart' in document.documentElement) document.write("<script src= {!! asset('js/jquery.mobile.custom.js')!!}>"+"<"+"/script>");
+</script>
+{!! Html::script('js/bootstrap.js') !!}
+
+
+        <!-- page specific plugin scripts -->
 
 <!-- ace scripts -->
-<script src="../assets/js/ace/elements.scroller.js"></script>
-<script src="../assets/js/ace/elements.colorpicker.js"></script>
-<script src="../assets/js/ace/elements.fileinput.js"></script>
-<script src="../assets/js/ace/elements.typeahead.js"></script>
-<script src="../assets/js/ace/elements.wysiwyg.js"></script>
-<script src="../assets/js/ace/elements.spinner.js"></script>
-<script src="../assets/js/ace/elements.treeview.js"></script>
-<script src="../assets/js/ace/elements.wizard.js"></script>
-<script src="../assets/js/ace/elements.aside.js"></script>
-<script src="../assets/js/ace/ace.js"></script>
-<script src="../assets/js/ace/ace.ajax-content.js"></script>
-<script src="../assets/js/ace/ace.touch-drag.js"></script>
-<script src="../assets/js/ace/ace.sidebar.js"></script>
-<script src="../assets/js/ace/ace.sidebar-scroll-1.js"></script>
-<script src="../assets/js/ace/ace.submenu-hover.js"></script>
-<script src="../assets/js/ace/ace.widget-box.js"></script>
-<script src="../assets/js/ace/ace.settings.js"></script>
-<script src="../assets/js/ace/ace.settings-rtl.js"></script>
-<script src="../assets/js/ace/ace.settings-skin.js"></script>
-<script src="../assets/js/ace/ace.widget-on-reload.js"></script>
-<script src="../assets/js/ace/ace.searchbox-autocomplete.js"></script>
+{!! Html::script('js/ace/elements.scroller.js') !!}
+{!! Html::script('js/ace/elements.colorpicker.js') !!}
+{!! Html::script('js/ace/elements.fileinput.js') !!}
+{!! Html::script('js/ace/elements.typeahead.js') !!}
+{!! Html::script('js/ace/elements.wysiwyg.js') !!}
+{!! Html::script('js/ace/elements.spinner.js') !!}
+{!! Html::script('js/ace/elements.treeview.js') !!}
+{!! Html::script('js/ace/elements.wizard.js') !!}
+{!! Html::script('js/ace/elements.aside.js') !!}
+{!! Html::script('js/ace/ace.js') !!}
+{!! Html::script('js/ace/ace.ajax-content.js') !!}
+{!! Html::script('js/ace/ace.touch-drag.js') !!}
+{!! Html::script('js/ace/ace.sidebar.js') !!}
+{!! Html::script('js/ace/ace.sidebar-scroll-1.js') !!}
+{!! Html::script('js/ace/ace.submenu-hover.js') !!}
+{!! Html::script('js/ace/ace.widget-box.js') !!}
+{!! Html::script('js/ace/ace.settings.js') !!}
+{!! Html::script('js/ace/ace.settings-rtl.js') !!}
+{!! Html::script('js/ace/ace.settings-skin.js') !!}
+{!! Html::script('js/ace/ace.widget-on-reload.js') !!}
+{!! Html::script('js/ace/ace.searchbox-autocomplete.js') !!}
 
-<!-- inline scripts related to this page -->
+        <!-- inline scripts related to this page -->
 
 <!-- the following scripts are used in demo only for onpage help and you don't need them -->
-<link rel="stylesheet" href="../assets/css/ace.onpage-help.css" />
-<link rel="stylesheet" href="../docs/assets/js/themes/sunburst.css" />
+{!! Html::style('css/ace.onpage-help.css') !!}
+{!! Html::style('js/themes/sunburst.css') !!}
 
 <script type="text/javascript"> ace.vars['base'] = '..'; </script>
-<script src="../assets/js/ace/elements.onpage-help.js"></script>
-<script src="../assets/js/ace/ace.onpage-help.js"></script>
-<script src="../docs/assets/js/rainbow.js"></script>
-<script src="../docs/assets/js/language/generic.js"></script>
-<script src="../docs/assets/js/language/html.js"></script>
-<script src="../docs/assets/js/language/css.js"></script>
-<script src="../docs/assets/js/language/javascript.js"></script>
+{!! Html::script('js/ace/elements.onpage-help.js') !!}
+{!! Html::script('js/ace/ace.onpage-help.js') !!}
+{!! Html::script('js/rainbow.js') !!}
+{!! Html::script('js/language/generic.js') !!}
+{!! Html::script('js/language/html.j') !!}
+{!! Html::script('js/language/css.js') !!}
+{!! Html::script('js/language/javascript.js') !!}
 </body>
 </html>
 

@@ -22,16 +22,44 @@
     //Route::get('login', function(){
      //  return view('base.login');
     //});
-
     Route::get('login', function(){
         return view('compartido.login');
+    });
+
+    Route::get('baseadm', function(){
+        return view('admin.base');
+    });
+
+    Route::get('basesec', function(){
+        return view('secretaria.base');
     });
 
     Route::get('baseest', function(){
         return view('estudiante.base');
     });
 
+    Route::get('basedoc', function(){
+        return view('docente.base');
+    });
+    Route::get('basecooaca', function(){
+        return view('cooacademico.base');
+    });
+    Route::get('basecoodis', function(){
+        return view('coodisciplina.base');
+    });
+    Route::get('prueba', function(){
+        return view('admin.base.l');
+    });
+    Route::get('afuera', function(){
+        return view('l');
+    });
 
+    Route::get('regestudiante', function(){
+        return view('admin.registroestudiante');
+    });
+    Route::get('utf2', function(){
+        return view('admin.base.pruebautf');
+    });
     Route::controllers([
         'auth' => 'Auth\AuthController',
         'password' => 'Auth\PasswordController',

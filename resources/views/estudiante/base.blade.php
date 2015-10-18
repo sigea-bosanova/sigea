@@ -167,7 +167,7 @@
             <li class="">
                 <a href="index.html">
                     <i class="menu-icon fa fa-tachometer"></i>
-                    <span class="menu-text"> Menú</span>
+                    <span class="menu-text"> Men&uacute;</span>
                 </a>
 
                 <b class="arrow"></b>
@@ -178,7 +178,7 @@
 
             <li class="">
                 <a href="#" class="dropdown-toggle">
-                    <i class="menu-icon fa fa-user"></i>
+                    <i class="menu-icon fa fa-pencil-square-o"></i>
                     <span class="menu-text">Gestionar Nota </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
@@ -203,8 +203,8 @@
 
             <li class="">
                 <a href="#" class="dropdown-toggle">
-                    <i class="menu-icon fa fa-user"></i>
-                    <span class="menu-text">Gestionar Observacion </span>
+                    <i class="menu-icon fa fa-eye"></i>
+                    <span class="menu-text">Gestionar Observaci&oacute;n </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
 
@@ -216,7 +216,7 @@
                     <li class="">
                         <a href="buttons.html">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Observacion
+                            Consultar Observaci&oacute;n
                         </a>
 
                         <b class="arrow"></b>
@@ -257,7 +257,7 @@
                 <ul class="breadcrumb">
                     <li>
                         <i class="ace-icon fa fa-home home-icon"></i>
-                        <a href="#">Menu Principal</a>
+                        <a href="#">Men&uacute; Principal</a>
                     </li>
                     <!--
                         <li>
@@ -292,7 +292,7 @@
                                         <option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
                                     </select>
                                 </div>
-                                <span>&nbsp; Escoja un Color</span>
+                                <span>&nbsp; Escoja un color</span>
                             </div>
 
                             <!-- /section:settings.skins -->
@@ -394,8 +394,7 @@
 <!-- inline scripts related to this page -->
 
 <!-- the following scripts are used in demo only for onpage help and you don't need them -->
-<link rel="stylesheet" href="css/ace.onpage-help.css" />
-
+{!! Html::style('css/ace.onpage-help.css') !!}
 {!! Html::style('js/themes/sunburst.css') !!}
 
 <script type="text/javascript"> ace.vars['base'] = '..'; </script>
