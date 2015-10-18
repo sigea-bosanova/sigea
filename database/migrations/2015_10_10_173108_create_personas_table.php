@@ -16,9 +16,11 @@ class CreatePersonasTable extends Migration {
 		{
 			$table->bigInteger('id');
 			$table->primary('id');
+			$table->integer('user_id');
 			$table->string('nombres');
 			$table->string('primer_apellido');
 			$table->string('segundo_apellido');
+			$table->date('fecha_nacimiento');
 			$table->string('tipo_id');
 			$table->string('sexo');
 			$table->string('nacionalidad');
@@ -29,12 +31,12 @@ class CreatePersonasTable extends Migration {
 			$table->string('departamento_nacimiento');
 			$table->string('municipio');
 			$table->string('direccion');
-			$table->bigInteger('telefono_fijo');
+			$table->bigInteger('telefono');
 			$table->bigInteger('celular');
-			$table->string('correo');
-			$table->string('edu_bas_primaria');
-			$table->string('edu_bas_secundaria');
-			$table->string('edu_bas_media');
+			$table->string('email');
+			$table->integer('edu_bas_primaria');
+			$table->integer('edu_bas_secundaria');
+			$table->integer('edu_bas_media');
 			$table->string('edu_bas_titulo_obtenido');
 			$table->date('edu_bas_fecha_grado');
 			$table->string('edu_sup_modalidad_academica');
@@ -75,7 +77,7 @@ class CreatePersonasTable extends Migration {
 			$table->string('idioma_2_habla');
 			$table->string('idioma_2_lee');
 			$table->string('idioma_2_escribe');
-			$table->string('empresa_actual');
+			$table->string('empresa_actual_nombre');
 			$table->string('empresa_actual_tipo_entidad');
 			$table->string('empresa_actual_pais');
 			$table->string('empresa_actual_departamento');

@@ -1,13 +1,22 @@
 <?php namespace Sigea;
 
 use Illuminate\Database\Eloquent\Model;
-use Sigea\Acudiente;
+
 
 class Estudiante extends Model {
 
 
-    public function padre(){
-        return $this->belongsToMany('Acudiente');
+
+
+    public function acudientes(){
+
+        return $this->belongsToMany('Sigea\Acudiente');
+    }
+
+
+    public function materias(){
+
+        return $this->belongsToMany('Sigea\Materia');
     }
 
 

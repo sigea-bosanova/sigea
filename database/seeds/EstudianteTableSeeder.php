@@ -18,23 +18,18 @@
              $i = 0;
 
             $faker = Faker::create('es_ES');
-            $usuarios = User::all();
-
-            $ids = User::all()->fetch('id');
-            //$idsAcudientes = Acudiente::all()->fetch('id'); No deben ir papa, mama ni responsable en esta tabla
-            //para realizar la busqueda se va a la tabla acudiente_estudiante
 
 
 
-            foreach ($usuarios as $usuario) {
 
 
-              if ($usuario->perfil == 'estudiante') {
+            for ($i =0; $i<=250 ; $i++) {
 
-                 // $curso = $faker->numberBetween($min = 1, $max = 11)." - ".$faker->numberBetween($min = 1, $max = 6);
+
+                $aux = $faker->numberBetween($min = 2020000000, $max = 2030000000);
 
                     $estudiante = Estudiante::create(array(
-                        'id' => $usuario->id,
+                        'id' => $aux,
                         'nombre' => $faker->firstName,
                         'primer_apellido' => $faker->lastName,
                         'segundo_apellido' => $faker->lastName,
@@ -48,15 +43,18 @@
                         'estrato' => $faker->numberBetween($min = 1, $max = 6),
                         'eps' => $faker->word,
                         'etnia' => $faker->word,
-                        'padre' => $idsAcudientes[$i],
-                        'madre' => $idsAcudientes[($i + 1)],
-                        'responsable' => $idsAcudientes[($i + 2)],
                         'direccion' => $faker->address,
                         'barrio' => $faker->city,
                         'telefono' => $faker->phoneNumber(),
                         'celular' => $faker->phoneNumber(),
                         'email' => $faker->email()
                     ));
+
+                $usuarioProfesor =  User::create(['id'=> $aux,
+                    'email' => $faker->email,
+                    'perfil' => 'docente',
+                    'password' => bcrypt('docente'),
+                    'activo' => true]);
 
 
 
@@ -65,9 +63,7 @@
                 $i++;
 
 
-            }
-
-          }
+        }
 
 
     }

@@ -29,9 +29,6 @@ class CreateEstudiantesTable extends Migration {
 			$table->integer('estrato');
 			$table->string('eps');
 			$table->string('etnia');
-			$table->bigInteger('padre')->unsigned();
-			$table->bigInteger('madre')->unsigned();
-			$table->bigInteger('responsable')->unsigned();
 			$table->bigInteger('telefono');
 			$table->bigInteger('celular');
 			$table->string('direccion');

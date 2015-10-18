@@ -17,6 +17,7 @@ class CreateGradosTable extends Migration {
 			$table->increments('id');
 			$table->string('nombre');
 			$table->integer('intensidad_horaria');
+			$table->timestamps();
 		});
 	}
 
