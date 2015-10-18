@@ -17,11 +17,13 @@
 
    // Route::get('prueba', 'EstudiantesController@probar');
 
-    Route::get('probar-usuario', 'EstudiantesController@probarUsuario');
+    Route::get('probar', 'EstudiantesController@probar');
 
     Route::get('login', function(){
        return view('base.login');
     });
+
+
 
     Route::controllers([
         'auth' => 'Auth\AuthController',

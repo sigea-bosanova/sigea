@@ -19,5 +19,17 @@ class Estudiante extends Model {
         return $this->belongsToMany('Sigea\Materia');
     }
 
+    public function observaciones(){
+
+        return $this->hasMany('Sigea\Observacion');
+    }
+
+    public function respuestas(){
+
+        return $this->hasMany('Sigea\Respuesta');
+
+    }
+
+
 
 }

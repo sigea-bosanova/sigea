@@ -15,8 +15,8 @@
 				Model::unguard();
 
 				   //$this->call('DocenteSeeder');
-				 //  $this->call('AcudienteTableSeeder');
-				 //  $this->call('EstudianteTableSeeder');
+				  // $this->call('AcudienteTableSeeder');
+				   $this->call('EstudianteTableSeeder');
 				 //  $this->call('AcudienteEstudianteTableSeeder');
 				 //  $this->call('CargoTableSeeder');
 				 //  $this->call('CursoTableSeeder');
@@ -25,7 +25,10 @@
 				 //  $this->call('EstudianteMateriaTableSeeder');
 				 //  $this->call('MateriaPersonaTableSeeder');
 				 //  $this->call('GradoTableSeeder');
-				 	 $this->call('PeriodoTableSeeder');
+				 //	 $this->call('PeriodoTableSeeder');
+				 //	 $this->call('ObservacionTableSeeder');
+				 	 $this->call('PreguntaTableSeeder');
+				     $this->call('RespuestaTableSeeder');
 
 			}
 

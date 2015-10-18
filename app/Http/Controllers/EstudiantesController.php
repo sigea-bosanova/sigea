@@ -86,7 +86,7 @@
 		//
 	}
 
-	public  function probar(){
+	public  function probar1(){
 
 		//Prueba de relacion entre estudiante y acudientes
 
@@ -112,12 +112,13 @@
 	}
 
 
-	public  function probarUsuario()
+	public  function probar()
 	{
 
-	$user =  User::find(10201007);
+	 $estutiante = Estudiante::find(2020056635);
 
-		dd($user->persona());
+
+		dd($estutiante->respuestas);
 
 	}
 

@@ -18,6 +18,7 @@ class CreateRespuestasTable extends Migration {
 			$table->integer('pregunta_id')->unsigned();
 			$table->bigInteger('estudiante_id')->unsigned();
 			$table->string('descripcion');
+			$table->timestamps();
 		});
 	}
 

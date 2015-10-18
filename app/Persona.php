@@ -23,7 +23,7 @@ class Persona extends Model {
 
     public function user(){
 
-        return $this->belongsTo('Sigea\User','user_id');
+        return $this->belongsTo('Sigea\User');
 
     }
 

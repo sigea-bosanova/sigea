@@ -18,6 +18,7 @@ class CreateObservacionsTable extends Migration {
 			$table->string('descripcion');
 			$table->date('fecha');
 			$table->bigInteger('estudiante_id')->unsigned();
+			$table->timestamps();
 		});
 	}
 
