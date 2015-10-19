@@ -54,11 +54,11 @@
         return view('l');
     });
 
-    Route::get('regestudiante', function(){
-        return view('admin.registroestudiante');
+    Route::get('crearobservacion', function(){
+        return view('cooacademico.crearobservacion');
     });
-    Route::get('utf2', function(){
-        return view('admin.base.pruebautf');
+    Route::get('crearestudiante', function(){
+        return view('admin.crearestudiante');
     });
     Route::controllers([
         'auth' => 'Auth\AuthController',

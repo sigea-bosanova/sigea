@@ -643,7 +643,7 @@
 
         </ul><!-- /.nav-list -->
 
-        <!-- #section:basics/sidebar.layout.minimize -->
+        <!-- #section:basics/sidebar.layout.minimize    -->
 
         <!-- /section:basics/sidebar.layout.minimize -->
         <script type="text/javascript">
