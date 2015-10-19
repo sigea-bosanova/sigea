@@ -4,7 +4,7 @@
     <div class="col-md-1"></div>
     <div class= "col-md-10   widget-box">
         <div class="widget-header widget-header-blue widget-header-flat">
-            <h4 class="widget-title lighter">Notas de {{ Session::get('nombre') }} </h4>
+            <h1  class="header smaller lighter blue " >Notas de {{ Session::get('nombre') }} </h1>
         </div>
 
         <div class="row"><br><br></div>
@@ -158,12 +158,12 @@
                         <td>
                             <div class="center">
                                 <label class="pos-rel">
-                                    54 - 34 -84 -34 -32
+                                    54 - 34 -84 -&nbsp; -32
                                     <span class="lbl"></span>
                                 </label>
                             </div>
                         </td>
-                        <td class="center"> 54 - 64 -84 -34 -32 </td>
+                        <td class="center"> 54 - &nbsp; -84 -&nbsp; -32 </td>
                         <td class="center"> 54 - 34 -84 -34 -32 </td>
                         <td class="center">  74</td>
 
@@ -179,13 +179,13 @@
                         <td>
                             <div class="center">
                                 <label class="pos-rel">
-                                    54 - 34 -84 -34 -32
+                                    54 - 34 -&nbsp; -34 -32
                                     <span class="lbl"></span>
                                 </label>
                             </div>
                         </td>
-                        <td class="center"> 54 - 34 -84 -34 -32 </td>
-                        <td class="center"> 54 - 34 -84 -34 -32 </td>
+                        <td class="center"> 54 - &nbsp; -84 -&nbsp; -32 </td>
+                        <td class="center"> 54 - 34 -&nbsp; -34 -32 </td>
                         <td class="center">  74</td>
 
                     </tr>

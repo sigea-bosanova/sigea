@@ -96,7 +96,7 @@
                         </li>
                         -->
                         <li>
-                            <a href="profile.html">
+                            <a href="#">
                                 <i class="ace-icon fa fa-user"></i>
                                 Perfil
                             </a>
@@ -168,7 +168,7 @@
 
         <ul class="nav nav-list">
             <li class="">
-                <a href="index.html">
+                <a href="#">
                     <i class="menu-icon fa fa-tachometer"></i>
                     <span class="menu-text"> Men&uacute;</span>
                 </a>
@@ -217,7 +217,7 @@
 
 
                     <li class="">
-                        <a href="#">
+                        <a href=" {{ url('estudiante/ver-observaciones') }}">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Observaci&oacute;n
                         </a>

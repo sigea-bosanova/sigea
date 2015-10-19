@@ -1,5 +1,6 @@
 <?php namespace Sigea\Http\Controllers;
 
+	use Illuminate\Support\Facades\Session;
 	use Sigea\Http\Requests;
 	use Sigea\Http\Controllers\Controller;
 	use Illuminate\Http\Request;
@@ -12,21 +13,37 @@
 
 	class EstudiantesController extends Controller {
 
-	/**
-	 * Display a listing of the resource.
-	 *
-	 * @return Response
-	 */
-	public function index()
+		public function __construct()
+		{
+			$this->middleware('auth');
+		}
+
+		public function verNotas()
 	{
-		//
+		return view('estudiante.verNotas');
 	}
 
-	/**
-	 * Show the form for creating a new resource.
-	 *
-	 * @return Response
-	 */
+		public function verObservaciones()
+		{
+			$id = Session::get('id');
+			$mensaje='vacio';
+			$observaciones = Estudiante::find($id)->observaciones;
+
+			if($observaciones->toArray())
+			{
+
+				$mensaje = 'ok';
+				return view('estudiante.verObservaciones',compact('observaciones','mensaje'));
+			}
+            else
+			{
+				$mensaje = 'no';
+
+				return view('estudiante.verObservaciones', compact('mensaje'));
+			}
+		}
+
+
 	public function create()
 	{
 		//
