@@ -23,7 +23,7 @@
 
 
 
-            for ($i =0; $i<=250 ; $i++) {
+            for ($i =0; $i<=25; $i++) {
 
 
                 $aux = $faker->numberBetween($min = 2020000000, $max = 2030000000);
@@ -50,10 +50,10 @@
                         'email' => $faker->email()
                     ));
 
-                $usuarioProfesor =  User::create(['id'=> $aux,
+                $usuario =  User::create(['id'=> $aux,
                     'email' => $faker->email,
-                    'perfil' => 'docente',
-                    'password' => bcrypt('docente'),
+                    'perfil' => 'estudiante',
+                    'password' => bcrypt('estudiante'),
                     'activo' => true]);
 
 

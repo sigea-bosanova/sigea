@@ -22,7 +22,7 @@ class CreateEstudiantesTable extends Migration {
 			$table->date('fecha_nacimiento');
 			$table->bigInteger('grado_id')->unsigned();
 			$table->bigInteger('curso_id')->unsigned();
-			$table->boolean('activo');
+			$table->boolean('activo')->default(1);
 			$table->string('jornada');
 			$table->boolean('antiguo');
 			$table->string('genero');

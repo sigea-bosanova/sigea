@@ -11,16 +11,32 @@
     |
     */
 
-    Route::get('/', 'WelcomeController@index');
 
-    Route::get('home', 'HomeController@index');
+    Route::get('/', 'LoginController@index');
 
-   // Route::get('prueba', 'EstudiantesController@probar');
+    Route::get('/login', 'LoginController@index');
+
+
+
+
+
+
 
     Route::get('probar', 'EstudiantesController@probar');
 
-    Route::get('login', function(){
-       return view('base.login');
+    Route::post('inicio', 'InicioController@entrar');
+    Route::get('inicio', 'InicioController@entrar');
+
+    Route::get('salir', 'InicioController@salir');
+
+
+
+
+
+
+
+    Route::get('admin', function(){
+        return view('admin.base');
     });
 
 

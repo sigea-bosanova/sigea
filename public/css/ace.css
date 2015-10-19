@@ -1967,7 +1967,7 @@ pre.prettyprint {
   margin-left: 7px;
 }
 .sidebar {
-  width: 190px;
+  width: 210px;
   float: left;
   position: static;
   padding-left: 0;
@@ -1992,9 +1992,11 @@ pre.prettyprint {
  }
 }*/
 .nav-list {
+  width: 210px;
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 .nav-list > li,
 .nav-list > li > a,
@@ -2005,12 +2007,13 @@ pre.prettyprint {
   outline: none;
 }
 .nav-list > li {
+  width: 210px;
   display: block;
   position: relative;
   float: none;
   padding: 0;
   border-style: solid;
-  border-width: 1px 0 0;
+  border-width: 2px 0 0;
 }
 .nav-list > li:last-child {
   border-bottom-width: 1px;
@@ -2019,8 +2022,10 @@ pre.prettyprint {
   font-weight: bold;
 }
 .nav-list > li > a {
+  width: 210px;
+  text-align: left;
   display: block;
-  height: 39px;
+  height: 50px;
   line-height: 17px;
   padding-left: 7px;
   text-shadow: none !important;
@@ -2357,8 +2362,6 @@ body.mob-safari .sidebar.sidebar-fixed {
   left: 15px;
   right: 15px;
   top: 13px;
-}
-.sidebar .sidebar-shortcuts {
   text-align: center;
   min-height: 40px;
   margin-bottom: 0;
@@ -4053,7 +4056,7 @@ body.mob-safari .sidebar.sidebar-fixed {
 }
 .main-content-inner {
   float: left;
-  width: 100%;
+  width: 98%;
 }
 .main-content .sidebar:before {
   top: 150px;
@@ -19117,6 +19120,7 @@ input.typeahead.scrollable ~ .tt-dropdown-menu {
   background-color: #ffffff;
 }
 .no-skin .nav-list > li .submenu {
+
   background-color: #ffffff;
   border-color: #e5e5e5;
 }
@@ -19193,6 +19197,7 @@ input.typeahead.scrollable ~ .tt-dropdown-menu {
 }
 .no-skin .sidebar-shortcuts-mini {
   background-color: #ffffff;
+
 }
 .no-skin .nav-list li > .arrow:before {
   border-right-color: #B8B8B8;

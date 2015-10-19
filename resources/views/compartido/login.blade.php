@@ -3,12 +3,12 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
+		<meta name="csrf-token" content="{{ csrf_token() }}" />
 		<title>Inicio de Sesión SigeaBosaNova</title>
 
 		<meta name="description" content="User login page" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-		<!-- bootstrap & fontawesome -->
 		{!! Html::style('css/bootstrap.css') !!}
 		{!! Html::style('css/font-awesome.css') !!}
 		{!! Html::style('css/ace-fonts.css') !!}
@@ -20,9 +20,11 @@
 		{!! Html::script('js/respond.js') !!}
 
 
+
 	</head>
 
 	<body class="login-layout">
+
 		<div class="main-container">
 			<div class="main-content">
 				<div class="row">
@@ -48,13 +50,28 @@
 												Inicio de Sesión
 											</h4>
 
+
+											@if(isset($mensaje))
+
+												@if ($mensaje=="error")
+													<div class="alert alert-danger">
+														<strong>El numero de identificacion no coincide con la contraseña.</strong>
+													</div>
+												@endif
+
+											@endif
+
+
 											<div class="space-6"></div>
 
-											<form method="post" onsubmit="return validacion(this)">
-												<fieldset>
+											{!! Form::open(['url'=> 'inicio','method' => 'post' ]) !!}
+											<input type="hidden" name="_token" value="{{ csrf_token() }}">
+
+
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="text" id="txt_Usuario" class="form-control"  onkeypress="return justNumbers(event);" placeholder="Digite su Usuario" />
+															{!! Form::text('identificacion',null,['class' => 'form-control' ,'placeholder' => 'Digite su Identificacion', 'onkeypress' =>'return justNumbers(event);']) !!}
+
 															<i class="ace-icon fa fa-user"></i>
 														</span>
 													</label>
@@ -86,24 +103,26 @@
 															}
 														}
 													</script>
-
+                                                    <div>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="password" id="txt_Contraseña" class="form-control" placeholder="Digite su Contraseña" />
+															{!! Form::password('pass',  ['class'=> 'form-control', 'placeholder' => 'Digite su Contraseña']) !!}
 															<i class="ace-icon fa fa-lock"></i>
 														</span>
 													</label>
+													</div>
 
-													<div class="space"></div>
 										            	<button type="submit" onsubmit="" class="width-35 pull-right btn btn-sm btn-primary">
 															<i class="ace-icon fa fa-circle-o"></i>
 															<span class="bigger-110">Entrar</span>
 														</button>
+											<br>
+
+													<div class="space-4">
+														</div>
 
 
-													<div class="space-4"></div>
-												</fieldset>
-											</form>
+											{!! Form::close() !!}
 										</div>
 
 										<div class="toolbar clearfix">

@@ -14,8 +14,8 @@ class CreateDemograficosTable extends Migration {
 	{
 		Schema::create('demograficos', function(Blueprint $table)
 		{
-			$table->bigInteger('estudiante_id')->unsigned();
-			$table->primary('estudiante_id');
+			$table->increments('id');
+			$table->bigInteger('estudiante_id');
 			$table->integer('lugar_ocupa_hermanos');
 			$table->string('tipo_vivienda');
 			$table->integer('cantidad_veces_come_diario');

@@ -19,7 +19,7 @@
 
 
 
-           for ($i= 0; $i <=100 ; $i++) {
+           for ($i= 0; $i <=20 ; $i++) {
 
                $aux = $faker->numberBetween($min = 1020000000,$max = 1030000000);
 
