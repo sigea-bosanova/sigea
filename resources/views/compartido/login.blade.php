@@ -61,6 +61,14 @@
 
 											@endif
 
+											@if(isset($mensajeAux))
+													<div class="alert alert-danger">
+														<strong>
+															{{ $mensajeAux  }}
+														</strong>
+													</div>
+											@endif
+
 
 											<div class="space-6"></div>
 

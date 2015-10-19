@@ -3,33 +3,41 @@
 use Illuminate\Database\Eloquent\Model;
 
 
-class Estudiante extends Model {
+class Estudiante extends Model
+{
 
 
-
-
-    public function acudientes(){
+    public function acudientes()
+    {
 
         return $this->belongsToMany('Sigea\Acudiente');
     }
 
 
-    public function materias(){
+    public function materias()
+    {
 
         return $this->belongsToMany('Sigea\Materia');
     }
 
-    public function observaciones(){
+    public function observaciones()
+    {
 
         return $this->hasMany('Sigea\Observacion');
     }
 
-    public function respuestas(){
+    public function respuestas()
+    {
 
         return $this->hasMany('Sigea\Respuesta');
 
     }
 
+    public function curso()
+    {
 
+        return $this->belongsTo('Sigea\Curso');
+
+    }
 
 }

@@ -79,7 +79,8 @@
                         <img class="nav-user-photo" src="avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>Bienvenido,</small>
-									Docentex
+                                    <?php $nombreDocente = Session::get('nombre') ?>
+									{{ $nombreDocente }}
 								</span>
 
                         <i class="ace-icon fa fa-caret-down"></i>
@@ -167,7 +168,7 @@
 
         <ul class="nav nav-list">
             <li class="">
-                <a href="index.html">
+                <a href=" {{ url('inicio') }} ">
                     <i class="menu-icon fa fa-tachometer"></i>
                     <span class="menu-text"> Men&uacute;</span>
                 </a>
@@ -211,7 +212,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href=" {{ url('docente/gestionar-notas')  }} ">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Nota
@@ -221,7 +222,7 @@
                     </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href=" {{ url('docente/gestionar-notas')  }} ">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
                             Modificar Nota
                         </a>
@@ -230,7 +231,7 @@
                     </li>
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href=" {{ url('docente/gestionar-notas')  }} ">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Nota
                         </a>
@@ -257,10 +258,10 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
-                            Crear Contrase&ntilde;a
+                            Cambiar Contrase&ntilde;a
                         </a>
 
                         <b class="arrow"></b>
@@ -268,14 +269,7 @@
 
 
 
-                    <li class="">
-                        <a href="buttons.html">
-                            <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Contrase&ntilde;a
-                        </a>
 
-                        <b class="arrow"></b>
-                    </li>
 
 
 

@@ -31,6 +31,16 @@
 
 
 
+    Route::get('docente/gestionar-notas', 'NotasController@index');
+    Route::post('docente/gestionar-notas', 'NotasController@index');
+
+    Route::get('estudiante/ver-notas', 'NotasEstudianteController@index');
+    Route::post('estudiante/ver-notas', 'NotasEstudianteController@index');
+
+
+
+
+
 
 
 

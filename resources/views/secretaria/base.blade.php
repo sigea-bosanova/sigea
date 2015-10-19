@@ -76,10 +76,11 @@
                 <!-- #section:basics/navbar.user_menu -->
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="avatars/avatar1.png" alt="Foto Secretaria" />
 								<span class="user-info">
 									<small>Bienvenido,</small>
-									Secretariax
+                                    <?php $nombre = Session::get('nombre') ?>
+                                    {{ $nombre }}
 								</span>
 
                         <i class="ace-icon fa fa-caret-down"></i>
@@ -385,20 +386,9 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
-                            <!--<i class="menu-icon fa fa-caret-right"></i>-->
-                            <i class="fa fa-plus"></i>&nbsp;
-                            Crear Contrase&ntilde;a
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
-
-
-                    <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Contrase&ntilde;a
+                            Cambiar Contrase&ntilde;a
                         </a>
 
                         <b class="arrow"></b>

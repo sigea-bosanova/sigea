@@ -77,9 +77,11 @@
                 <!-- #section:basics/navbar.user_menu -->
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="avatars/avatar4.png" alt="Jason's Photo" />
 								<span class="user-info">
-									<small>Bienvenido,</small>Administradorx
+									<small>Bienvenido,</small>
+                                    <?php $nombreAdmi = Session::get('nombre') ?>
+                                    {{ $nombreAdmi }}
 
 								</span>
 
@@ -600,43 +602,17 @@
                 <b class="arrow"></b>
 
                 <ul class="submenu">
-                    <li class="">
-                        <a href="typography.html">
-                            <!--<i class="menu-icon fa fa-caret-right"></i>-->
-                            <i class="fa fa-plus"></i>&nbsp;
-                            Crear Contrase&ntilde;a
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href="#">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
-                            Modificar Contrase&ntilde;a
+                            Cambiar Contrase&ntilde;a
                         </a>
 
                         <b class="arrow"></b>
                     </li>
 
-                    <li class="">
-                        <a href="buttons.html">
-                            <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Contrase&ntilde;a
-                        </a>
 
-                        <b class="arrow"></b>
-                    </li>
-
-                    <li class="">
-                        <a href="content-slider.html">
-                            <i class="fa fa-trash-o fa-fw"></i>&nbsp
-                            Eliminar Contrase&ntilde;a
-                        </a>
-
-                        <b class="arrow"></b>
-
-                    </li>
 
                 </ul>
             </li>

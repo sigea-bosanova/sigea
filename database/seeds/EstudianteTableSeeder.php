@@ -7,6 +7,7 @@
     use Sigea\Estudiante;
     use Sigea\Persona;
     use Sigea\Acudiente;
+    use Sigea\Curso;
 
 
     class EstudianteTableSeeder extends Seeder  {
@@ -19,6 +20,7 @@
 
             $faker = Faker::create('es_ES');
 
+           $numCursos = Curso::all()->count();
 
 
 
@@ -35,7 +37,7 @@
                         'segundo_apellido' => $faker->lastName,
                         'fecha_nacimiento' => $faker->dateTimeBetween($startDate = '-20 years', $endDate = '-10 years'),
                         'grado_id' => $faker->numberBetween($min = 1, $max = 11),
-                        'curso_id' => $faker->numberBetween($min = 1, $max = 75),
+                        'curso_id' => $faker->numberBetween($min = 1, $max = $numCursos),
                         'activo' => $faker->boolean(70),
                         'jornada' => $faker->amPm,
                         'antiguo' => $faker->boolean(36),

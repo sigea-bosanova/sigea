@@ -14,16 +14,17 @@
 			{
 				Model::unguard();
 
-				    // $this->call('DocenteSeeder');
-					 $this->call('SecretariaSeeder');
+				    $this->call('DocenteSeeder');
+				    $this->call('SecretariaSeeder');
 					 $this->call('CooDisciplinaSeeder');
 					 $this->call('CooAcademicoSeeder');
 				     $this->call('AdmiSeeder');
 				  // $this->call('AcudienteTableSeeder');
-				  // $this->call('EstudianteTableSeeder');
+				   $this->call('CursoTableSeeder');
+				   $this->call('EstudianteTableSeeder');
 				 //  $this->call('AcudienteEstudianteTableSeeder');
 				 //  $this->call('CargoTableSeeder');
-				 //  $this->call('CursoTableSeeder');
+
 				 //  $this->call('CargoPersonaTableSeeder');
 				 //  $this->call('MateriaTableSeeder');
 				 //  $this->call('EstudianteMateriaTableSeeder');

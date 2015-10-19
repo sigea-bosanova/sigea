@@ -76,10 +76,11 @@
                 <!-- #section:basics/navbar.user_menu -->
                 <li class="light-blue">
                     <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="avatars/user.jpg" alt="Jason's Photo" />
+                        <img class="nav-user-photo" src="avatars/avatar5.png" alt="Jason's Photo" />
 								<span class="user-info">
-									<small>Bienvenido,</small>Estudiantex
-
+									<small>Bienvenido,</small>
+                                    <?php $nombre = Session::get('nombre') ?>
+                                    {{ $nombre }}
 								</span>
 
                         <i class="ace-icon fa fa-caret-down"></i>
@@ -191,7 +192,7 @@
 
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href=" {{ url('estudiante/ver-notas')  }} ">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Nota
                         </a>
@@ -216,7 +217,7 @@
 
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Observaci&oacute;n
                         </a>

@@ -2,18 +2,244 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="937024d2-f52c-469b-b572-06291e06fde9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\development\sigea\resources\views\base\login.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_10_12_191212_create_demograficos_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_10_12_191212_create_demograficos_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\ace-fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\ace-ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\ace-part2.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\ace-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\ace-skins.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\ace.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\ace.onpage-help.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\app.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\bootstrap-datetimepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\bootstrap-duallistbox.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\bootstrap-editable.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\bootstrap-multiselect.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\bootstrap-timepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\chosen-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\chosen-sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\chosen.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\colorbox.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\daterangepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\dropzone.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\border.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\border1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\border2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\controls.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\ie6\borderBottomCenter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\ie6\borderBottomLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\ie6\borderBottomRight.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\ie6\borderMiddleLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\ie6\borderMiddleRight.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\ie6\borderTopCenter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\ie6\borderTopLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\ie6\borderTopRight.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\loading_background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\meteorshower.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\meteorshower2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\pattern.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\pattern.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\spritemap.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\images\spritemap@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\img\alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\img\hue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\img\saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\jquery-ui.custom.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\jquery.gritter.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\ace-features.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\ace-nav.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\ace-responsive.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\ace-rtl.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\ace.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\basic.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\close.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\code.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\media.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\print.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\type.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bootstrap\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\bs3-reset.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\dropdown.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\dropdown\colorpicker.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\dropdown\navbar-dropdown.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\dropdown\navbar-tabbed-dropdown.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\ext\bootstrap-tag.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\fonts-rel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\fonts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\footer.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\form.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\form\checkbox.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\form\file.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\gallery.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\general.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\icon-animated.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\infobox.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\items.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\label-badge.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\modal.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\navbar\collapsible.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\navbar\navbar-menu-form.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\navbar\toggle-button.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\navbar\user-buttons-move-down.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\navbar\user-buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\navbar\user-dropdown-position.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\navbar\user-menu.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\onpage-help.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\other.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\page.error.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\page.inbox.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\page.invoice.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\page.login.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\page.pricing.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\page.profile.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\page.timeline.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\progressbar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\scroll.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\searchbox.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\active.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\compact.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\ff_fix.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\highlight.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\horizontal.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\hover.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\min.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\multiple.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\old-toggle-button.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\responsive-1.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\responsive-2.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\responsive-3.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\shortcuts-toggle.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\sidebar-fixed.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\sidebar\sub-arrow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\skins\empty.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\skins\no-skin.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\skins\skin-1.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\skins\skin-2.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\skins\skin-3.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\skins\skins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\tab-accordion.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-calendar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-chosen.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-colorbox.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-dataTables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-date.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-dropzone.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-duallist-multiselect.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-editable.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-fuelux.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-gritter.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-jqgrid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-jquery-ui.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-nestable.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-raty.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-select2.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-slider.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-typeahead.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\thirdparty-wysiwyg.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\tooltip-popover.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\utility.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\less\widget.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\pace.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\select2-spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\select2.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\select2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\sigea\public\css1\ui.jqgrid.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Curso.php" afterPath="$PROJECT_DIR$/app/Curso.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DocenteSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DocenteSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Estudiante.php" afterPath="$PROJECT_DIR$/app/Estudiante.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/EstudianteTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/EstudianteTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ace-part2.css" afterPath="$PROJECT_DIR$/public/css/ace-part2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ace.css" afterPath="$PROJECT_DIR$/public/css/ace.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Nota.php" afterPath="$PROJECT_DIR$/app/Nota.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/cooacademico/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/cooacademico/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/docente/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/docente/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/estudiante/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/estudiante/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/secretaria/base.blade.php" afterPath="$PROJECT_DIR$/resources/views/secretaria/base.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/compartido/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/compartido/login.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sigea.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,21 +261,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/base.blade.php">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1551723">
-              <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+            <state vertical-scroll-proportion="-6.862069">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <file leaf-file-name="NotasEstudianteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NotasEstudianteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9285715">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -58,8 +284,8 @@
       <file leaf-file-name="InicioController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InicioController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.620689">
-              <caret line="32" column="89" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="89" />
+            <state vertical-scroll-proportion="-19.310345">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
               <folding>
                 <element signature="e#41#77#0#PHP" expanded="true" />
               </folding>
@@ -67,22 +293,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CooAcademicoSeeder.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/seeds/CooAcademicoSeeder.php">
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4283247">
-              <caret line="156" column="73" selection-start-line="156" selection-start-column="73" selection-end-line="156" selection-end-column="73" />
+            <state vertical-scroll-proportion="-13.793103">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CooDisciplinaSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/CooDisciplinaSeeder.php">
+      <file leaf-file-name="verNotas.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/estudiante/verNotas.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.689655">
-              <caret line="157" column="73" selection-start-line="157" selection-start-column="73" selection-end-line="157" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.7927461">
+              <caret line="219" column="21" selection-start-line="219" selection-start-column="21" selection-end-line="219" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/estudiante/base.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.224138">
+              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tables.html" pinned="false" current-in-tab="false">
+        <entry file="file://C:/xampp/htdocs/ace/html/ajax/content/tables.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3294117">
+              <caret line="226" column="28" selection-start-line="18" selection-start-column="8" selection-end-line="226" selection-end-column="28" />
+              <folding>
+                <marker date="1445276540448" expanded="true" signature="62676:62802" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gestionarNotas.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/docente/gestionarNotas.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.551724">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotasController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NotasController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.285714">
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding>
+                <element signature="e#41#77#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,17 +365,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Materia.php" />
-        <option value="$PROJECT_DIR$/database/seeds/MateriaPersonaTableSeeder.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/views/base/login.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_17_215555_create_users_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/PersonaTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_10_173108_create_personas_table.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/database/seeds/DocenteTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_10_12_181215_create_grados_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/GradoTableSeeder.php" />
@@ -119,7 +380,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185014_create_preguntas_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_10_12_185101_create_respuestas_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/PreguntaTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Estudiante.php" />
         <option value="$PROJECT_DIR$/app/Respuesta.php" />
         <option value="$PROJECT_DIR$/app/Pregunta.php" />
         <option value="$PROJECT_DIR$/database/seeds/RespuestaTableSeeder.php" />
@@ -127,25 +387,35 @@
         <option value="$PROJECT_DIR$/resources/views/base/blank.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_10_12_191212_create_demograficos_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/DocenteSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/EstudianteTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/database/seeds/SecretariaSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/AdmiSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CooDisciplinaSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CooAcademicoSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/compartido/login.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/estudiante/base.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/docente/gestionarNotas.blade.php" />
+        <option value="$PROJECT_DIR$/database/seeds/EstudianteTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Nota.php" />
+        <option value="$PROJECT_DIR$/app/Curso.php" />
+        <option value="$PROJECT_DIR$/app/Estudiante.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/resources/views/docente/base.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/base.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/cooacademico/base.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/secretaria/base.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/SecretariaSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/AdmiSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/InicioController.php" />
-        <option value="$PROJECT_DIR$/database/seeds/CooDisciplinaSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/CooAcademicoSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NotasController.php" />
+        <option value="$PROJECT_DIR$/resources/views/estudiante/vernotas.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NotasEstudianteController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/estudiante/base.blade.php" />
+        <option value="C:/xampp/htdocs/ace/html/ajax/content/tables.html" />
+        <option value="$PROJECT_DIR$/resources/views/estudiante/verNotas.blade.php" />
       </list>
     </option>
   </component>
@@ -268,28 +538,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="secretaria" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="estudiante" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -357,50 +605,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cooacademico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="compartido" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -652,114 +856,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_181215_create_grados_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7142856">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/PeriodoTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5172415">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_182004_create_periodos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.357143">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08290155">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/MateriaTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034542315">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Persona.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58721936">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/GradoTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.965517">
-          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272728">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ObservacionTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2413793">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_184429_create_observacions_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7142856">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Observacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.827586">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Respuesta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.965517">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Pregunta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37996545">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Estudiante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.448276">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_185101_create_respuestas_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39492753">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_185014_create_preguntas_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65217394">
@@ -872,24 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DocenteSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#16#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/EstudianteTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4482758">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.344828">
@@ -902,14 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69084626">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -938,68 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1964285">
-          <caret line="67" column="100" selection-start-line="67" selection-start-column="100" selection-end-line="67" selection-end-column="100" />
-          <folding>
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1445214907126" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.4827585">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/docente/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1551723">
-          <caret line="106" column="58" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/estudiante/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.413793">
-          <caret line="109" column="32" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1551723">
-          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/secretaria/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/AdmiSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5172415">
@@ -1016,38 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272728">
-          <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cooacademico/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272728">
-          <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58894646">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9285715">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/CooDisciplinaSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.689655">
@@ -1056,20 +1032,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InicioController.php">
+    <entry file="file://C:/xampp/htdocs/jqgrid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.620689">
-          <caret line="32" column="89" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="89" />
+        <state vertical-scroll-proportion="-4.890909">
+          <caret line="276" column="46" selection-start-line="276" selection-start-column="46" selection-end-line="276" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68911916">
+          <caret line="2414" column="26" selection-start-line="2414" selection-start-column="26" selection-end-line="2414" selection-end-column="26" />
+          <folding>
+            <marker date="1417824208000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/compartido/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2857144">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1445228434962" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/ace/html/ajax/content/form-wizard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="50.344826">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/ace/html/ajax/content/form-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1551723">
+          <caret line="149" column="27" selection-start-line="149" selection-start-column="24" selection-end-line="149" selection-end-column="27" />
+          <folding>
+            <marker date="1417824208000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CursoTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/EstudianteTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.965517">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <element signature="e#16#47#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Nota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.137931">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Curso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.137931">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Estudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.965517">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_10_173108_create_personas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6200345">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DocenteSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6896552">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.172414">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CooAcademicoSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.655172">
+          <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.714286">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1896553">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/cooacademico/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1551723">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="82" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/coodisciplina/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.75862">
+          <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/docente/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1896553">
+          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="82" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/secretaria/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62363636">
+          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.793103">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/docente/gestionarNotas.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.551724">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NotasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.285714">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="e#41#77#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/CooAcademicoSeeder.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/InicioController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4283247">
-          <caret line="156" column="73" selection-start-line="156" selection-start-column="73" selection-end-line="156" selection-end-column="73" />
+        <state vertical-scroll-proportion="-19.310345">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+          <folding>
+            <element signature="e#41#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NotasEstudianteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.862069">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/estudiante/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.224138">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/htdocs/ace/html/ajax/content/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3294117">
+          <caret line="226" column="28" selection-start-line="18" selection-start-column="8" selection-end-line="226" selection-end-column="28" />
+          <folding>
+            <marker date="1445276540448" expanded="true" signature="62676:62802" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/estudiante/verNotas.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7927461">
+          <caret line="219" column="21" selection-start-line="219" selection-start-column="21" selection-end-line="219" selection-end-column="21" />
           <folding />
         </state>
       </provider>
