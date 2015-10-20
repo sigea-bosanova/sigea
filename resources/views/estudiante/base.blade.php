@@ -182,7 +182,7 @@
             <li class="">
                 <a href="#" class="dropdown-toggle">
                     <i class="menu-icon fa fa-pencil-square-o"></i>
-                    <span class="menu-text">Gestionar Nota </span>
+                    <span class="menu-text">Gestionar Notas </span>
                     <b class="arrow fa fa-angle-down"></b>
                 </a>
 
@@ -194,7 +194,7 @@
                     <li class="">
                         <a href=" {{ url('estudiante/ver-notas')  }} ">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Nota
+                            Consultar Notas
                         </a>
 
                         <b class="arrow"></b>
