@@ -96,7 +96,7 @@
                         </li>
                         -->
                         <li>
-                            <a href="profile.html">
+                            <a href="#">
                                 <i class="ace-icon fa fa-user"></i>
                                 Perfil
                             </a>
@@ -168,7 +168,7 @@
 
         <ul class="nav nav-list">
             <li class="">
-                <a href="index.html">
+                <a href="#">
                     <i class="menu-icon fa fa-tachometer"></i>
                     <span class="menu-text"> Men&uacute;</span>
                 </a>
@@ -197,7 +197,7 @@
 
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Docente
                         </a>
@@ -221,7 +221,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Estudiante
@@ -231,7 +231,7 @@
                     </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href="#">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
                             Modificar Estudiante
                         </a>
@@ -240,7 +240,7 @@
                     </li>
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Estudiante
                         </a>
@@ -249,7 +249,7 @@
                     </li>
 
                     <li class="">
-                        <a href="content-slider.html">
+                        <a href="#">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
                             Eliminar Estudiante
                         </a>
@@ -272,7 +272,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Observaci&oacute;n
@@ -282,7 +282,7 @@
                     </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href="#">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
                             Modificar Observaci&oacute;n
                         </a>
@@ -291,7 +291,7 @@
                     </li>
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Observaci&oacute;n
                         </a>
@@ -314,7 +314,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Curso
@@ -324,7 +324,7 @@
                     </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href="#">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
                             Modificar Curso
                         </a>
@@ -333,7 +333,7 @@
                     </li>
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Curso
                         </a>
@@ -342,7 +342,7 @@
                     </li>
 
                     <li class="">
-                        <a href="content-slider.html">
+                        <a href="#">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
                             Eliminar Curso
                         </a>
@@ -365,7 +365,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Materia
@@ -375,7 +375,7 @@
                     </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href="#">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
                             Modificar Materia
                         </a>
@@ -384,7 +384,7 @@
                     </li>
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Materia
                         </a>
@@ -393,7 +393,7 @@
                     </li>
 
                     <li class="">
-                        <a href="content-slider.html">
+                        <a href="#">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
                             Eliminar Materia
                         </a>
@@ -516,15 +516,12 @@
                 </div><!-- /.ace-settings-box -->
             </div><!-- /.ace-settings-container -->
 
-                            <!-- /section:basics/sidebar.options -->
-                        </div><!-- /.pull-left -->
-                    </div><!-- /.ace-settings-box -->
-                </div><!-- /.ace-settings-container -->
 
                 <!-- /section:settings.box -->
                 <div class="row">
                     <div class="col-xs-12">
                         <!-- PAGE CONTENT BEGINS -->
+
                         @yield('contenido')
                         <!-- PAGE CONTENT ENDS -->
                     </div><!-- /.col -->

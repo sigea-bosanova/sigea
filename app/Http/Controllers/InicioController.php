@@ -7,6 +7,7 @@ use Sigea\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Sigea\Estudiante;
 use Sigea\Persona;
+use Sigea\User;
 
 class InicioController extends Controller {
 
@@ -19,40 +20,102 @@ class InicioController extends Controller {
 
 		$id = $request->identificacion;
 		$password = $request->pass;
-		$prueba = $request->prueba;
+
 
 
 
 	      if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'estudiante' ])){
-              $nombre = Estudiante::find($id)->nombre;
-               Session::put(['id' =>$id, 'perfil' => 'estudiante','nombre' => $nombre]);
-              return view('estudiante.base');
+
+			  $estudiante = Estudiante::find($id);
+			  $nombre = $estudiante->nombre;
+			  $nombreCompleto= $nombre." ".$estudiante->primer_apellido." ".$estudiante->segundo_apellido;
+
+               Session::put(['id' =>$id, 'nombre' => $nombre,'nombreCompleto' => $nombreCompleto,
+				            'perfil' => 'Estudiante','email' => $estudiante->email,'direccion' => $estudiante->direccion,
+			                'celular' => $estudiante->celular]);
+
+              return view('estudiante.inicio');
 		  }
+
+
 		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'docente' ])){
-            $nombre = Persona::find($id)->nombres;
-            Session::put(['id' =>$id, 'perfil' => 'docente','nombre'=>$nombre]);
-			return view('docente.base');
+
+            $persona = Persona::find($id);
+			$nombre = $persona->nombres;
+			$nombreCompleto = $nombre." ".$persona->primer_apellido." ".$persona->segundo_apellido;
+			$email = User::find($id)->email;
+
+			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
+				'perfil' => 'Docente','email' => $email,'direccion' => $persona->direccion,
+				'celular' => $persona->celular]);
+
+			return view('docente.inicio');
 		}
+
+
 		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'secretaria' ])){
-            $nombre = Persona::find($id)->nombres;
-            Session::put(['id' =>$id, 'perfil' => 'secretaria','nombre' =>$nombre]);
-			return view('secretaria.base');
+
+			$persona = Persona::find($id);
+			$nombre = $persona->nombres;
+			$nombreCompleto = $nombre." ".$persona->primer_apellido." ".$persona->segundo_apellido;
+			$email = User::find($id)->email;
+
+			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
+				'perfil' => 'Secretaria','email' => $email,'direccion' => $persona->direccion,
+				'celular' => $persona->celular]);
+
+
+			return view('secretaria.inicio');
 		}
+
+
 		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'cooAcademico' ])){
-            $nombre = Persona::find($id)->nombres;
-            Session::put(['id' =>$id, 'perfil' => 'cooAcademico','nombre' => $nombre ]);
-			return view('cooacademico.base');
+
+			$persona = Persona::find($id);
+			$nombre = $persona->nombres;
+			$nombreCompleto = $nombre." ".$persona->primer_apellido." ".$persona->segundo_apellido;
+			$email = User::find($id)->email;
+
+			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
+				'perfil' => 'Coordinador Academico','email' => $email,'direccion' => $persona->direccion,
+				'celular' => $persona->celular]);
+
+			return view('cooacademico.inicio');
+
 		}
+
+
 		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'cooDisciplina' ])){
-            $nombre = Persona::find($id)->nombres;
-            Session::put(['id' =>$id, 'perfil' => 'cooDisciplina', 'nombre' => $nombre]);
-			return view('coodisciplina.base');
+
+			$persona = Persona::find($id);
+			$nombre = $persona->nombres;
+			$nombreCompleto = $nombre." ".$persona->primer_apellido." ".$persona->segundo_apellido;
+			$email = User::find($id)->email;
+
+			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
+				'perfil' => 'Coordinador Disciplina','email' => $email,'direccion' => $persona->direccion,
+				'celular' => $persona->celular]);
+
+			return view('coodisciplina.inicio');
+
 		}
+
+
         if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'admi' ])){
-            $nombre = Persona::find($id)->nombres;
-            Session::put(['id' =>$id, 'perfil' => 'admi','nombre'=>$nombre]);
-            return view('admin.base');
+
+			$persona = Persona::find($id);
+			$nombre = $persona->nombres;
+			$nombreCompleto = $nombre." ".$persona->primer_apellido." ".$persona->segundo_apellido;
+			$email = User::find($id)->email;
+
+			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
+				'perfil' => 'Administrador','email' => $email,'direccion' => $persona->direccion,
+				'celular' => $persona->celular]);
+
+			return view('admin.inicio');
         }
+
+
 
 		else
             $mensaje = 'error';

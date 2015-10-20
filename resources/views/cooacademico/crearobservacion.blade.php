@@ -1,4 +1,4 @@
-@extends('admin.base')
+@extends('cooacademico.base')
 @section('contenido')
 
     <h4 class="lighter">
@@ -10,7 +10,7 @@
 
     <div class="widget-box">
         <div class="widget-header widget-header-blue widget-header-flat">
-            <h4 class="widget-title lighter">Nueva observaci&oacute;n</h4>
+            <h4 class="widget-title lighter blue">Nueva observaci&oacute;n</h4>
 
 
         <div class="widget-body">

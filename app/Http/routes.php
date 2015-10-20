@@ -32,7 +32,10 @@
 
 
     Route::get('docente/gestionar-notas', 'NotasController@index');
-    Route::post('docente/gestionar-notas', 'NotasController@index');
+    Route::post('docente/gestionar-notas', 'NotasController@gestionarNotas');
+
+    Route::get('docente/consultar-estudiante', 'NotasController@mostrarConsultarEstudiante');
+    Route::post('docente/consultar-estudiante', 'NotasController@consultarEstudiante');
 
 
 
@@ -49,8 +52,8 @@
 
 
 
-    Route::get('admin', function(){
-        return view('admin.base');
+    Route::get('ob', function(){
+        return view('cooacademico.crearobservacion');
     });
 
 

@@ -16,6 +16,9 @@
     {!! Html::style('css/ace.css') !!}
     {!! Html::style('css/ace-part2.css') !!}
     {!! Html::style('css/ace-rtl.css') !!}
+    {!! Html::style('css/ui.jqgrid.css') !!}
+    {!! Html::style('css/jquery-ui.css') !!}
+    {!! Html::style('css/datepicker.css') !!}
     {!! Html::style('css/ace-ie.css') !!}
     {!! Html::script('js/html5shiv.js') !!}
     {!! Html::script('js/respond.js') !!}
@@ -96,7 +99,7 @@
                         </li>
                         -->
                         <li>
-                            <a href="profile.html">
+                            <a href="#">
                                 <i class="ace-icon fa fa-user"></i>
                                 Perfil
                             </a>
@@ -189,7 +192,7 @@
                 <ul class="submenu">
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href=" {{ url('docente/consultar-estudiante')  }}">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Estudiante
                         </a>
@@ -211,15 +214,6 @@
                 <b class="arrow"></b>
 
                 <ul class="submenu">
-                    <li class="">
-                        <a href=" {{ url('docente/gestionar-notas')  }} ">
-                            <!--<i class="menu-icon fa fa-caret-right"></i>-->
-                            <i class="fa fa-plus"></i>&nbsp;
-                            Crear Nota
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
 
                     <li class="">
                         <a href=" {{ url('docente/gestionar-notas')  }} ">

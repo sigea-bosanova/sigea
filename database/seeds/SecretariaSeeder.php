@@ -31,6 +31,7 @@
                         'tipo_id' => 'Cedula',
                         'sexo' => $faker->boolean(56),
                         'nacionalidad' => "Colombiana",
+                        'direccion' => $faker->address,
                         'clase_libreta_militar' => $faker->numberBetween($min = 1, $max = 2),
                         'numero_libreta_militar' => $faker->numberBetween($min = 165273, $max = 352678),
                         'distrito_militar' => $faker->numberBetween($min = 1, $max = 18),

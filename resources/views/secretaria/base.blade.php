@@ -96,7 +96,7 @@
                         </li>
                         -->
                         <li>
-                            <a href="profile.html">
+                            <a href="#">
                                 <i class="ace-icon fa fa-user"></i>
                                 Perfil
                             </a>
@@ -168,7 +168,7 @@
 
         <ul class="nav nav-list">
             <li class="">
-                <a href="index.html">
+                <a href="#">
                     <i class="menu-icon fa fa-tachometer"></i>
                     <span class="menu-text"> Men&uacute;</span>
                 </a>
@@ -195,7 +195,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Docente
@@ -205,7 +205,7 @@
                     </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href="#">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
                             Modificar Docente
                         </a>
@@ -214,7 +214,7 @@
                     </li>
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Docente
                         </a>
@@ -223,7 +223,7 @@
                     </li>
 
                     <li class="">
-                        <a href="content-slider.html">
+                        <a href="#">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
                             Eliminar Docente
                         </a>
@@ -246,7 +246,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Estudiante
@@ -256,7 +256,7 @@
                     </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href="#">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
                             Modificar Estudiante
                         </a>
@@ -265,7 +265,7 @@
                     </li>
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Estudiante
                         </a>
@@ -274,7 +274,7 @@
                     </li>
 
                     <li class="">
-                        <a href="content-slider.html">
+                        <a href="#">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
                             Eliminar Estudiante
                         </a>
@@ -297,7 +297,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Curso
@@ -307,7 +307,7 @@
                     </li>
 
                     <li class="">
-                        <a href="elements.html">
+                        <a href="#">
                             <i class="fa fa-pencil fa-fw"></i>&nbsp;
                             Modificar Curso
                         </a>
@@ -316,7 +316,7 @@
                     </li>
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Curso
                         </a>
@@ -325,7 +325,7 @@
                     </li>
 
                     <li class="">
-                        <a href="content-slider.html">
+                        <a href="#">
                             <i class="fa fa-trash-o fa-fw"></i>&nbsp
                             Eliminar Curso
                         </a>
@@ -350,7 +350,7 @@
 
                 <ul class="submenu">
                     <li class="">
-                        <a href="typography.html">
+                        <a href="#">
                             <!--<i class="menu-icon fa fa-caret-right"></i>-->
                             <i class="fa fa-plus"></i>&nbsp;
                             Crear Contrase&ntilde;a Estudiante
@@ -362,7 +362,7 @@
 
 
                     <li class="">
-                        <a href="buttons.html">
+                        <a href="#">
                             <i class="fa fa-book fa-fw"></i>&nbsp;
                             Consultar Contrase&ntilde;a Estudiante
                         </a>
