@@ -28,101 +28,8 @@
 
 <body class="no-skin">
 
-<!-- #section:basics/navbar.layout -->
-<div id="navbar" class="navbar navbar-default">
-    <script type="text/javascript">
-        try{ace.settings.check('navbar' , 'fixed')}catch(e){}
-    </script>
+@yield('navbar')
 
-    <div class="navbar-container" id="navbar-container">
-        <!-- #section:basics/sidebar.mobile.toggle -->
-        <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
-            <span class="sr-only">Toggle sidebar</span>
-
-            <span class="icon-bar"></span>
-
-            <span class="icon-bar"></span>
-
-            <span class="icon-bar"></span>
-        </button>
-
-        <!-- /section:basics/sidebar.mobile.toggle -->
-        <div class="navbar-header pull-left">
-            <!-- #section:basics/navbar.layout.brand -->
-            <a href="#" class="navbar-brand">
-                <small>
-                    <!--
-                    <h1>
-                        <i class="ace-icon fa fa-laptop green"></i>
-                        <span class="red">Sigea</span>
-                        <span class="white" id="id-text2">BosaNova</span>
-                    </h1>
-                    -->
-                    <i class="fa fa-laptop"></i>
-                    SigeaBosaNova
-
-                </small>
-            </a>
-
-            <!-- /section:basics/navbar.layout.brand -->
-
-            <!-- #section:basics/navbar.toggle -->
-
-            <!-- /section:basics/navbar.toggle -->
-        </div>
-
-        <!-- #section:basics/navbar.dropdown -->
-        <div class="navbar-buttons navbar-header pull-right" role="navigation">
-            <ul class="nav ace-nav">
-
-
-                <!-- #section:basics/navbar.user_menu -->
-                <li class="light-blue">
-                    <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="avatars/user.jpg" alt="Jason's Photo" />
-								<span class="user-info">
-									<small>Bienvenido,</small>
-                                    <?php $nombreDocente = Session::get('nombre') ?>
-									{{ $nombreDocente }}
-								</span>
-
-                        <i class="ace-icon fa fa-caret-down"></i>
-                    </a>
-
-                    <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-                        <!--
-                        <li>
-                            <a href="#">
-                                <i class="ace-icon fa fa-cog"></i>
-                                Configuraciones
-                            </a>
-                        </li>
-                        -->
-                        <li>
-                            <a href="#">
-                                <i class="ace-icon fa fa-user"></i>
-                                Perfil
-                            </a>
-                        </li>
-
-                        <li class="divider"></li>
-
-                        <li>
-                            <a href = ' {{ url('login') }} ' >
-                                <i class="ace-icon fa fa-power-off"></i>
-                                Salir
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- /section:basics/navbar.user_menu -->
-            </ul>
-        </div>
-
-        <!-- /section:basics/navbar.dropdown -->
-    </div><!-- /.navbar-container -->
-</div>
 
 <!-- /section:basics/navbar.layout -->
 <div class="main-container" id="main-container">
@@ -171,7 +78,7 @@
 
         <ul class="nav nav-list">
             <li class="">
-                <a href=" {{ url('inicio') }} ">
+                <a href="#">
                     <i class="menu-icon fa fa-tachometer"></i>
                     <span class="menu-text"> Men&uacute;</span>
                 </a>
@@ -179,97 +86,7 @@
                 <b class="arrow"></b>
             </li>
 
-
-            <li class="">
-                <a href="#" class="dropdown-toggle">
-                    <i class="menu-icon fa fa-user"></i>
-                    <span class="menu-text">Gestionar Estudiante </span>
-                    <b class="arrow fa fa-angle-down"></b>
-                </a>
-
-                <b class="arrow"></b>
-
-                <ul class="submenu">
-
-                    <li class="">
-                        <a href=" {{ url('docente/consultar-estudiante')  }}">
-                            <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Estudiante
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
-
-
-                </ul>
-            </li>
-
-            <li class="">
-                <a href="#" class="dropdown-toggle">
-                    <i class="menu-icon fa fa-pencil-square-o"></i>
-                    <span class="menu-text">Gestionar Nota </span>
-                    <b class="arrow fa fa-angle-down"></b>
-                </a>
-
-                <b class="arrow"></b>
-
-                <ul class="submenu">
-
-                    <li class="">
-                        <a href=" {{ url('docente/gestionar-notas')  }} ">
-                            <i class="fa fa-pencil fa-fw"></i>&nbsp;
-                            Modificar Nota
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
-
-                    <li class="">
-                        <a href=" {{ url('docente/gestionar-notas')  }} ">
-                            <i class="fa fa-book fa-fw"></i>&nbsp;
-                            Consultar Nota
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
-
-
-                </ul>
-            </li>
-
-
-
-
-
-            <li class="">
-                <a href="#" class="dropdown-toggle">
-                    <i class="menu-icon fa fa-key"></i>
-                    <span class="menu-text">Gestionar Contrase&ntilde;a  </span>
-                    <b class="arrow fa fa-angle-down"></b>
-                </a>
-
-                <b class="arrow"></b>
-
-                <ul class="submenu">
-                    <li class="">
-                        <a href="#">
-                            <!--<i class="menu-icon fa fa-caret-right"></i>-->
-                            <i class="fa fa-plus"></i>&nbsp;
-                            Cambiar Contrase&ntilde;a
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
-
-
-
-
-
-
-
-                </ul>
-            </li>
-
+            @yield('menu')
 
 
         </ul><!-- /.nav-list -->
@@ -355,36 +172,36 @@
                 </div><!-- /.ace-settings-box -->
             </div><!-- /.ace-settings-container -->
 
-                <!-- /section:settings.box -->
-                <div class="row">
-                    <div class="col-xs-12">
-                        <!-- PAGE CONTENT BEGINS -->
-                        @yield('contenido')
-                        <!-- PAGE CONTENT ENDS -->
-                    </div><!-- /.col -->
-                </div><!-- /.row -->
-            </div><!-- /.page-content -->
-        </div>
-    </div><!-- /.main-content -->
+            <!-- /section:settings.box -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+                    @yield('contenido')
+                            <!-- PAGE CONTENT ENDS -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div>
+</div><!-- /.main-content -->
 
-    <div class="footer">
-        <div class="footer-inner">
-            <!-- #section:basics/footer -->
-            <div class="footer-content">
+<div class="footer">
+    <div class="footer-inner">
+        <!-- #section:basics/footer -->
+        <div class="footer-content">
 						<span class="bigger-120">
                             <i class="fa fa-laptop green"></i>
 							<span class="red bolder">Sigea</span>
 							BosaNova &copy; 2015
 						</span>
-            </div>
-
-            <!-- /section:basics/footer -->
         </div>
-    </div>
 
-    <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
-        <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
-    </a>
+        <!-- /section:basics/footer -->
+    </div>
+</div>
+
+<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+    <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+</a>
 </div><!-- /.main-container -->
 
 <!-- basic scripts -->
@@ -443,6 +260,7 @@
 {!! Html::script('js/language/html.j') !!}
 {!! Html::script('js/language/css.js') !!}
 {!! Html::script('js/language/javascript.js') !!}
+
 </body>
 </html>
 

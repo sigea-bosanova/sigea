@@ -12,9 +12,11 @@
     */
 
 
-    Route::get('/', 'LoginController@index');
+    Route::get('/', ['uses' => 'LoginController@index', 'as' => 'login']);
 
-    Route::get('/login', 'LoginController@index');
+    Route::get('/login',  ['uses' => 'LoginController@index', 'as' => 'login']);
+
+    Route::get('salir',['uses' => 'InicioController@salir', 'as' => 'salir']);
 
 
 
@@ -27,7 +29,7 @@
     Route::post('inicio', 'InicioController@entrar');
     Route::get('inicio', 'InicioController@entrar');
 
-    Route::get('salir', 'InicioController@salir');
+
 
 
 

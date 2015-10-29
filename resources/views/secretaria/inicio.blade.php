@@ -1,4 +1,4 @@
-@extends('secretaria.base')
+@extends('secretaria.menu')
 
 @section('contenido')
 

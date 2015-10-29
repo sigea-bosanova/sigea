@@ -1,7 +1,7 @@
-@extends('estudiante.base')
+@extends('estudiante.menu')
 
 @section('contenido')
 
     @include('compartido.perfil')
 
-@endsection
+@stop

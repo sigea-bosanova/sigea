@@ -128,7 +128,8 @@ class InicioController extends Controller {
 	{
         Session::flush();
 		Auth::logout();
-		return view('compartido.login');
+		return redirect()->route('login');
+		//return view('compartido.login');
 	}
 
 	/**

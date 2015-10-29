@@ -1,4 +1,4 @@
-    @extends('admin.base')
+    @extends('admin.menu')
 
     @section('contenido')
 

@@ -1,4 +1,4 @@
-@extends('cooacademico.base')
+@extends('cooacademico.menu')
 @section('contenido')
 
     <h4 class="lighter">

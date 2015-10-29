@@ -1,4 +1,4 @@
-@extends('estudiante.base')
+@extends('estudiante.menu')
 @section('contenido')
 <div>
     <div class="col-md-1"></div>

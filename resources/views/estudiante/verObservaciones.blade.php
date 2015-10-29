@@ -1,4 +1,4 @@
-@extends('estudiante.base')
+@extends('estudiante.menu')
 @section('contenido')
 
 
