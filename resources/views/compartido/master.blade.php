@@ -38,12 +38,12 @@
     </script>
 
     <!-- #section:basics/sidebar -->
-    <div id="sidebar"   class="sidebar                  responsive">
+    <div id="sidebar"   class="  sidebar         responsive">
         <script type="text/javascript">
             try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
         </script>
 
-        <div class="sidebar-shortcuts" id="sidebar-shortcuts">
+        <div class=" sidebar-shortcuts" id="sidebar-shortcuts">
             <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
                 <button class="btn btn-success">
                     <i class="ace-icon fa fa-signal"></i>
@@ -114,70 +114,21 @@
                         <i class="ace-icon fa fa-home home-icon"></i>
                         <a href="#">Men&uacute; Principal</a>
                     </li>
-                    <!--
-                        <li>
-                            <a href="#">Other Pages</a>
-                        </li>
-                        <li class="active">Blank Page</li>
-                     /.breadcrumb -->
-                </ul>
-                <!-- #section:basics/content.searchbox-->
-                <!--/.nav-search -->
 
-                <!-- /section:basics/content.searchbox -->
+                </ul>
+
             </div>
 
-            <!-- /section:basics/content.breadcrumbs -->
-            <div class="page-content">
-                <!-- #section:settings.box -->
-                <div class="ace-settings-container" id="ace-settings-container">
-                    <div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
-                        <i class="ace-icon fa fa-cog bigger-130"></i>
-                    </div>
-
-                    <div class="ace-settings-box clearfix" id="ace-settings-box">
-                        <div class="pull-left width-50">
-                            <!-- #section:settings.skins -->
-                            <div class="ace-settings-item">
-                                <div class="pull-left">
-                                    <select id="skin-colorpicker" class="hide">
-                                        <option data-skin="no-skin" value="#438EB9">#438EB9</option>
-                                        <option data-skin="skin-1" value="#222A2D">#222A2D</option>
-                                        <option data-skin="skin-2" value="#C6487E">#C6487E</option>
-                                        <option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
-                                    </select>
-                                </div>
-                                <span>&nbsp; Escoja un color</span>
-                            </div>
-
-                            <!-- /section:settings.skins -->
-
-                            <!-- #section:settings.navbar -->
-                            <div class="ace-settings-item">
-
-                                &nbsp;&nbsp; <label class="lbl" for="ace-settings-navbar">  <hr>       </label>
-                            </div>
-
-                            <!-- /section:settings.navbar -->
+            <div class="page-content"></div>
 
 
-
-                            <!-- /section:settings.container -->
-                        </div><!-- /.pull-left -->
-
-
-
-                        <!-- /section:basics/sidebar.options -->
-                    </div><!-- /.pull-left -->
-                </div><!-- /.ace-settings-box -->
-            </div><!-- /.ace-settings-container -->
-
-            <!-- /section:settings.box -->
             <div class="row">
-                <div class="col-xs-12">
+                <div class="col-md-12">
                     <!-- PAGE CONTENT BEGINS -->
-                    @yield('contenido')
-                            <!-- PAGE CONTENT ENDS -->
+
+                                @yield('contenido')
+
+                     <!-- PAGE CONTENT ENDS -->
                 </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.page-content -->

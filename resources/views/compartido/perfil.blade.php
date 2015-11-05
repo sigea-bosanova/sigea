@@ -44,7 +44,8 @@
                                                     <!-- #section:pages/profile.picture -->
                                                     <div >
 						                                <span class="profile-picture">
-						                            	<img id="avatar" class="editable img-responsive" alt="Alex's Avatar" src="avatars/profile-pic.jpg" />
+                                                            {!! Html::image('avatars/profile-pic.jpg',' Foto de Perfil', ['id' => 'avatar' , 'class' => 'editable img-responsive'] ) !!}
+
 						                                    </span>
                                                     </div>
                                                     <div class="col-sm-4"> </div>
