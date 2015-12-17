@@ -27,6 +27,7 @@ class Kernel extends HttpKernel {
 		'auth' => 'Sigea\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
 		'guest' => 'Sigea\Http\Middleware\RedirectIfAuthenticated',
+		'estudiante' => 'Sigea\Http\Middleware\EstudianteMiddleware',
 	];
 
 }

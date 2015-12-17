@@ -11,16 +11,33 @@
     |
     */
 
+    Route::get('wizard',function(){
+        return view ('compartido.wizard');
+    });
+
+    Route::get('crear-secretaria',function(){
+        return view ('admin.crearSecretaria');
+    });
+
+
+    Route::get('llegada-formulario-wizard', ['uses' => 'InicioController@wizard', 'as' => 'form.wizard']);
+    Route::post('llegada-formulario-wizard', ['uses' => 'InicioController@wizard', 'as' => 'form.wizard']);
+
+
+
 
     Route::get('/', ['uses' => 'LoginController@index', 'as' => 'login']);
     Route::get('/login',  ['uses' => 'LoginController@index', 'as' => 'login']);
 
-    Route::post('inicio', ['uses' => 'LoginController@entrar', 'as' => 'entrar']);
-    Route::get('inicio', ['uses' => 'LoginController@entrar', 'as' => 'entrar']);
+    Route::post('entrando', ['uses' => 'LoginController@entrar', 'as' => 'entrar']);
+    Route::get('entrando', ['uses' => 'LoginController@entrar', 'as' => 'entrar']);
+
     Route::get('salir',['uses' => 'LoginController@salir', 'as' => 'salir']);
 
 
-    Route::group(['prefix' => 'estudiante' , 'middleware' => 'auth'],function(){
+
+
+    Route::group(['prefix' => 'estudiante' , 'middleware' => 'estudiante'],function(){
 
         Route::get('inicio', ['uses' => 'InicioController@entrarEstudiante', 'as' => 'estudiante.inicio' ]);
 
@@ -93,7 +110,7 @@
 
 
 
-   
+
     Route::controllers([
         'auth' => 'Auth\AuthController',
         'password' => 'Auth\PasswordController',

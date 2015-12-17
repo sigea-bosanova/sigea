@@ -9,8 +9,9 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-    <!-- bootstrap & fontawesome -->
-    {!! Html::style('css/bootstrap.css') !!}
+
+    {!! Html::style('css/jquery-steps/jquery.steps.css') !!}
+    {!! Html::style('css/jquery-steps/bootstrap.min.css') !!}
     {!! Html::style('css/font-awesome.css') !!}
     {!! Html::style('css/ace-fonts.css') !!}
     {!! Html::style('css/ace.css') !!}
@@ -22,6 +23,10 @@
     {!! Html::style('css/ace-ie.css') !!}
     {!! Html::script('js/html5shiv.js') !!}
     {!! Html::script('js/respond.js') !!}
+
+
+
+
 
 
 </head>
@@ -119,10 +124,10 @@
 
             </div>
 
-            <div class="page-content"></div>
+            <div class=""></div>
 
 
-            <div class="row">
+            <div class="">
                 <div class="col-md-12">
                     <!-- PAGE CONTENT BEGINS -->
 
@@ -157,9 +162,10 @@
 
 <!-- basic scripts -->
 
+
 <!--[if !IE]> -->
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='js/jquery.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='js/jquery-2.1.4.js'>"+"<"+"/script>");
 </script>
 
 <script type="text/javascript">
@@ -169,48 +175,18 @@
 <script type="text/javascript">
     if('ontouchstart' in document.documentElement) document.write("<script src= {!! asset('js/jquery.mobile.custom.js')!!}>"+"<"+"/script>");
 </script>
+
 {!! Html::script('js/bootstrap.js') !!}
-
-
-        <!-- page specific plugin scripts -->
-
-<!-- ace scripts -->
-{!! Html::script('js/ace/elements.scroller.js') !!}
-{!! Html::script('js/ace/elements.colorpicker.js') !!}
-{!! Html::script('js/ace/elements.fileinput.js') !!}
-{!! Html::script('js/ace/elements.typeahead.js') !!}
-{!! Html::script('js/ace/elements.wysiwyg.js') !!}
-{!! Html::script('js/ace/elements.spinner.js') !!}
-{!! Html::script('js/ace/elements.treeview.js') !!}
-{!! Html::script('js/ace/elements.wizard.js') !!}
-{!! Html::script('js/ace/elements.aside.js') !!}
 {!! Html::script('js/ace/ace.js') !!}
-{!! Html::script('js/ace/ace.ajax-content.js') !!}
-{!! Html::script('js/ace/ace.touch-drag.js') !!}
 {!! Html::script('js/ace/ace.sidebar.js') !!}
-{!! Html::script('js/ace/ace.sidebar-scroll-1.js') !!}
-{!! Html::script('js/ace/ace.submenu-hover.js') !!}
-{!! Html::script('js/ace/ace.widget-box.js') !!}
-{!! Html::script('js/ace/ace.settings.js') !!}
-{!! Html::script('js/ace/ace.settings-rtl.js') !!}
-{!! Html::script('js/ace/ace.settings-skin.js') !!}
-{!! Html::script('js/ace/ace.widget-on-reload.js') !!}
-{!! Html::script('js/ace/ace.searchbox-autocomplete.js') !!}
+{!! Html::script('js/prettify.js') !!}
 
-        <!-- inline scripts related to this page -->
 
-<!-- the following scripts are used in demo only for onpage help and you don't need them -->
-{!! Html::style('css/ace.onpage-help.css') !!}
-{!! Html::style('js/themes/sunburst.css') !!}
 
-<script type="text/javascript"> ace.vars['base'] = '..'; </script>
-{!! Html::script('js/ace/elements.onpage-help.js') !!}
-{!! Html::script('js/ace/ace.onpage-help.js') !!}
-{!! Html::script('js/rainbow.js') !!}
-{!! Html::script('js/language/generic.js') !!}
-{!! Html::script('js/language/html.j') !!}
-{!! Html::script('js/language/css.js') !!}
-{!! Html::script('js/language/javascript.js') !!}
+
+
+
+@yield('scripts')
 
 </body>
 </html>

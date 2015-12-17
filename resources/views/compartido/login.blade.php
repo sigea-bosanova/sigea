@@ -72,7 +72,7 @@
 
 											<div class="space-6"></div>
 
-											{!! Form::open(['url'=> 'inicio','method' => 'post' ]) !!}
+											{!! Form::open(['route'=> 'entrar','method' => 'post' ]) !!}
 											<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 
