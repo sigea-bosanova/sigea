@@ -11,12 +11,15 @@
     |
     */
 
+    Route::get('secretaria-admin',function(){
+        return view ('admin.secretaria.crearSecretaria');
+    });
     Route::get('wizard',function(){
         return view ('compartido.wizard');
     });
 
     Route::get('crear-secretaria',function(){
-        return view ('admin.crearSecretaria');
+        return view ('admin.secretaria.crearSecretaria');
     });
 
 
