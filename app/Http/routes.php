@@ -11,20 +11,6 @@
     |
     */
 
-    Route::get('secretaria-admin',function(){
-        return view ('admin.secretaria.crearSecretaria');
-    });
-    Route::get('wizard',function(){
-        return view ('compartido.wizard');
-    });
-
-    Route::get('crear-secretaria',function(){
-        return view ('admin.secretaria.crearSecretaria');
-    });
-
-
-    Route::get('llegada-formulario-wizard', ['uses' => 'InicioController@wizard', 'as' => 'form.wizard']);
-    Route::post('llegada-formulario-wizard', ['uses' => 'InicioController@wizard', 'as' => 'form.wizard']);
 
 
 
@@ -72,9 +58,18 @@
 
     });
 
+
     Route::group(['prefix' => 'admin'],function(){
 
         Route::get('inicio', ['uses' => 'InicioController@entrarAdmin', 'as' => 'admin.inicio' ]);
+
+
+        Route::group(['prefix' => 'secretaria'], function(){
+
+            Route::resource('persona','SecretariaController');
+
+
+        });
 
     });
 

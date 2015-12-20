@@ -50,6 +50,19 @@
     <br>
 
     <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Correo Electronico:</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('email',null,['class' => 'required email width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+
+
+    <div class="form-group ">
         <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Fecha de Nacimiento del Empleado:</label>
         <div >
 						<span class="block input-icon input-icon-right">
@@ -1145,13 +1158,13 @@
             <label for="inputWarning" class="col-xs-12 col-sm-3 control-label no-padding-right">A&ntilde;os:</label>
             <div>
                             <span class="block input-icon input-icon-right">
-                                {!! Form::text('experienciaSectorPublicoAnos',null,['class' => 'number width-40']) !!}
+                                {!! Form::text('experienciaSectorPublicoAnos',null,['class' => 'required number width-40']) !!}
                             </span>
             </div>
 
             <label for="experienciaSectorPublicoMeses" class="col-xs-12 col-sm-3 control-label no-padding-right">Meses:</label>
             <div class="form-group">
-                {!! Form::text('experienciaSectorPublicoMeses',null,['class' => 'number width-40']) !!}
+                {!! Form::text('experienciaSectorPublicoMeses',null,['class' => 'required number width-40']) !!}
             </div>
         </div>
         <br>
@@ -1161,13 +1174,13 @@
             <label for="experienciaSectorPrivadoAnos" class="col-xs-12 col-sm-3 control-label no-padding-right">A&ntilde;os:</label>
             <div >
                             <span class="block input-icon input-icon-right">
-                                {!! Form::text('experienciaSectorPrivadoAnos',null,['class' => 'number width-40']) !!}
+                                {!! Form::text('experienciaSectorPrivadoAnos',null,['class' => 'required number width-40']) !!}
                             </span>
             </div>
             <label for="experienciaSectorPrivadoMeses" class="col-xs-12 col-sm-3 control-label no-padding-right">Meses:</label>
             <div >
                             <span class="block input-icon input-icon-right">
-                                {!! Form::text('experienciaSectorPrivadoMeses',null,['class' => 'number width-40']) !!}
+                                {!! Form::text('experienciaSectorPrivadoMeses',null,['class' => 'required number width-40']) !!}
                             </span>
             </div>
         </div>
@@ -1180,13 +1193,13 @@
             <label for="experienciaIndependienteAnos" class="col-xs-12 col-sm-3 control-label no-padding-right">A&ntilde;os:</label>
             <div >
                             <span class="block input-icon input-icon-right">
-                                {!! Form::text('experienciaIndependienteAnos',null,['class' => 'number width-40']) !!}
+                                {!! Form::text('experienciaIndependienteAnos',null,['class' => 'required number width-40']) !!}
                             </span>
             </div>
             <label for="experienciaIndependienteMeses" class="col-xs-12 col-sm-3 control-label no-padding-right">Meses:</label>
             <div>
                             <span class="block input-icon input-icon-right">
-                                {!! Form::text('experienciaIndependienteMeses',null,['class' => 'number width-40']) !!}
+                                {!! Form::text('experienciaIndependienteMeses',null,['class' => 'required number width-40']) !!}
                             </span>
             </div>
         </div>
@@ -1199,13 +1212,13 @@
             <label for="experienciaTotalAnos" class="col-xs-12 col-sm-3 control-label no-padding-right">A&ntilde;os:</label>
             <div >
                             <span class="block input-icon input-icon-right">
-                                {!! Form::text('experienciaTotalAnos',null,['class' => 'number width-40']) !!}
+                                {!! Form::text('experienciaTotalAnos',null,['class' => 'required number width-40']) !!}
                             </span>
             </div>
             <label for="experienciaTotalMeses" class="col-xs-12 col-sm-3 control-label no-padding-right">Meses:</label>
             <div>
                             <span class="block input-icon input-icon-right">
-                                {!! Form::text('experienciaTotalMeses',null,['class' => 'number width-40']) !!}
+                                {!! Form::text('experienciaTotalMeses',null,['class' => 'required number width-40']) !!}
                             </span>
             </div>
         </div>
@@ -1242,6 +1255,7 @@
     <div class="center">
         <h3 class="green">Felicitaciones!</h3>
         Ya diligenciaste todo  el formulario. Presiona Finalizar para guardarlo.
+        <br>
     </div>
 
 </fieldset>
