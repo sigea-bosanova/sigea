@@ -3,13 +3,14 @@
     @section('contenido')
 
 
-        <h1> <p class=""></p> </h1>
+        <h2 class="header smaller lighter blue">Creando una nueva Secretaria</h2>
 
 
-        <div class="col-md-1"></div>-
+
+        <div class="col-md-1"></div>
         <div class="col-md-10">
 
-
+            {{ Html::ul($errors->all()) }}
 
             <style type="text/css">
                 /* Adjust the height of section */
@@ -26,7 +27,9 @@
 
 
 
-            {!! Form::open(['id' => 'formulario', 'method' => 'post', 'route' => 'form.wizard']) !!}
+
+
+            {!!  Form::model($persona, ['id' => 'formulario','route' => ['admin.secretaria.persona.update', $persona->id], 'method' => 'PUT']) !!}
 
             @include('compartido.persona.formulario')
 
@@ -38,7 +41,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Creando Secretaria</h4>
+                            <h4 class="modal-title">Actualizando Secretaria</h4>
                         </div>
                         <div class="modal-body">
                             <p class="text-center">...</p>
@@ -110,7 +113,18 @@
                     $('#final').modal();
                     form.submit();
 
-                }
+                },
+
+                labels: {
+                    cancel: "Cancelar",
+                    current: "current step:",
+                    pagination: "Pagination",
+                    finish: "Finalizar",
+                    next: "Siguiente",
+                    previous: "Atras",
+                    loading: "Cargando... "
+                },
+
             }).validate({
                 errorPlacement: function errorPlacement(error, element) { element.before(error); },
                 rules: {

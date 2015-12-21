@@ -15,11 +15,7 @@ use Sigea\User;
 
 class SecretariaController extends Controller {
 
-	/**
-	 * Display a listing of the resource.
-	 *
-	 * @return Response
-	 */
+
 	public function index()
 	{
 
@@ -29,21 +25,12 @@ class SecretariaController extends Controller {
 
 	}
 
-	/**
-	 * Show the form for creating a new resource.
-	 *
-	 * @return Response
-	 */
 	public function create()
 	{
 		return view ('admin.secretaria.crear');
 	}
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
+
 	public function store()
 	{
 
@@ -51,7 +38,7 @@ class SecretariaController extends Controller {
 		$rules = array(
 			'id'       => 'required',
 			'nombres'       => 'required',
-			'primerApellido'       => 'required',
+			'primer_apellido'       => 'required',
 			'email'      => 'required|email'
 
 		);
@@ -71,16 +58,149 @@ class SecretariaController extends Controller {
 
 
 			$persona = new Persona();
-			$persona->id = Input::get('id');
-			$persona->nombres = Input::get('nombres');
-			$persona->primer_apellido = Input::get('primerApellido');
+
+						$persona->id = Input::get('id');
+						$persona->nombres = Input::get('nombres');
+						$persona->primer_apellido = Input::get('primer_apellido');
+						$persona->segundo_apellido = Input::get('segundo_apellido');
+						$persona->fecha_nacimiento = Input::get('fecha_nacimiento');
+						$persona->email = Input::get('email');
+						$persona->tipo_id = Input::get('tipo_id');
+                        $persona->sexo = Input::get('sexo');
+                        $persona->nacionalidad = Input::get('nacionalidad');
+                        $persona->direccion = Input::get('direccion');
+                        $persona->clase_libreta_militar = Input::get('clase_libreta_militar');
+                        $persona->numero_libreta_militar = Input::get('numero_libreta_militar');
+                        $persona->distrito_militar = Input::get('distrito_militar');
+                        $persona->pais_nacimiento = Input::get('pais_nacimiento');
+                        $persona->departamento_nacimiento = Input::get('departamento_nacimiento');
+                        $persona->municipio = Input::get('municipio');
+                        $persona->telefono = Input::get('telefono');
+                        $persona->celular = Input::get('celular');
+                        $persona->edu_bas_primaria = Input::get('edu_bas_primaria');
+                        $persona->edu_bas_secundaria = Input::get('edu_bas_secundaria');
+                        $persona->edu_bas_media = Input::get('edu_bas_media');
+                        $persona->edu_bas_titulo_obtenido = Input::get('edu_bas_titulo_obtenido');
+                        $persona->edu_bas_fecha_grado= Input::get('edu_bas_fecha_grado');
+                        $persona->edu_sup_modalidad_academica = Input::get('edu_sup_modalidad_academica');
+                        $persona->edu_sup_semestres_aprovados = Input::get('edu_sup_semestres_aprovados');
+                        $persona->edu_sup_graduado = Input::get('edu_sup_graduado');
+                        $persona->edu_sup_estudios_titulos_obtenidos = Input::get('edu_sup_estudios_titulos_obtenidos');
+                        $persona->edu_sup_fecha_terminacion = Input::get('edu_sup_fecha_terminacion');
+                        $persona->edu_sup_num_tarjeta_profesional = Input::get('edu_sup_num_tarjeta_profesional');
+
+						$persona->edu_sup_modalidad_academica_2 = Input::get('edu_sup_modalidad_academica_2');
+						$persona->edu_sup_semestres_aprovados_2 = Input::get('edu_sup_semestres_aprovados_2');
+						$persona->edu_sup_graduado_2 = Input::get('edu_sup_graduado_2');
+						$persona->edu_sup_estudios_titulos_obtenidos_2 = Input::get('edu_sup_estudios_titulos_obtenidos_2');
+						$persona->edu_sup_fecha_terminacion_2 = Input::get('edu_sup_fecha_terminacion_2');
+						$persona->edu_sup_num_tarjeta_profesional_2 = Input::get('edu_sup_num_tarjeta_profesional_2');
+
+						$persona->edu_sup_modalidad_academica_3 = Input::get('edu_sup_modalidad_academica_3');
+						$persona->edu_sup_semestres_aprovados_3 = Input::get('edu_sup_semestres_aprovados_3');
+						$persona->edu_sup_graduado_3 = Input::get('edu_sup_graduado_3');
+						$persona->edu_sup_estudios_titulos_obtenidos_3 = Input::get('edu_sup_estudios_titulos_obtenidos_3');
+						$persona->edu_sup_fecha_terminacion_3 = Input::get('edu_sup_fecha_terminacion_3');
+						$persona->edu_sup_num_tarjeta_profesional_3 = Input::get('edu_sup_num_tarjeta_profesional_3');
+
+						$persona->edu_sup_modalidad_academica_4 = Input::get('edu_sup_modalidad_academica_4');
+						$persona->edu_sup_semestres_aprovados_4 = Input::get('edu_sup_semestres_aprovados_4');
+						$persona->edu_sup_graduado_4 = Input::get('edu_sup_graduado_4');
+						$persona->edu_sup_estudios_titulos_obtenidos_4 = Input::get('edu_sup_estudios_titulos_obtenidos_4');
+						$persona->edu_sup_fecha_terminacion_4 = Input::get('edu_sup_fecha_terminacion_4');
+						$persona->edu_sup_num_tarjeta_profesional_4 = Input::get('edu_sup_num_tarjeta_profesional_4');
+
+						$persona->edu_sup_modalidad_academica_5 = Input::get('edu_sup_modalidad_academica_5');
+						$persona->edu_sup_semestres_aprovados_5 = Input::get('edu_sup_semestres_aprovados_5');
+						$persona->edu_sup_graduado_5 = Input::get('edu_sup_graduado_5');
+						$persona->edu_sup_estudios_titulos_obtenidos_5 = Input::get('edu_sup_estudios_titulos_obtenidos_5');
+						$persona->edu_sup_fecha_terminacion_5 = Input::get('edu_sup_fecha_terminacion_5');
+						$persona->edu_sup_num_tarjeta_profesional_5 = Input::get('edu_sup_num_tarjeta_profesional_5');
+
+                        $persona->idioma_1  = Input::get('idioma_1');
+                        $persona->idioma_1_habla = Input::get('idioma_1_habla');
+                        $persona->idioma_1_lee = Input::get('idioma_1_lee');
+                        $persona->idioma_1_escribe = Input::get('idioma_1_escribe');
+
+						$persona->idioma_2  = Input::get('idioma_2');
+						$persona->idioma_2_habla = Input::get('idioma_2_habla');
+						$persona->idioma_2_lee = Input::get('idioma_2_lee');
+						$persona->idioma_2_escribe = Input::get('idioma_2_escribe');
+
+						$persona->empresa_actual_nombre = Input::get('empresa_actual_nombre');
+						$persona->empresa_actual_tipo_entidad = Input::get('empresa_actual_tipo_entidad');
+						$persona->empresa_actual_pais = Input::get('empresa_actual_pais');
+						$persona->empresa_actual_departamento = Input::get('empresa_actual_departamento');
+						$persona->empresa_actual_municipio = Input::get('empresa_actual_municipio');
+						$persona->empresa_actual_correo = Input::get('empresa_actual_correo');
+						$persona->empresa_actual_telefono = Input::get('empresa_actual_telefono');
+						$persona->empresa_actual_fecha_ingreso = Input::get('empresa_actual_fecha_ingreso');
+						$persona->empresa_actual_fecha_retiro = Input::get('empresa_actual_fecha_retiro');
+						$persona->empresa_actual_cargo = Input::get('empresa_actual_cargo');
+						$persona->empresa_actual_dependencia = Input::get('empresa_actual_dependencia');
+						$persona->empresa_actual_direccion = Input::get('empresa_actual_direccion');
+
+						$persona->empresa_anterior_nombre = Input::get('empresa_anterior_nombre');
+						$persona->empresa_anterior_tipo_entidad = Input::get('empresa_anterior_tipo_entidad');
+						$persona->empresa_anterior_pais = Input::get('empresa_anterior_pais');
+						$persona->empresa_anterior_departamento = Input::get('empresa_anterior_departamento');
+						$persona->empresa_anterior_municipio = Input::get('empresa_anterior_municipio');
+						$persona->empresa_anterior_correo = Input::get('empresa_anterior_correo');
+						$persona->empresa_anterior_telefono = Input::get('empresa_anterior_telefono');
+						$persona->empresa_anterior_fecha_ingreso = Input::get('empresa_anterior_fecha_ingreso');
+						$persona->empresa_anterior_fecha_retiro = Input::get('empresa_anterior_fecha_retiro');
+						$persona->empresa_anterior_cargo = Input::get('empresa_anterior_cargo');
+						$persona->empresa_anterior_dependencia = Input::get('empresa_anterior_dependencia');
+						$persona->empresa_anterior_direccion = Input::get('empresa_anterior_direccion');
+
+						$persona->empresa_otra_nombre = Input::get('empresa_otra_nombre');
+						$persona->empresa_otra_tipo_entidad = Input::get('empresa_otra_tipo_entidad');
+						$persona->empresa_otra_pais = Input::get('empresa_otra_pais');
+						$persona->empresa_otra_departamento = Input::get('empresa_otra_departamento');
+						$persona->empresa_otra_municipio = Input::get('empresa_otra_municipio');
+						$persona->empresa_otra_correo = Input::get('empresa_otra_correo');
+						$persona->empresa_otra_telefono = Input::get('empresa_otra_telefono');
+						$persona->empresa_otra_fecha_ingreso = Input::get('empresa_otra_fecha_ingreso');
+						$persona->empresa_otra_fecha_retiro = Input::get('empresa_otra_fecha_retiro');
+						$persona->empresa_otra_cargo = Input::get('empresa_otra_cargo');
+						$persona->empresa_otra_dependencia = Input::get('empresa_otra_dependencia');
+						$persona->empresa_otra_direccion = Input::get('empresa_otra_direccion');
+
+						$persona->empresa_otra2_nombre = Input::get('empresa_otra2_nombre');
+						$persona->empresa_otra2_tipo_entidad = Input::get('empresa_otra2_tipo_entidad');
+						$persona->empresa_otra2_pais = Input::get('empresa_otra2_pais');
+						$persona->empresa_otra2_departamento = Input::get('empresa_otra2_departamento');
+						$persona->empresa_otra2_municipio = Input::get('empresa_otra2_municipio');
+						$persona->empresa_otra2_correo = Input::get('empresa_otra2_correo');
+						$persona->empresa_otra2_telefono = Input::get('empresa_otra2_telefono');
+						$persona->empresa_otra2_fecha_ingreso = Input::get('empresa_otra2_fecha_ingreso');
+						$persona->empresa_otra2_fecha_retiro = Input::get('empresa_otra2_fecha_retiro');
+						$persona->empresa_otra2_cargo = Input::get('empresa_otra2_cargo');
+						$persona->empresa_otra2_dependencia = Input::get('empresa_otra2_dependencia');
+						$persona->empresa_otra2_direccion = Input::get('empresa_otra2_direccion');
+
+						$persona->experiencia_sector_publico_anos = Input::get('experiencia_sector_publico_anos');
+						$persona->experiencia_sector_publico_meses = Input::get('experiencia_sector_publico_meses');
+						$persona->experiencia_sector_privado_anos = Input::get('experiencia_sector_privado_anos');
+						$persona->experiencia_sector_privado_meses = Input::get('experiencia_sector_privado_meses');
+						$persona->experiencia_independiente_anos = Input::get('experiencia_independiente_anos');
+						$persona->experiencia_independiente_meses = Input::get('experiencia_independiente_meses');
+						$persona->experiencia_total_anos = Input::get('experiencia_total_anos');
+						$persona->experiencia_total_meses = Input::get('experiencia_total_meses');
+
+						$persona->observaciones_recurso_humano = Input::get('observaciones_recurso_humano');
+
+
+
             $persona->save();
 
 			$user = new User();
-			$user-> id = Input::get('id');
-			$user-> email = Input::get('email');
-			$user-> perfil = 'Secretaria';
-			$user-> password =  bcrypt($pass);
+
+						$user-> id = Input::get('id');
+						$user-> email = Input::get('email');
+						$user-> perfil = 'Secretaria';
+						$user-> password =  bcrypt($pass);
+
 			$user->save();
 
 
@@ -88,7 +208,7 @@ class SecretariaController extends Controller {
 
 
 
-			// redirect
+
 			\Session::flash('message', $mensaje);
 			return \Redirect::to('admin/secretaria/persona');
 		}
@@ -97,45 +217,184 @@ class SecretariaController extends Controller {
 
 	}
 
-	/**
-	 * Display the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
+
 	public function show($id)
 	{
-		//
+		$persona = Persona::find($id);
+
+		if(is_null($persona)){
+			\Session::flash('error', 'Error: Registro no Encontrado');
+			return view('admin.secretaria.mostrar');
+		}
+		return view('admin.secretaria.mostrar', compact('persona'));
+
 	}
 
-	/**
-	 * Show the form for editing the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
+
 	public function edit($id)
 	{
-		//
+		$persona = Persona::find($id);
+
+		return view('admin.secretaria.editar', compact('persona'));
+
 	}
 
-	/**
-	 * Update the specified resource in storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
+
 	public function update($id)
 	{
-		//
+
+		$persona =  Persona::find($id);
+
+		$persona->id = Input::get('id');
+		$persona->nombres = Input::get('nombres');
+		$persona->primer_apellido = Input::get('primer_apellido');
+		$persona->segundo_apellido = Input::get('segundo_apellido');
+		$persona->fecha_nacimiento = Input::get('fecha_nacimiento');
+		$persona->email = Input::get('email');
+		$persona->tipo_id = Input::get('tipo_id');
+		$persona->sexo = Input::get('sexo');
+		$persona->nacionalidad = Input::get('nacionalidad');
+		$persona->direccion = Input::get('direccion');
+		$persona->clase_libreta_militar = Input::get('clase_libreta_militar');
+		$persona->numero_libreta_militar = Input::get('numero_libreta_militar');
+		$persona->distrito_militar = Input::get('distrito_militar');
+		$persona->pais_nacimiento = Input::get('pais_nacimiento');
+		$persona->departamento_nacimiento = Input::get('departamento_nacimiento');
+		$persona->municipio = Input::get('municipio');
+		$persona->telefono = Input::get('telefono');
+		$persona->celular = Input::get('celular');
+		$persona->edu_bas_primaria = Input::get('edu_bas_primaria');
+		$persona->edu_bas_secundaria = Input::get('edu_bas_secundaria');
+		$persona->edu_bas_media = Input::get('edu_bas_media');
+		$persona->edu_bas_titulo_obtenido = Input::get('edu_bas_titulo_obtenido');
+		$persona->edu_bas_fecha_grado= Input::get('edu_bas_fecha_grado');
+		$persona->edu_sup_modalidad_academica = Input::get('edu_sup_modalidad_academica');
+		$persona->edu_sup_semestres_aprovados = Input::get('edu_sup_semestres_aprovados');
+		$persona->edu_sup_graduado = Input::get('edu_sup_graduado');
+		$persona->edu_sup_estudios_titulos_obtenidos = Input::get('edu_sup_estudios_titulos_obtenidos');
+		$persona->edu_sup_fecha_terminacion = Input::get('edu_sup_fecha_terminacion');
+		$persona->edu_sup_num_tarjeta_profesional = Input::get('edu_sup_num_tarjeta_profesional');
+
+		$persona->edu_sup_modalidad_academica_2 = Input::get('edu_sup_modalidad_academica_2');
+		$persona->edu_sup_semestres_aprovados_2 = Input::get('edu_sup_semestres_aprovados_2');
+		$persona->edu_sup_graduado_2 = Input::get('edu_sup_graduado_2');
+		$persona->edu_sup_estudios_titulos_obtenidos_2 = Input::get('edu_sup_estudios_titulos_obtenidos_2');
+		$persona->edu_sup_fecha_terminacion_2 = Input::get('edu_sup_fecha_terminacion_2');
+		$persona->edu_sup_num_tarjeta_profesional_2 = Input::get('edu_sup_num_tarjeta_profesional_2');
+
+		$persona->edu_sup_modalidad_academica_3 = Input::get('edu_sup_modalidad_academica_3');
+		$persona->edu_sup_semestres_aprovados_3 = Input::get('edu_sup_semestres_aprovados_3');
+		$persona->edu_sup_graduado_3 = Input::get('edu_sup_graduado_3');
+		$persona->edu_sup_estudios_titulos_obtenidos_3 = Input::get('edu_sup_estudios_titulos_obtenidos_3');
+		$persona->edu_sup_fecha_terminacion_3 = Input::get('edu_sup_fecha_terminacion_3');
+		$persona->edu_sup_num_tarjeta_profesional_3 = Input::get('edu_sup_num_tarjeta_profesional_3');
+
+		$persona->edu_sup_modalidad_academica_4 = Input::get('edu_sup_modalidad_academica_4');
+		$persona->edu_sup_semestres_aprovados_4 = Input::get('edu_sup_semestres_aprovados_4');
+		$persona->edu_sup_graduado_4 = Input::get('edu_sup_graduado_4');
+		$persona->edu_sup_estudios_titulos_obtenidos_4 = Input::get('edu_sup_estudios_titulos_obtenidos_4');
+		$persona->edu_sup_fecha_terminacion_4 = Input::get('edu_sup_fecha_terminacion_4');
+		$persona->edu_sup_num_tarjeta_profesional_4 = Input::get('edu_sup_num_tarjeta_profesional_4');
+
+		$persona->edu_sup_modalidad_academica_5 = Input::get('edu_sup_modalidad_academica_5');
+		$persona->edu_sup_semestres_aprovados_5 = Input::get('edu_sup_semestres_aprovados_5');
+		$persona->edu_sup_graduado_5 = Input::get('edu_sup_graduado_5');
+		$persona->edu_sup_estudios_titulos_obtenidos_5 = Input::get('edu_sup_estudios_titulos_obtenidos_5');
+		$persona->edu_sup_fecha_terminacion_5 = Input::get('edu_sup_fecha_terminacion_5');
+		$persona->edu_sup_num_tarjeta_profesional_5 = Input::get('edu_sup_num_tarjeta_profesional_5');
+
+		$persona->idioma_1  = Input::get('idioma_1');
+		$persona->idioma_1_habla = Input::get('idioma_1_habla');
+		$persona->idioma_1_lee = Input::get('idioma_1_lee');
+		$persona->idioma_1_escribe = Input::get('idioma_1_escribe');
+
+		$persona->idioma_2  = Input::get('idioma_2');
+		$persona->idioma_2_habla = Input::get('idioma_2_habla');
+		$persona->idioma_2_lee = Input::get('idioma_2_lee');
+		$persona->idioma_2_escribe = Input::get('idioma_2_escribe');
+
+		$persona->empresa_actual_nombre = Input::get('empresa_actual_nombre');
+		$persona->empresa_actual_tipo_entidad = Input::get('empresa_actual_tipo_entidad');
+		$persona->empresa_actual_pais = Input::get('empresa_actual_pais');
+		$persona->empresa_actual_departamento = Input::get('empresa_actual_departamento');
+		$persona->empresa_actual_municipio = Input::get('empresa_actual_municipio');
+		$persona->empresa_actual_correo = Input::get('empresa_actual_correo');
+		$persona->empresa_actual_telefono = Input::get('empresa_actual_telefono');
+		$persona->empresa_actual_fecha_ingreso = Input::get('empresa_actual_fecha_ingreso');
+		$persona->empresa_actual_fecha_retiro = Input::get('empresa_actual_fecha_retiro');
+		$persona->empresa_actual_cargo = Input::get('empresa_actual_cargo');
+		$persona->empresa_actual_dependencia = Input::get('empresa_actual_dependencia');
+		$persona->empresa_actual_direccion = Input::get('empresa_actual_direccion');
+
+		$persona->empresa_anterior_nombre = Input::get('empresa_anterior_nombre');
+		$persona->empresa_anterior_tipo_entidad = Input::get('empresa_anterior_tipo_entidad');
+		$persona->empresa_anterior_pais = Input::get('empresa_anterior_pais');
+		$persona->empresa_anterior_departamento = Input::get('empresa_anterior_departamento');
+		$persona->empresa_anterior_municipio = Input::get('empresa_anterior_municipio');
+		$persona->empresa_anterior_correo = Input::get('empresa_anterior_correo');
+		$persona->empresa_anterior_telefono = Input::get('empresa_anterior_telefono');
+		$persona->empresa_anterior_fecha_ingreso = Input::get('empresa_anterior_fecha_ingreso');
+		$persona->empresa_anterior_fecha_retiro = Input::get('empresa_anterior_fecha_retiro');
+		$persona->empresa_anterior_cargo = Input::get('empresa_anterior_cargo');
+		$persona->empresa_anterior_dependencia = Input::get('empresa_anterior_dependencia');
+		$persona->empresa_anterior_direccion = Input::get('empresa_anterior_direccion');
+
+		$persona->empresa_otra_nombre = Input::get('empresa_otra_nombre');
+		$persona->empresa_otra_tipo_entidad = Input::get('empresa_otra_tipo_entidad');
+		$persona->empresa_otra_pais = Input::get('empresa_otra_pais');
+		$persona->empresa_otra_departamento = Input::get('empresa_otra_departamento');
+		$persona->empresa_otra_municipio = Input::get('empresa_otra_municipio');
+		$persona->empresa_otra_correo = Input::get('empresa_otra_correo');
+		$persona->empresa_otra_telefono = Input::get('empresa_otra_telefono');
+		$persona->empresa_otra_fecha_ingreso = Input::get('empresa_otra_fecha_ingreso');
+		$persona->empresa_otra_fecha_retiro = Input::get('empresa_otra_fecha_retiro');
+		$persona->empresa_otra_cargo = Input::get('empresa_otra_cargo');
+		$persona->empresa_otra_dependencia = Input::get('empresa_otra_dependencia');
+		$persona->empresa_otra_direccion = Input::get('empresa_otra_direccion');
+
+		$persona->empresa_otra2_nombre = Input::get('empresa_otra2_nombre');
+		$persona->empresa_otra2_tipo_entidad = Input::get('empresa_otra2_tipo_entidad');
+		$persona->empresa_otra2_pais = Input::get('empresa_otra2_pais');
+		$persona->empresa_otra2_departamento = Input::get('empresa_otra2_departamento');
+		$persona->empresa_otra2_municipio = Input::get('empresa_otra2_municipio');
+		$persona->empresa_otra2_correo = Input::get('empresa_otra2_correo');
+		$persona->empresa_otra2_telefono = Input::get('empresa_otra2_telefono');
+		$persona->empresa_otra2_fecha_ingreso = Input::get('empresa_otra2_fecha_ingreso');
+		$persona->empresa_otra2_fecha_retiro = Input::get('empresa_otra2_fecha_retiro');
+		$persona->empresa_otra2_cargo = Input::get('empresa_otra2_cargo');
+		$persona->empresa_otra2_dependencia = Input::get('empresa_otra2_dependencia');
+		$persona->empresa_otra2_direccion = Input::get('empresa_otra2_direccion');
+
+		$persona->experiencia_sector_publico_anos = Input::get('experiencia_sector_publico_anos');
+		$persona->experiencia_sector_publico_meses = Input::get('experiencia_sector_publico_meses');
+		$persona->experiencia_sector_privado_anos = Input::get('experiencia_sector_privado_anos');
+		$persona->experiencia_sector_privado_meses = Input::get('experiencia_sector_privado_meses');
+		$persona->experiencia_independiente_anos = Input::get('experiencia_independiente_anos');
+		$persona->experiencia_independiente_meses = Input::get('experiencia_independiente_meses');
+		$persona->experiencia_total_anos = Input::get('experiencia_total_anos');
+		$persona->experiencia_total_meses = Input::get('experiencia_total_meses');
+
+		$persona->observaciones_recurso_humano = Input::get('observaciones_recurso_humano');
+
+
+		$persona->save();
+
+		$user = User::find($id);
+
+		$user-> id = Input::get('id');
+		$user-> email = Input::get('email');
+		$user-> perfil = 'Secretaria';
+
+
+
+		$user->save();
+
+		\Session::flash('message', 'Secretaria Actualizada Correctamente');
+		return \Redirect::to('admin/secretaria/persona');
+
 	}
 
-	/**
-	 * Remove the specified resource from storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
+
 	public function destroy($id)
 	{
 		$secretaria = Persona::find($id);
@@ -151,7 +410,7 @@ class SecretariaController extends Controller {
 
 	private function buscarSecretarias(){
 
-		$users = Persona::buscarIds('secretaria');
+		$users = Persona::buscarIds('Secretaria');
 		$ids = Persona::obtenerIds($users);
 		$secretarias = Persona::obtenerModelos($ids);
 

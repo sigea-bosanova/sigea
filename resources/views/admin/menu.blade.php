@@ -16,7 +16,7 @@
 
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('admin.secretaria.persona.index') }}">
                     <!--<i class="menu-icon fa fa-caret-right"></i>-->
                     <i class="fa fa-plus"></i>&nbsp;
                     Crear Secretaria
@@ -26,7 +26,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('admin.secretaria.persona.index') }}">
                     <i class="fa fa-pencil fa-fw"></i>&nbsp;
                     Modificar Secretaria
                 </a>
@@ -35,7 +35,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('admin.secretaria.persona.index') }}">
                     <i class="fa fa-book fa-fw"></i>&nbsp;
                     Consultar Secretaria
                 </a>
@@ -44,7 +44,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('admin.secretaria.persona.index') }}">
                     <i class="fa fa-trash-o fa-fw"></i>&nbsp
                     Eliminar Secretaria
                 </a>
