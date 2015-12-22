@@ -73,6 +73,24 @@
 
     });
 
+    Route::group(['prefix' => 'gestionar'],function(){
+
+
+        Route::group(['prefix' => 'coordinadores-academicos'], function(){
+
+            Route::resource('persona','CooAcademicoController');
+
+        });
+
+        Route::group(['prefix' => 'coordinadores-disciplina'], function(){
+
+            Route::resource('persona','CooDisciplinaController');
+
+        });
+
+    });
+
+
 
 
 
@@ -81,19 +99,11 @@
 
     Route::get('probar', 'EstudiantesController@probar');
 
-
-
-
-
-
-
     Route::get('docente/gestionar-notas', 'NotasController@index');
     Route::post('docente/gestionar-notas', 'NotasController@gestionarNotas');
 
     Route::get('docente/consultar-estudiante', 'NotasController@mostrarConsultarEstudiante');
     Route::post('docente/consultar-estudiante', 'NotasController@consultarEstudiante');
-
-
 
     Route::get('estudiante/ver-notas', 'EstudiantesController@verNotas');
     Route::post('estudiante/ver-notas', 'EstudiantesController@verNotas');

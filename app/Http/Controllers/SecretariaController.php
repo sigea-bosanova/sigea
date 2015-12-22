@@ -5,9 +5,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use Sigea\Http\Requests;
-use Sigea\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Sigea\Secretaria;
 use Sigea\Persona;
 use Sigea\User;
 

@@ -30,7 +30,7 @@ class LoginController extends Controller {
 
 
 
-		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'estudiante' ])){
+		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'Estudiante' ])){
 
 			$estudiante = Estudiante::find($id);
 			$nombre = $estudiante->nombre;
@@ -44,7 +44,7 @@ class LoginController extends Controller {
 		}
 
 
-		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'docente' ])){
+		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'Docente' ])){
 
 			$persona = Persona::find($id);
 			$nombre = $persona->nombres;
@@ -59,7 +59,7 @@ class LoginController extends Controller {
 		}
 
 
-		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'secretaria' ])){
+		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'Secretaria' ])){
 
 			$persona = Persona::find($id);
 			$nombre = $persona->nombres;
@@ -75,7 +75,7 @@ class LoginController extends Controller {
 		}
 
 
-		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'cooAcademico' ])){
+		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'Coordinador Academico' ])){
 
 			$persona = Persona::find($id);
 			$nombre = $persona->nombres;
@@ -91,7 +91,7 @@ class LoginController extends Controller {
 		}
 
 
-		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'cooDisciplina' ])){
+		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'Coordinador Disciplina' ])){
 
 			$persona = Persona::find($id);
 			$nombre = $persona->nombres;
