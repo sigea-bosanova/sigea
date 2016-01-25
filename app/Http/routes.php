@@ -94,6 +94,12 @@
 
         });
 
+        Route::group(['prefix' => 'estudiantes'], function(){
+
+            Route::resource('estudiante','EstudianteController');
+
+        });
+
     });
 
 

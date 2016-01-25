@@ -1274,7 +1274,7 @@
             <div class="form-group" >
                 @if(isset($materias))
                @foreach($materias as $materia)
-                    <h5 class="blue">-{{ $materia->nombre }}</h5><br>
+                    <h5 class="blue">{{ $materia->nombre }}</h5><br>
                  @endforeach
                 @endif
             </div>

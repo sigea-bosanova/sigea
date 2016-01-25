@@ -19,7 +19,7 @@
 					 $this->call('CooDisciplinaSeeder');
 					 $this->call('CooAcademicoSeeder');
 				     $this->call('AdmiSeeder');
-				// $this->call('AcudienteTableSeeder');
+				    $this->call('AcudienteTableSeeder');
 				    $this->call('CursoTableSeeder');
 			        $this->call('EstudianteTableSeeder');
 				 //  $this->call('AcudienteEstudianteTableSeeder');
@@ -29,7 +29,7 @@
 				   $this->call('MateriaTableSeeder');
 				 //  $this->call('EstudianteMateriaTableSeeder');
 				 //  $this->call('MateriaPersonaTableSeeder');
-				 //  $this->call('GradoTableSeeder');
+				   $this->call('GradoTableSeeder');
 				 //	 $this->call('PeriodoTableSeeder');
 				 	 $this->call('ObservacionTableSeeder');
 				 //	 $this->call('PreguntaTableSeeder');
