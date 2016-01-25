@@ -5,6 +5,7 @@ use Sigea\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 use Faker\Factory;
 use Sigea\Persona;
 use Sigea\User;
@@ -17,21 +18,31 @@ class CooAcademicoController extends Controller
 	public function index()
 	{
 		$personas = $this->buscarAcademicos();
+		if(Session::get('perfil')=='Administrador') {
+			return view('admin.cooAcademico.index', compact('personas'));
+		}
 
-		return view('compartido.cooAcademico.index', compact('personas'));
+
+
+
+
 	}
 
 
 	public function create()
 	{
-		return view('compartido.cooAcademico.crear');
+
+
+
+
+		if(Session::get('perfil')=='Administrador') {
+			return view('admin.cooAcademico.crear', compact('personas'));
+		}
+
+
 	}
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
+
 
 	public function store()
 	{
@@ -431,8 +442,8 @@ class CooAcademicoController extends Controller
 
 		return $academicos;
 
-
 	}
+
 
 
 }

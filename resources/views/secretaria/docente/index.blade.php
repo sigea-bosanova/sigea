@@ -1,9 +1,13 @@
+@extends('secretaria.menu')
+
+@section('contenido')
 
     <div class="container">
 
+
         <div class="row">
             <div class="col-xs-11">
-                <h3 class="header smaller lighter blue">Coordinadores Academicos</h3>
+                <h3 class="header smaller lighter blue">Docentes</h3>
 
                 @if(empty($personas))
                     <div class="alert alert-info">No existen registros en el sistema.</div>
@@ -21,7 +25,7 @@
                     <div class="pull-right tableTools-container"></div>
                 </div>
                 <div class="table-header">
-                   Listado Coordinadores Academicos de la Institucion:
+                   Listado de todos los Docentes de la Institucion:
                 </div>
 
                 <div>
@@ -51,16 +55,16 @@
 
                                 <td>
                                     <div class="hidden-sm hidden-xs action-buttons editableform ">
-                                        <a class="btn btn-small btn-success" href=" {{ url('gestionar/coordinadores-academicos/persona/'. $persona->id) }}" >
+                                        <a class="btn btn-small btn-success" href=" {{ url('gestionar/docentes/persona/'. $persona->id) }}" >
                                             <i class="ace-icon fa fa-search-plus bigger-130"></i>
                                         </a>
 
-                                        <a class="btn btn-small btn-info" href="{{ url('gestionar/coordinadores-academicos/persona/'. $persona->id).'/edit' }}">
+                                        <a class="btn btn-small btn-info" href="{{ url('gestionar/docentes/persona/'. $persona->id).'/edit' }}">
                                             <i class="ace-icon fa fa-pencil bigger-130"></i>
                                         </a>
 
 
-                                        {!!  Form::open(array('url' => 'gestionar/coordinadores-academicos/persona/' . $persona->id, 'class' => 'pull-left')) !!}
+                                        {!!  Form::open(array('url' => 'gestionar/docentes/persona/' . $persona->id, 'class' => 'pull-left')) !!}
                                         {!!  Form::hidden('_method', 'DELETE') !!}
                                                         <button type="submit" class="btn btn-small btn-danger">
                                                             <i class="ace-icon fa fa-trash-o bigger-130"></i>
@@ -125,3 +129,4 @@
 
 </div>
 
+@stop

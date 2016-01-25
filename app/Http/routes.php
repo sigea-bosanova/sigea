@@ -88,6 +88,12 @@
 
         });
 
+        Route::group(['prefix' => 'docentes'], function(){
+
+            Route::resource('persona','DocenteController');
+
+        });
+
     });
 
 

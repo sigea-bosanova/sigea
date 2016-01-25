@@ -161,7 +161,7 @@
 
                $usuarioProfesor =  User::create(['id'=> $aux,
                                                 'email' => $faker->email,
-                                                'perfil' => 'admi',
+                                                'perfil' => 'Administrador',
                                                 'password' => bcrypt('admi'),
                                                 'activo' => true]);
 

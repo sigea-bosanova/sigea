@@ -2,14 +2,16 @@
 
 use Sigea\Http\Requests;
 use Sigea\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Input;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Redirect;
-use Faker\Factory;
 use Sigea\Persona;
+use Faker\Factory;
+use Sigea\Materia;
 use Sigea\User;
+use Illuminate\Support\Facades\Input;
 
-class CooDisciplinaController extends Controller {
+use Illuminate\Http\Request;
+
+class DocenteController extends Controller
+{
 
 	/**
 	 * Display a listing of the resource.
@@ -19,8 +21,14 @@ class CooDisciplinaController extends Controller {
 	public function index()
 	{
 
-		$personas = $this->buscarDisciplina();
-		return view('compartido.cooDisciplina.index', compact('personas'));
+		$personas = $this->buscarDocentes();
+
+		if (\Session::get('perfil') == 'Secretaria') {
+			return view('secretaria.docente.index', compact('personas'));
+		} else if (\Session::get('perfil') == 'Administrador') {
+			return view('admin.docente.index', compact('personas'));
+		} else
+			echo "Acceso no valido...";
 	}
 
 	/**
@@ -30,7 +38,12 @@ class CooDisciplinaController extends Controller {
 	 */
 	public function create()
 	{
-		return view('compartido.cooDisciplina.crear');
+		if (\Session::get('perfil') == 'Secretaria') {
+			return view('secretaria.docente.crear');
+		} else if (\Session::get('perfil') == 'Administrador') {
+			return view('admin.docente.crear');
+		} else
+			echo "Acceso no valido...";
 	}
 
 	/**
@@ -38,7 +51,7 @@ class CooDisciplinaController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(Request $request)
 	{
 
 
@@ -54,12 +67,11 @@ class CooDisciplinaController extends Controller {
 
 
 		if ($validator->fails()) {
-			return \Redirect::to('gestionar/coordinadores-academicos/persona')
+			return \Redirect::to('gestionar/docentes/persona')
 				->withErrors($validator);
 
 		} else {
 
-			Model::unguard();
 			$faker = Factory::create('es_ES');
 			$pass = $faker->word . 'lml' . $faker->numberBetween($min = 231, $max = 666);
 
@@ -197,65 +209,84 @@ class CooDisciplinaController extends Controller {
 
 			$persona->observaciones_recurso_humano = Input::get('observaciones_recurso_humano');
 
-
 			$persona->save();
+
 
 			$user = new User();
 
 			$user->id = Input::get('id');
 			$user->email = Input::get('email');
-			$user->perfil = 'Coordinador Disciplina';
+			$user->perfil = 'Docente';
 			$user->password = bcrypt($pass);
 
 			$user->save();
 
 
-			$mensaje = 'Coordinador Disciplina creado correctamente! Tome nota, la clave para que ' . $persona->nombres . ' ingrese al sistema es: ' . $pass;
+			foreach ($request->materia as $idMateria) {
+				$materiaAux = Materia::find($idMateria);
+				$materiaAux->profesores()->attach(Input::get('id'));
+			}
+
+
+			$mensaje = 'Docente creado correctamente! Tome nota, la clave para que ' . $persona->nombres . ' ingrese al sistema es: ' . $pass;
 
 
 			\Session::flash('message', $mensaje);
-			return \Redirect::to('gestionar/coordinadores-disciplina/persona');
-
-
+			return \Redirect::to('gestionar/docentes/persona');
 		}
-
-
 	}
 
 	/**
 	 * Display the specified resource.
 	 *
-	 * @param  int  $id
+	 * @param  int $id
 	 * @return Response
 	 */
 	public function show($id)
 	{
 		$persona = Persona::find($id);
 
-		if(is_null($persona)){
+		if (is_null($persona)) {
 			\Session::flash('error', 'Error: Registro no Encontrado');
-			return view('compartido.cooDisciplina.mostrar');
+			if (\Session::get('perfil') == 'Secretaria') {
+				return view('secretaria.docente.mostrar');
+			} else if (\Session::get('perfil') == 'Administrador') {
+				return view('admin.docente.mostrar');
+			} else
+				echo "Acceso no valido...";
+
 		}
-		return view('compartido.cooDisciplina.mostrar', compact('persona'));
+		$materias = $persona->materias;
+		if (\Session::get('perfil') == 'Secretaria') {
+			return view('secretaria.docente.mostrar', compact('persona', 'materias'));
+		} else if (\Session::get('perfil') == 'Administrador') {
+			return view('admin.docente.mostrar', compact('persona', 'materias'));
+		} else
+			echo "Acceso no valido...";
 	}
 
 	/**
 	 * Show the form for editing the specified resource.
 	 *
-	 * @param  int  $id
+	 * @param  int $id
 	 * @return Response
 	 */
 	public function edit($id)
 	{
 		$persona = Persona::find($id);
 
-		return view('compartido.cooDisciplina.editar', compact('persona'));
+		if (\Session::get('perfil') == 'Secretaria') {
+			return view('secretaria.docente.editar', compact('persona'));
+		} else if (\Session::get('perfil') == 'Administrador') {
+			return view('admin.docente.editar', compact('persona'));
+		} else
+			echo "Acceso no valido...";
 	}
 
 	/**
 	 * Update the specified resource in storage.
 	 *
-	 * @param  int  $id
+	 * @param  int $id
 	 * @return Response
 	 */
 	public function update($id)
@@ -407,8 +438,18 @@ class CooDisciplinaController extends Controller {
 
 		$user->save();
 
-		\Session::flash('message', 'Coordinador Disciplina Actualizado Correctamente');
-		return \Redirect::to('gestionar/coordinadores-disciplina/persona');
+
+		foreach (Input::get('materia') as $idMateria) {
+			$materiaAux = Materia::find($idMateria);
+			$materiaAux->profesores()->attach(Input::get('id'));
+		}
+
+
+		\Session::flash('message', 'Docente actualizado correctamente');
+
+
+		return \Redirect::to('gestionar/docentes/persona');
+
 
 	}
 
@@ -423,9 +464,9 @@ class CooDisciplinaController extends Controller {
 		//
 	}
 
-	public function buscarDisciplina(){
+	public function buscarDocentes(){
 
-		$users = Persona::buscarIds('Coordinador Disciplina');
+		$users = Persona::buscarIds('Docente');
 		$ids = Persona::obtenerIds($users);
 		$personas = Persona::obtenerModelos($ids);
 

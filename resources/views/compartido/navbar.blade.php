@@ -66,7 +66,7 @@
                     <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
 
                         <li>
-                            <a href="#">
+                            <a href="{{route(Session::get('inicio'))}}">
                                 <i class="ace-icon fa fa-user"></i>
                                 Perfil
                             </a>

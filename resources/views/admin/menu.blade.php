@@ -16,7 +16,7 @@
 
 
             <li class="">
-                <a href="{{ route('admin.secretaria.persona.index') }}">
+                <a href="{{ route('admin.secretaria.persona.create') }}">
                     <!--<i class="menu-icon fa fa-caret-right"></i>-->
                     <i class="fa fa-plus"></i>&nbsp;
                     Crear Secretaria
@@ -68,7 +68,7 @@
 
         <ul class="submenu">
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.coordinadores-academicos.persona.create') }}">
                     <!--<i class="menu-icon fa fa-caret-right"></i>-->
                     <i class="fa fa-plus"></i>&nbsp;
                     Crear Coordinador Acad&eacute;mico
@@ -78,7 +78,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.coordinadores-academicos.persona.index') }}">
                     <i class="fa fa-pencil fa-fw"></i>&nbsp;
                     Modificar Coordinador Acad&eacute;mico
                 </a>
@@ -87,7 +87,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.coordinadores-academicos.persona.index') }}">
                     <i class="fa fa-book fa-fw"></i>&nbsp;
                     Consultar Coordinador Acad&eacute;mico
                 </a>
@@ -96,7 +96,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.coordinadores-academicos.persona.index') }}">
                     <i class="fa fa-trash-o fa-fw"></i>&nbsp
                     Eliminar Coordinador Acad&eacute;mico
                 </a>
@@ -119,7 +119,7 @@
 
         <ul class="submenu">
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.coordinadores-disciplina.persona.create') }}">
                     <!--<i class="menu-icon fa fa-caret-right"></i>-->
                     <i class="fa fa-plus"></i>&nbsp;
                     Crear Coordinador Disciplina
@@ -129,7 +129,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.coordinadores-disciplina.persona.index') }}">
                     <i class="fa fa-pencil fa-fw"></i>&nbsp;
                     Modificar Coordinador Disciplina
                 </a>
@@ -138,7 +138,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.coordinadores-disciplina.persona.index') }}">
                     <i class="fa fa-book fa-fw"></i>&nbsp;
                     Consultar Coordinador Disciplina
                 </a>
@@ -147,7 +147,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.coordinadores-disciplina.persona.index') }}">
                     <i class="fa fa-trash-o fa-fw"></i>&nbsp
                     Eliminar Coordinador Disciplina
                 </a>
@@ -170,7 +170,7 @@
 
         <ul class="submenu">
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.docentes.persona.create') }}">
                     <!--<i class="menu-icon fa fa-caret-right"></i>-->
                     <i class="fa fa-plus"></i>&nbsp;
                     Crear Docente
@@ -180,7 +180,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.docentes.persona.index') }}">
                     <i class="fa fa-pencil fa-fw"></i>&nbsp;
                     Modificar Docente
                 </a>
@@ -189,7 +189,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.docentes.persona.index') }}">
                     <i class="fa fa-book fa-fw"></i>&nbsp;
                     Consultar Docente
                 </a>
@@ -198,7 +198,7 @@
             </li>
 
             <li class="">
-                <a href="#">
+                <a href="{{ route('gestionar.docentes.persona.index') }}">
                     <i class="fa fa-trash-o fa-fw"></i>&nbsp
                     Eliminar Docente
                 </a>

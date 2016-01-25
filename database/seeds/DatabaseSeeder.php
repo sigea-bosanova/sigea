@@ -26,7 +26,7 @@
 				 //  $this->call('CargoTableSeeder');
 
 				 //  $this->call('CargoPersonaTableSeeder');
-				 //  $this->call('MateriaTableSeeder');
+				   $this->call('MateriaTableSeeder');
 				 //  $this->call('EstudianteMateriaTableSeeder');
 				 //  $this->call('MateriaPersonaTableSeeder');
 				 //  $this->call('GradoTableSeeder');

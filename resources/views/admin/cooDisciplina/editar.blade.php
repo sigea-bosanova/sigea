@@ -1,5 +1,9 @@
+    @extends('admin.menu')
 
-        <h2 class="header smaller lighter blue">Creando Coordinador Academico</h2>
+    @section('contenido')
+
+
+        <h2 class="header smaller lighter blue">Editando:</h2>
 
 
 
@@ -23,7 +27,9 @@
 
 
 
-            {!! Form::open(['id' => 'formulario', 'method' =>'post', 'route' => 'gestionar.coordinadores-academicos.persona.store']) !!}
+
+
+            {!!  Form::model($persona, ['id' => 'formulario','route' => ['gestionar.coordinadores-disciplina.persona.update', $persona->id], 'method' => 'PUT']) !!}
 
             @include('compartido.persona.formulario')
 
@@ -35,7 +41,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Creando Coordinador Academico</h4>
+                            <h4 class="modal-title">Actualizando Coordinador de Disciplina</h4>
                         </div>
                         <div class="modal-body">
                             <p class="text-center">...</p>
@@ -44,6 +50,9 @@
                 </div>
             </div>
         </div>
+
+    @stop
+
 
 
 

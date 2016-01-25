@@ -38,7 +38,7 @@ class LoginController extends Controller {
 
 			Session::put(['id' =>$id, 'nombre' => $nombre,'nombreCompleto' => $nombreCompleto,
 				'perfil' => 'Estudiante','email' => $estudiante->email,'direccion' => $estudiante->direccion,
-				'celular' => $estudiante->celular]);
+				'celular' => $estudiante->celular, 'inicio' => 'estudiante.inicio']);
 
 			return redirect()->route('estudiante.inicio');
 		}
@@ -53,7 +53,7 @@ class LoginController extends Controller {
 
 			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
 				'perfil' => 'Docente','email' => $email,'direccion' => $persona->direccion,
-				'celular' => $persona->celular]);
+				'celular' => $persona->celular, 'inicio' => 'docente.inicio']);
 
 			return redirect()->route('docente.inicio');
 		}
@@ -68,7 +68,7 @@ class LoginController extends Controller {
 
 			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
 				'perfil' => 'Secretaria','email' => $email,'direccion' => $persona->direccion,
-				'celular' => $persona->celular]);
+				'celular' => $persona->celular, 'inicio' => 'secretaria.inicio']);
 
 
 			return redirect()->route('secretaria.inicio');
@@ -84,7 +84,7 @@ class LoginController extends Controller {
 
 			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
 				'perfil' => 'Coordinador Academico','email' => $email,'direccion' => $persona->direccion,
-				'celular' => $persona->celular]);
+				'celular' => $persona->celular, 'inicio' => 'cooacademico.inicio']);
 
 			return redirect()->route('cooacademico.inicio');
 
@@ -100,14 +100,14 @@ class LoginController extends Controller {
 
 			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
 				'perfil' => 'Coordinador Disciplina','email' => $email,'direccion' => $persona->direccion,
-				'celular' => $persona->celular]);
+				'celular' => $persona->celular, 'inicio' => 'coodisciplina.inicio']);
 
 			return redirect()->route('coodisciplina.inicio');
 
 		}
 
 
-		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'admi' ])){
+		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'Administrador' ])){
 
 			$persona = Persona::find($id);
 			$nombre = $persona->nombres;
@@ -116,7 +116,7 @@ class LoginController extends Controller {
 
 			Session::put(['id' =>$id, 'nombre'=>$nombre,'nombreCompleto' => $nombreCompleto,
 				'perfil' => 'Administrador','email' => $email,'direccion' => $persona->direccion,
-				'celular' => $persona->celular]);
+				'celular' => $persona->celular, 'inicio' => 'admin.inicio']);
 
 			return redirect()->route('admin.inicio');
 		}

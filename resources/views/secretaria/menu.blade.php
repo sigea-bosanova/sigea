@@ -13,7 +13,7 @@
 
             <ul class="submenu">
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('gestionar.docentes.persona.create') }}">
                         <!--<i class="menu-icon fa fa-caret-right"></i>-->
                         <i class="fa fa-plus"></i>&nbsp;
                         Crear Docente
@@ -23,7 +23,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('gestionar.docentes.persona.index') }}">
                         <i class="fa fa-pencil fa-fw"></i>&nbsp;
                         Modificar Docente
                     </a>
@@ -32,7 +32,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('gestionar.docentes.persona.index') }}">
                         <i class="fa fa-book fa-fw"></i>&nbsp;
                         Consultar Docente
                     </a>
@@ -41,7 +41,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('gestionar.docentes.persona.index') }}">
                         <i class="fa fa-trash-o fa-fw"></i>&nbsp
                         Eliminar Docente
                     </a>
