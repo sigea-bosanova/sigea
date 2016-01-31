@@ -31,6 +31,7 @@ class CreateDemograficosTable extends Migration {
 			$table->string('asignatura_dificulta');
 			$table->string('tipo_sangre');
 			$table->string('rh');
+			$table->timestamps();
 		});
 	}
 

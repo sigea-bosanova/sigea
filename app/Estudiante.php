@@ -40,6 +40,19 @@ class Estudiante extends Model
 
     }
 
+    public function grado()
+    {
+
+        return $this->belongsTo('Sigea\Grado');
+
+    }
+
+    public function demograficos()
+    {
+
+        return $this->hasOne('Sigea\Demografico');
+    }
+
 }
 
 

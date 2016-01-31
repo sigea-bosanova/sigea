@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="937024d2-f52c-469b-b572-06291e06fde9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/compartido/docente/formularioMostrar.blade.php" afterPath="$PROJECT_DIR$/resources/views/compartido/docente/formularioMostrar.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_10_12_191212_create_demograficos_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_10_12_191212_create_demograficos_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Demografico.php" afterPath="$PROJECT_DIR$/app/Demografico.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Estudiante.php" afterPath="$PROJECT_DIR$/app/Estudiante.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/EstudianteController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/EstudianteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/compartido/estudiante/formulario.blade.php" afterPath="$PROJECT_DIR$/resources/views/compartido/estudiante/formulario.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/compartido/estudiante/formularioMostrar.blade.php" afterPath="$PROJECT_DIR$/resources/views/compartido/estudiante/formularioMostrar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/estudiante/mostrar.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/estudiante/mostrar.blade.php" />
     </list>
     <ignored path="sigea.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,28 +34,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.206896">
+            <state vertical-scroll-proportion="-0.6896552">
               <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crear.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/estudiante/crear.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.310345">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="33" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocenteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DocenteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7586207">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,53 +44,69 @@
       <file leaf-file-name="EstudianteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EstudianteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.642857">
+              <caret line="170" column="15" selection-start-line="170" selection-start-column="15" selection-end-line="170" selection-end-column="45" />
               <folding>
-                <element signature="e#41#65#0#PHP" expanded="true" />
+                <element signature="e#41#75#0#PHP" expanded="true" />
+                <marker date="1454267478165" expanded="true" signature="5206:5273" placeholder="select paren..acudiente_estudiante..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formulario.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/compartido/estudiante/formulario.blade.php">
+      <file leaf-file-name="mostrar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/estudiante/mostrar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58549225">
-              <caret line="349" column="10" selection-start-line="349" selection-start-column="10" selection-end-line="349" selection-end-column="10" />
+            <state vertical-scroll-proportion="-10.344828">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Estudiante.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Estudiante.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3448277">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formularioMostrar.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/compartido/estudiante/formularioMostrar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44386873">
+              <caret line="357" column="10" selection-start-line="357" selection-start-column="10" selection-end-line="357" selection-end-column="10" />
               <folding>
-                <marker date="1453740066282" expanded="true" signature="6929:7229" placeholder="..." />
-                <marker date="1453740066282" expanded="true" signature="6943:7227" placeholder="..." />
-                <marker date="1453740066282" expanded="true" signature="6955:7157" placeholder="..." />
-                <marker date="1453740066282" expanded="true" signature="6955:7183" placeholder="..." />
-                <marker date="1453740066282" expanded="true" signature="7489:8006" placeholder="..." />
-                <marker date="1453740066282" expanded="true" signature="7503:8004" placeholder="..." />
-                <marker date="1453740066282" expanded="true" signature="7515:7960" placeholder="..." />
-                <marker date="1453740066282" expanded="true" signature="14699:14860" placeholder="..." />
-                <marker date="1453740066282" expanded="true" signature="14713:14858" placeholder="..." />
+                <marker date="1454269779298" expanded="true" signature="15381:15498" placeholder="..." />
+                <marker date="1454269779298" expanded="true" signature="15393:15496" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formulario.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/compartido/docente/formulario.blade.php">
+      <file leaf-file-name="formularioMostrar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/compartido/docente/formularioMostrar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.121212">
-              <caret line="243" column="3" selection-start-line="243" selection-start-column="3" selection-end-line="249" selection-end-column="8" />
+            <state vertical-scroll-proportion="-7.3103447">
+              <caret line="1274" column="35" selection-start-line="1274" selection-start-column="27" selection-end-line="1274" selection-end-column="35" />
               <folding>
-                <marker date="1453673428953" expanded="true" signature="7868:8098" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="7882:8096" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="10726:10971" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="10740:10969" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="13895:14142" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="13909:14140" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="17319:17566" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="17333:17564" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="20955:21202" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="20969:21200" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="24648:24895" placeholder="..." />
-                <marker date="1453673428953" expanded="true" signature="24662:24893" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="8285:8530" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="8299:8528" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="8748:8956" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="8762:8954" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="11233:11493" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="11247:11491" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="14492:14754" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="14506:14752" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="18006:18268" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="18020:18266" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="21732:21994" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="21746:21992" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="25515:25777" placeholder="..." />
+                <marker date="1453734803044" expanded="true" signature="25529:25775" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -119,12 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="C:/xampp/htdocs/ace/html/tables.html" />
-        <option value="$PROJECT_DIR$/../redhat/drogueria/resources/views/admi/productos/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Secretaria.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/secretaria/crear.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/secretaria/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_10_10_173108_create_personas_table.php" />
         <option value="$PROJECT_DIR$/resources/views/compartido/persona/formulario.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/compartido/persona/formularioMostrar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/secretaria/mostrar.blade.php" />
@@ -168,8 +163,14 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/estudiante/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/estudiante/crear.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/EstudianteController.php" />
         <option value="$PROJECT_DIR$/resources/views/compartido/estudiante/formulario.blade.php" />
+        <option value="$PROJECT_DIR$/app/Demografico.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_191212_create_demograficos_table.php" />
+        <option value="$PROJECT_DIR$/app/Estudiante.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EstudianteController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/estudiante/mostrar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/compartido/estudiante/formularioMostrar.blade.php" />
       </list>
     </option>
   </component>
@@ -565,7 +566,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -596,83 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/cooDisciplina/editar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5327272">
-          <caret line="43" column="80" selection-start-line="43" selection-start-column="80" selection-end-line="43" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/cooAcademico/editar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6896552">
-          <caret line="43" column="86" selection-start-line="43" selection-start-column="86" selection-end-line="43" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/cooAcademico/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5250432">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="66" selection-start-line="118" selection-start-column="66" selection-end-line="118" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.965517">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/cooAcademico/crear.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/cooDisciplina/mostrar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.586207">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/cooAcademico/crear.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/cooAcademico/editar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/cooAcademico/mostrar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0362694">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/compartido/cooAcademico/mostrar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06908463">
@@ -745,14 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DocenteSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6200345">
-          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/secretaria/docente/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93264246">
@@ -801,14 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Estudiante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Materia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -821,14 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/docente/mostrar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13816926">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -862,7 +762,7 @@
         <state vertical-scroll-proportion="-16.51724">
           <caret line="263" column="0" selection-start-line="263" selection-start-column="0" selection-end-line="407" selection-end-column="22" />
           <folding>
-            <element signature="e#41#65#0#PHP" expanded="true" />
+            <element signature="e#41#65#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -875,56 +775,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/docente/formularioMostrar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68911916">
-          <caret line="1276" column="38" selection-start-line="1276" selection-start-column="38" selection-end-line="1276" selection-end-column="38" />
-          <folding>
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453734803044" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/compartido/estudiante/formularioMostrar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.931034">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/GradoTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/AcudienteTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.862069">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -954,34 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/estudiante/mostrar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.206896">
-          <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/estudiante/crear.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.310345">
           <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DocenteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7586207">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -994,51 +823,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EstudianteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#41#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/compartido/docente/formulario.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.121212">
           <caret line="243" column="3" selection-start-line="243" selection-start-column="3" selection-end-line="249" selection-end-column="8" />
           <folding>
-            <marker date="1453673428953" expanded="true" signature="7868:8098" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="7882:8096" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="10726:10971" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="10740:10969" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="13895:14142" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="13909:14140" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="17319:17566" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="17333:17564" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="20955:21202" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="20969:21200" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="24648:24895" placeholder="..." />
-            <marker date="1453673428953" expanded="true" signature="24662:24893" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453673428953" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_10_173108_create_personas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4835924">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/AcudienteTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.13989638">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CargoPersonaTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DocenteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="117.93104">
+          <caret line="75" column="89" selection-start-line="74" selection-start-column="12" selection-end-line="75" selection-end-column="89" />
+          <folding>
+            <element signature="e#41#65#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/compartido/estudiante/PrimerformularioMostrar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.586207">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453677450245" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DocenteSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6701209">
+          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ObservacionTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.172414">
+          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Observacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3793104">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#63#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Demografico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.827586">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_185702_create_estudiante_materia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7599309">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_191212_create_demograficos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/compartido/estudiante/formulario.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58549225">
-          <caret line="349" column="10" selection-start-line="349" selection-start-column="10" selection-end-line="349" selection-end-column="10" />
+        <state vertical-scroll-proportion="-3.1551723">
+          <caret line="128" column="47" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="47" />
           <folding>
-            <marker date="1453740066282" expanded="true" signature="6929:7229" placeholder="..." />
-            <marker date="1453740066282" expanded="true" signature="6943:7227" placeholder="..." />
-            <marker date="1453740066282" expanded="true" signature="6955:7157" placeholder="..." />
-            <marker date="1453740066282" expanded="true" signature="6955:7183" placeholder="..." />
-            <marker date="1453740066282" expanded="true" signature="7489:8006" placeholder="..." />
-            <marker date="1453740066282" expanded="true" signature="7503:8004" placeholder="..." />
-            <marker date="1453740066282" expanded="true" signature="7515:7960" placeholder="..." />
-            <marker date="1453740066282" expanded="true" signature="14699:14860" placeholder="..." />
-            <marker date="1453740066282" expanded="true" signature="14713:14858" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1454124518636" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6896552">
+          <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_12_170627_create_estudiantes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54749566">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33223686">
+          <caret line="570" column="16" selection-start-line="570" selection-start-column="16" selection-end-line="570" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/estudiante/mostrar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.344828">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Estudiante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3448277">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EstudianteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.642857">
+          <caret line="170" column="15" selection-start-line="170" selection-start-column="15" selection-end-line="170" selection-end-column="45" />
+          <folding>
+            <element signature="e#41#75#0#PHP" expanded="true" />
+            <marker date="1454267478165" expanded="true" signature="5206:5273" placeholder="select paren..acudiente_estudiante..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/docente/mostrar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5181347">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/compartido/docente/formularioMostrar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3103447">
+          <caret line="1274" column="35" selection-start-line="1274" selection-start-column="27" selection-end-line="1274" selection-end-column="35" />
+          <folding>
+            <marker date="1453734803044" expanded="true" signature="8285:8530" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="8299:8528" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="8748:8956" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="8762:8954" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="11233:11493" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="11247:11491" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="14492:14754" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="14506:14752" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="18006:18268" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="18020:18266" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="21732:21994" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="21746:21992" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="25515:25777" placeholder="..." />
+            <marker date="1453734803044" expanded="true" signature="25529:25775" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/compartido/estudiante/formularioMostrar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44386873">
+          <caret line="357" column="10" selection-start-line="357" selection-start-column="10" selection-end-line="357" selection-end-column="10" />
+          <folding>
+            <marker date="1454269779298" expanded="true" signature="15381:15498" placeholder="..." />
+            <marker date="1454269779298" expanded="true" signature="15393:15496" placeholder="..." />
           </folding>
         </state>
       </provider>

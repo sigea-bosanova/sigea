@@ -2,8 +2,8 @@
 
     @section('contenido')
 
-  @if(isset($persona))
-        <h2 class="header smaller lighter blue">Mostrando datos de: {{ $persona->nombres }}</h2>
+  @if(isset($estudiante))
+        <h2 class="header smaller lighter blue">Mostrando datos de: {{ $estudiante->nombre }} </h2>
 
 
 
@@ -28,9 +28,10 @@
 
 
             {!! Form::open(['id' => 'formulario']) !!}
-            {!! Form::model($persona) !!}
+            {!! Form::model($estudiante) !!}
 
-            @include('compartido.docente.formularioMostrar')
+
+            @include('compartido.estudiante.formularioMostrar')
 
             {!! Form::close() !!}
   @endif

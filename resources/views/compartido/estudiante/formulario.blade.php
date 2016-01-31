@@ -55,7 +55,7 @@
 
         <div >
 						<span class="block input-icon input-icon-right">
-                        {!! Form::text('email',null,['class' => 'required email width-40']) !!}
+                        {!! Form::text('email',null,['class' => 'email width-40']) !!}
 						</span>
         </div>
 
@@ -406,6 +406,278 @@
 
 
 
+
+</fieldset>
+
+
+<h3>Datos Personales Primer Acudiente</h3>
+<fieldset>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">No. Identificacion</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+					    {!! Form::text('id_ac_1',null,['class' => 'required number width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nombres :</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('nombre_ac_1',null,['class' => 'required  width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Primer Apellido:</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('primer_apellido_ac_1',null,['class' => 'required width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Segundo Apellido  :</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('segundo_apellido_ac_1',null,['class' => 'width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Correo Electronico:</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('email_ac_1',null,['class' => 'email width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Fecha de Nacimiento:</label>
+        <div >
+						<span class="block input-icon input-icon-right">
+
+						{!! Form::date('fecha_nacimiento_ac_1',null,['class' => 'required date width-40']) !!}
+						</span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nivel Educativo:</label>
+        <div >
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('nivel_educativo_ac_1',['' => 'Seleccione una Opcion','Ninguno' => 'Ninguno', 'Primaria' => 'Primaria', 'Secundaria' => 'Secundaria', 'Bachiller' => 'Bachiller', 'Tecnico' => 'Tecnico', 'Tecnnologia' => 'Tecnnologia', 'Profesional' => 'Profesional'],null, ['class' => 'form-control width-40']) !!}
+                                </span>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Direccion Residencia:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('direccion_ac_1',null,['class' => ' width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Barrio :</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('barrio_ac_1',null,['class' => ' width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Telefono:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('telefono_ac_1',null,['class' => 'number  width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Celular:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('celular_ac_1',null,['class' => ' number width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Parentesco con el Estudiante:</label>
+        <div >
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('parentesco_ac_1',['' => 'Seleccione una Opcion','Padre' => 'Padre', 'Madre' => 'Madre', 'Acudiente' => 'Acudiente'],null, ['class' => 'form-control width-40']) !!}
+                                </span>
+        </div>
+    </div>
+    <br>
+
+
+</fieldset>
+
+
+
+<h3>Datos Personales Segundo Acudiente</h3>
+<fieldset>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">No. Identificacion</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+					    {!! Form::text('id_ac_2',null,['class' => 'number width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nombres :</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('nombre_ac_2',null,['class' => 'width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Primer Apellido:</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('primer_apellido_ac_2',null,['class' => 'width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Segundo Apellido  :</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('segundo_apellido_ac_2',null,['class' => 'width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Correo Electronico:</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('email_ac_2',null,['class' => 'email width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Fecha de Nacimiento:</label>
+        <div >
+						<span class="block input-icon input-icon-right">
+
+						{!! Form::date('fecha_nacimiento_ac_2',null,['class' => 'date width-40']) !!}
+						</span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nivel Educativo:</label>
+        <div >
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('nivel_educativo_ac_2',['' => 'Seleccione una Opcion','Ninguno' => 'Ninguno', 'Primaria' => 'Primaria', 'Secundaria' => 'Secundaria', 'Bachiller' => 'Bachiller', 'Tecnico' => 'Tecnico', 'Tecnnologia' => 'Tecnnologia', 'Profesional' => 'Profesional'],null, ['class' => 'form-control width-40']) !!}
+                                </span>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Direccion Residencia:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('direccion_ac_2',null,['class' => ' width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Barrio :</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('barrio_ac_2',null,['class' => ' width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Telefono:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('telefono_ac_2',null,['class' => 'number  width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Celular:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('celular_ac_2',null,['class' => ' number width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Parentesco con el Estudiante:</label>
+        <div >
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('parentesco_ac_2',['' => 'Seleccione una Opcion','Padre' => 'Padre', 'Madre' => 'Madre', 'Acudiente' => 'Acudiente'],null, ['class' => 'form-control width-40']) !!}
+                                </span>
+        </div>
+    </div>
+    <br>
 
 </fieldset>
 
