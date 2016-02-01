@@ -1,0 +1,748 @@
+
+<h3>Datos Personales del estudiante</h3>
+
+<fieldset>
+
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">No. Identificacion</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+					    {!! Form::text('id',null,['class' => 'number width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nombres :</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('nombre',null,['class' => 'width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Primer Apellido:</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('primer_apellido',null,['class' => 'required width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Segundo Apellido  :</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('segundo_apellido',null,['class' => 'width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Correo Electronico:</label>
+
+        <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('email',null,['class' => 'email width-40']) !!}
+						</span>
+        </div>
+
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Fecha de Nacimiento:</label>
+        <div >
+						<span class="block input-icon input-icon-right">
+
+						{!! Form::date('fecha_nacimiento',null,['class' => ' date width-40']) !!}
+						</span>
+        </div>
+    </div>
+    <br>
+
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right"> Genero</label>
+        <div class="radio-inline">
+            <div class="radio">
+                <label> {!!  Form::radio('genero', 'Femenino') !!} Femenino</label>
+            </div>
+            <div class="radio">
+                <label>  {!!  Form::radio('genero', 'Masculino')!!} Masculino</label>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right"> Jornada: </label>
+        <div  >
+            <div class="radio-inline">
+                <div class="radio">
+                    <label> {!! Form::radio('jornada', 'Am') !!} Am</label>
+                </div>
+                <div class="radio">
+                    <label>  {!! Form::radio('jornada', 'Pm') !!} Pm</label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right"> Es estudiante antiguo en la institucion? </label>
+        <div  >
+            <div class="radio-inline">
+                <div class="radio">
+                    <label> {!! Form::radio('antiguo', 'Si') !!} Si</label>
+                </div>
+                <div class="radio">
+                    <label> {!! Form::radio('antiguo', 'No') !!} No</label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right"> Estrato </label>
+        <div  >
+            <div class="radio-inline">
+                <div class="radio">
+                    <label> {!! Form::radio('estrato', '1') !!} 1</label>
+                </div>
+                <div class="radio">
+                    <label> {!! Form::radio('estrato', '2') !!} 2</label>
+                </div>
+            </div>
+            <div class="radio-inline">
+                <div class="radio">
+                    <label> {!! Form::radio('estrato', '3') !!} 3</label>
+                </div>
+
+
+                <div class="radio">
+                    <label> {!! Form::radio('estrato', '4') !!} 4</label>
+                </div>
+            </div>
+            <div class="radio-inline">
+                <div class="radio">
+                    <label> {!! Form::radio('estrato', '5') !!} 5</label>
+                </div>
+                <div class="radio">
+                    <label> {!! Form::radio('estrato', '6') !!} 6</label>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+
+
+
+
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Eps:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('eps',null,['class' => ' form-control width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Etnia:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('etnia',null,['class' => ' width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Direccion Residencia:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('direccion',null,['class' => ' width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Barrio :</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('barrio',null,['class' => ' width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Telefono:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('telefono',null,['class' => 'number  width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Celular:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('celular',null,['class' => ' number width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Grado:</label>
+        <div >
+            @if(isset($grado))
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('grado_id',['' => 'Seleccione una Opcion','1' => 'Primero', '2' => 'Segundo', '3' => 'Tercero', '4' => 'Cuarto', '5' => 'Quinto', '6' => 'Sexto', '7' => 'Septimo', '8' => 'Octavo', '9' => 'Noveno', '10' => 'Decimo', '11' => 'Decimo Primero'],null, ['class' => 'form-control width-40']) !!}
+                                </span>
+            @endif
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Curso:</label>
+        <div >
+            @if(isset($grado))
+                <span class="block input-icon input-icon-right">
+                               <div >
+                                   {!! Form::select('curso_id',['' => 'Seleccione una Opcion','1' =>'1-A','2' =>'1-B','3' => '1-C','4' => '2-A','5' =>'2-B','6' =>'2-C','7'=>'3-A','8'=>'3-B','9'=>'3-C','10'=>'4-A','11' =>'4-B','12' => '4-C','13'=>'5-A','14' =>'5-B','15' => '5-C','16'=>'6-A','17' =>'6-B','18' => '6-C','19'=>'7-A','20' =>'7-B','21' => '7-C','22'=>'8-A','23' =>'8-B','24' => '8-C','25'=>'9-A','26'=>'9-B','27'=>'9-C','28'=>'10-A','29'=>'10-B','30'=>'10-C','31'=>'11-A','32'=>'11-B','33'=>'11-C'],null, ['class' => 'form-control width-40']) !!}
+                               </div>
+                </span>
+            @endif
+        </div>
+    </div>
+    <br>
+
+
+
+
+
+
+</fieldset>
+
+
+<h3>Datos Demograficos Estudiante</h3>
+<fieldset>
+
+    @if(isset($demograficos))
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Lugar que ocupa entre los hermanos:</label>
+        <div  >
+            {!! Form::text('lugar_ocupa_hermanos',$demograficos->lugar_ocupa_hermanos,['class' => 'number width-40']) !!}
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label  class="col-xs-12 col-sm-3 ">Tipo de Vivienda: </label>
+        <div>
+            <div class="radio-inline">
+                <div class="radio">
+                    <label>{!! Form::radio('tipo_vivienda', 'Propia',['class' => 'number width-40']) !!} Propia</label>
+                </div>
+                <div class="radio">
+                    <label>  {!! Form::radio('tipo_vivienda', 'Arriendo',['class' => 'number width-40']) !!} Arriendo</label>
+            </div>
+        </div>
+
+
+        </div>
+        </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right"> Cantidad de veces que come a diario:</label>
+        <div  >
+            {!! Form::text('cantidad_veces_come_diario',$demograficos->cantidad_veces_come_diario,['class' => 'number width-40']) !!}
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">A&ntilde;os Perdidos:</label>
+        <div  >
+            {!! Form::text('anos_perdidos',$demograficos->anos_perdidos,['class' => 'number width-40']) !!}
+        </div>
+        <br>
+        <br>
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Descripcion  a&ntilde;os perdidos actualmente:</label>
+        <div  >
+            {!! Form::text('descripcion_anos_perdidos',$demograficos->descripcion_anos_perdidos,['disabled'=>'','class' => 'number width-40']) !!}
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Seleccione los  a&ntilde;os perdidos actualmente:</label>
+        <div class="form-group" >
+            <div class="center">
+
+                <div class="form-group" >
+                    {!! Form::label('Primero',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Primero') !!}
+                    {!! Form::label('Segundo',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Segundo') !!}
+                    {!! Form::label('Tercero',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Tercero') !!}
+                    {!! Form::label('Cuarto',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]','Cuarto') !!}
+                    {!! Form::label('Quinto',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Quinto') !!}
+                </div>
+                <div class="form-group" >
+                    {!! Form::label('Sexto',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Sexto') !!}
+                    {!! Form::label('Septimo',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Septimo') !!}
+                    {!! Form::label('Octavo',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Octavo') !!}
+                    {!! Form::label('Noveno',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Noveno') !!}
+                    {!! Form::label('Decimo',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Decimo') !!}
+                    {!! Form::label('Decimo Primero',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Decimo Primero') !!}
+
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <br>
+
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Enuncie los problemas de salud del estudiante(Si tiene):</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('problemas_salud',$demograficos->problemas_salud,['class' => ' form-control width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Tratamiento para los problemas de Salud:</label>
+        <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('tratamiento_problemas_salud',$demograficos->tratamiento_problemas_salud,['class' => ' form-control width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Enuncie los medicamentos tomados(Si aplica):</label>
+        <div>
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('medicamentos_tomados',$demograficos->medicamentos_tomados,['class' => ' form-control width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Enuncie otros problemas de salud del estudiante(Si tiene):</label>
+        <div>
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('otro_problema',$demograficos->otro_problema,['class' => ' form-control width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Terapias  a las que asiste(Si aplica).</label>
+        <div>
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('otra_terapia',$demograficos->otra_terapia,['class' => ' form-control width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Asignatura que se le dificulta:</label>
+        <div>
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('asignatura_dificulta',$demograficos->asignatura_dificulta,['class' => ' form-control width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group ">
+        <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Asignatura que se le facilita:</label>
+        <div>
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('asignatura_facilita',$demograficos->asignatura_facilita,['class' => ' form-control width-40']) !!}
+                        </span>
+        </div>
+    </div>
+    <br>
+
+    <div class="form-group">
+        <label for="eduBasPrimaria" class="col-xs-12 col-sm-3 control-label">Tipo de Sangre:</label>
+        <div class="form-input" >
+            <div class="form-input" >
+                {!! Form::select('tipo_sangre',['' => 'Seleccione una Opcion','O' =>'O' ,'A' => 'A' ,'B' => 'B','AB' => 'AB'],$demograficos->tipo_sangre , ['class' => 'required form-control width-40']) !!}
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+        <div class="form-group ">
+            <label  class="col-xs-12 col-sm-3 ">Rh: </label>
+            <div>
+                <div class="radio-inline">
+                    <div class="radio">
+                        <label>{!! Form::radio('rh', 'Positivo',['class' => 'number width-40']) !!} Positivo</label>
+                    </div>
+                    <div class="radio">
+                        <label>  {!! Form::radio('rh', 'Negativo',['class' => 'number width-40']) !!} Negativo</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br>
+    @endif
+
+
+</fieldset>
+
+@if(isset($acudiente1))
+
+
+    <h3>Datos Personales Primer Acudiente</h3>
+    <fieldset>
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">No. Identificacion</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+					    {!! Form::text('id_ac_1',$acudiente1->id,['disabled'=>'','class' => 'required number width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nombres :</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('nombre_ac_1',$acudiente1->nombre,['class' => 'required  width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Primer Apellido:</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('primer_apellido_ac_1',$acudiente1->primer_apellido,['class' => 'required width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Segundo Apellido  :</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('segundo_apellido_ac_1',$acudiente1->segundo_apellido,['class' => 'width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Correo Electronico:</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('email_ac_1',$acudiente1->email,['class' => 'email width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Fecha de Nacimiento:</label>
+            <div >
+						<span class="block input-icon input-icon-right">
+
+						{!! Form::date('fecha_nacimiento_ac_1',$acudiente1->fecha_nacimiento,['class' => 'required date width-40']) !!}
+						</span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nivel Educativo:</label>
+            <div >
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('nivel_educativo_ac_1',['' => 'Seleccione una Opcion','Ninguno' => 'Ninguno', 'Primaria' => 'Primaria', 'Secundaria' => 'Secundaria', 'Bachiller' => 'Bachiller', 'Tecnico' => 'Tecnico', 'Tecnnologia' => 'Tecnnologia', 'Profesional' => 'Profesional'],$acudiente1->nivel_educativo, ['class' => 'form-control width-40']) !!}
+                                </span>
+            </div>
+        </div>
+        <br>
+
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Direccion Residencia:</label>
+            <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('direccion_ac_1',$acudiente1->direccion,['class' => ' width-40']) !!}
+                        </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Barrio :</label>
+            <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('barrio_ac_1',$acudiente1->barrio,['class' => ' width-40']) !!}
+                        </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Telefono:</label>
+            <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('telefono_ac_1',$acudiente1->telefono,['class' => 'number  width-40']) !!}
+                        </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Celular:</label>
+            <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('celular_ac_1',$acudiente1->celular,['class' => ' number width-40']) !!}
+                        </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Parentesco con el Estudiante:</label>
+            <div >
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('parentesco_ac_1',['' => 'Seleccione una Opcion','Padre' => 'Padre', 'Madre' => 'Madre', 'Acudiente' => 'Acudiente'],$parentescos[0][0]->parentesco, ['class' => 'form-control width-40']) !!}
+                                </span>
+            </div>
+        </div>
+        <br>
+
+
+    </fieldset>
+
+@endif
+
+
+
+@if(isset($acudiente2))
+
+
+    <h3>Datos Personales Segundo Acudiente</h3>
+    <fieldset>
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">No. Identificacion</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+					    {!! Form::text('id_ac_2',$acudiente2->id,['disabled' =>'','class' => 'required number width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nombres :</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('nombre_ac_2',$acudiente2->nombre,['class' => 'required  width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Primer Apellido:</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+						{!! Form::text('primer_apellido_ac_2',$acudiente2->primer_apellido,['class' => 'required width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Segundo Apellido  :</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('segundo_apellido_ac_2',$acudiente2->segundo_apellido,['class' => 'width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Correo Electronico:</label>
+
+            <div >
+						<span class="block input-icon input-icon-right">
+                        {!! Form::text('email_ac_2',$acudiente2->email,['class' => 'email width-40']) !!}
+						</span>
+            </div>
+
+        </div>
+        <br>
+
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Fecha de Nacimiento:</label>
+            <div >
+						<span class="block input-icon input-icon-right">
+
+						{!! Form::date('fecha_nacimiento_ac_2',$acudiente2->fecha_nacimiento,['class' => 'required date width-40']) !!}
+						</span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Nivel Educativo:</label>
+            <div >
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('nivel_educativo_ac_2',['' => 'Seleccione una Opcion','Ninguno' => 'Ninguno', 'Primaria' => 'Primaria', 'Secundaria' => 'Secundaria', 'Bachiller' => 'Bachiller', 'Tecnico' => 'Tecnico', 'Tecnnologia' => 'Tecnnologia', 'Profesional' => 'Profesional'],$acudiente2->nivel_educativo, ['class' => 'form-control width-40']) !!}
+                                </span>
+            </div>
+        </div>
+        <br>
+
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Direccion Residencia:</label>
+            <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('direccion_ac_2',$acudiente2->direccion,['class' => ' width-40']) !!}
+                        </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Barrio :</label>
+            <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('barrio_ac_2',$acudiente2->barrio,['class' => ' width-40']) !!}
+                        </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Telefono:</label>
+            <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('telefono_ac_2',$acudiente2->telefono,['class' => 'number  width-40']) !!}
+                        </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Celular:</label>
+            <div >
+                        <span class="block input-icon input-icon-right">
+                            {!! Form::text('celular_ac_2',$acudiente2->celular,['class' => ' number width-40']) !!}
+                        </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="form-group ">
+            <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Parentesco con el Estudiante:</label>
+            <div >
+                                <span class="block input-icon input-icon-right">
+                                    {!! Form::select('parentesco_ac_2',['' => 'Seleccione una Opcion','Padre' => 'Padre', 'Madre' => 'Madre', 'Acudiente' => 'Acudiente'],$parentescos[0][1]->parentesco, ['class' => 'form-control width-40']) !!}
+                                </span>
+            </div>
+        </div>
+        <br>
+
+
+    </fieldset>
+
+@endif
+
+
+
+
+<h3>Final</h3>
+<fieldset>
+    <div class="center">
+        <h3 class="green">Felicitaciones!</h3>
+        Ya diligenciaste todo  el formulario. Presiona Finalizar para guardarlo.
+        <br>
+    </div>
+
+</fieldset>

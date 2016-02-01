@@ -29,9 +29,9 @@
 
 
 
-            {!!  Form::model($persona, ['id' => 'formulario','route' => ['gestionar.docentes.persona.update', $persona->id], 'method' => 'PUT']) !!}
+            {!!  Form::model($estudiante, ['id' => 'formulario','route' => ['gestionar.estudiantes.estudiante.update', $estudiante->id], 'method' => 'PUT']) !!}
 
-            @include('compartido.docente.formulario')
+            @include('compartido.estudiante.formularioEditar')
 
             {!! Form::close() !!}
 
@@ -41,7 +41,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Actualizando Docente</h4>
+                            <h4 class="modal-title">Actualizando Estudiante</h4>
                         </div>
                         <div class="modal-body">
                             <p class="text-center">...</p>
