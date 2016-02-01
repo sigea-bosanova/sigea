@@ -13,7 +13,7 @@
             <ul class="submenu">
 
                 <li class="">
-                    <a href=" {{ url('docente/consultar-estudiante')  }}">
+                    <a href=" {{ route('gestionar.estudiantes.estudiante.index') }}">
                         <i class="fa fa-book fa-fw"></i>&nbsp;
                         Consultar Estudiante
                     </a>

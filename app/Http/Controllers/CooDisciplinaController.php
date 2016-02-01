@@ -420,7 +420,14 @@ class CooDisciplinaController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+        $persona = Persona::find($id);
+        $persona->delete();
+
+        $user = User::find($id);
+        $user->delete();
+
+        \Session::Flash('message','Coordinador Disciplina Eliminado Correctamente');
+        return Redirect::to('gestionar/coordinadores-disciplina/persona');
 	}
 
 	public function buscarDisciplina(){

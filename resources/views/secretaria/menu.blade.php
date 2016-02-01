@@ -64,7 +64,7 @@
 
             <ul class="submenu">
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('gestionar.estudiantes.estudiante.create') }}">
                         <!--<i class="menu-icon fa fa-caret-right"></i>-->
                         <i class="fa fa-plus"></i>&nbsp;
                         Crear Estudiante
@@ -74,7 +74,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('gestionar.estudiantes.estudiante.index') }}">
                         <i class="fa fa-pencil fa-fw"></i>&nbsp;
                         Modificar Estudiante
                     </a>
@@ -83,7 +83,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('gestionar.estudiantes.estudiante.index') }}">
                         <i class="fa fa-book fa-fw"></i>&nbsp;
                         Consultar Estudiante
                     </a>
@@ -92,7 +92,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('gestionar.estudiantes.estudiante.index') }}">
                         <i class="fa fa-trash-o fa-fw"></i>&nbsp
                         Eliminar Estudiante
                     </a>

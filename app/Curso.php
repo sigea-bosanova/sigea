@@ -7,7 +7,7 @@ class Curso extends Model {
 
 	public function estudiantes(){
 
-        return $this->hasMany('Sigea\Estudiantes');
+        return $this->hasMany('Sigea\Estudiante');
     }
 
 }

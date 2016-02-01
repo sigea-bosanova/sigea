@@ -1,6 +1,8 @@
 <?php namespace Sigea\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
+use Sigea\Curso;
+use Sigea\Grado;
 use Sigea\Http\Requests;
 use Sigea\Http\Controllers\Controller;
 use Sigea\Persona;
@@ -22,7 +24,7 @@ class EstudianteController extends Controller {
 	 */
 	public function index()
 	{
-
+   return view('admin.estudiante.index');
 	}
 
 	/**
@@ -63,7 +65,8 @@ class EstudianteController extends Controller {
 		$estudiante->grado_id = Input::get('grado_id');
 		$estudiante->curso_id = Input::get('curso_id');
 
-        $demografico = new Demografico();
+
+		$demografico = new Demografico();
 		$demografico->lugar_ocupa_hermanos = Input::get('lugar_ocupa_hermanos');
 		$demografico->tipo_vivienda = Input::get('tipo_vivienda');
 		$demografico->cantidad_veces_come_diario = Input::get('cantidad_veces_come_diario');
@@ -86,7 +89,6 @@ class EstudianteController extends Controller {
 
 
 		$estudiante->demograficos()->save($demografico);
-
 		$user = new User();
 
 		$faker = Factory::create('es_ES');
@@ -350,13 +352,45 @@ class EstudianteController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+		$estudiante = Estudiante::find($id);
+		$estudiante->acudientes()->detach();
+		$estudiante->delete();
+
+		$user = User::find($id);
+		$user->delete();
+
+		\Session::Flash('message','Estudiante Eliminado Correctamente');
+		return \Redirect::to('gestionar/estudiantes/estudiante');
 	}
 
 	public function variosAcudientes($acudientes){
 		if(count($acudientes)>1)
 			return true;
 				else return false;
+	}
+
+	public function buscarPorCurso(){
+
+        $idCurso = Input::get('curso');
+		$curso = Curso::find($idCurso);
+		$estudiantes = $curso->estudiantes;
+		return view('admin.estudiante.resultadoBusqueda', compact('estudiantes'));
+
+	}
+
+	public function buscarPorGrado(){
+		$idGrado = Input::get('grado');
+		$grado = Grado::find($idGrado);
+		$estudiantes = $grado->estudiantes;
+		return view('admin.estudiante.resultadoBusqueda', compact('estudiantes'));
+
+	}
+
+	public function buscarPorId(){
+		$unicoEstudiante = Estudiante::find(Input::get('id'));
+			return view('admin.estudiante.resultadoBusqueda', compact('unicoEstudiante'));
+
+
 	}
 
 

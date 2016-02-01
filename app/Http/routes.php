@@ -98,6 +98,10 @@
 
             Route::resource('estudiante','EstudianteController');
 
+            Route::post('busqueda-por-curso',['uses'=>'EstudianteController@buscarPorCurso', 'as' =>'busqueda.por.curso']);
+            Route::post('busqueda-por-grado',['uses'=>'EstudianteController@buscarPorGrado', 'as' =>'busqueda.por.grado']);
+            Route::post('busqueda-por-id',['uses'=>'EstudianteController@buscarPorId', 'as' =>'busqueda.por.id']);
+
         });
 
     });
