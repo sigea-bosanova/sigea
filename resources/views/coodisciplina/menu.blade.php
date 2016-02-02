@@ -89,7 +89,7 @@
 
             <ul class="submenu">
                 <li class="">
-                    <a href="#">
+                    <a href="{{ route('observaciones.crear') }}">
                         <!--<i class="menu-icon fa fa-caret-right"></i>-->
                         <i class="fa fa-plus"></i>&nbsp;
                         Crear Observaci&oacute;n
@@ -108,7 +108,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href=" {{ route('observaciones.index') }} ">
                         <i class="fa fa-book fa-fw"></i>&nbsp;
                         Consultar Observaci&oacute;n
                     </a>

@@ -52,13 +52,11 @@
 
     <div class="form-group ">
         <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Correo Electronico:</label>
-
-        <div >
-						<span class="block input-icon input-icon-right">
-                        {!! Form::text('email',null,['class' => 'email width-40']) !!}
-						</span>
+            <div >
+                <span class="block input-icon input-icon-right">
+                    {!! Form::text('email',null,['class' => 'email width-40']) !!}
+                </span>
         </div>
-
     </div>
     <br>
 
@@ -219,7 +217,7 @@
         <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Grado:</label>
         <div >
                                 <span class="block input-icon input-icon-right">
-                                    {!! Form::select('grado_id',['' => 'Seleccione una Opcion','1' => 'Primero', '2' => 'Segundo', '3' => 'Tercero', '4' => 'Cuarto', '5' => 'Quinto', '6' => 'Sexto', '7' => 'Septimo', '8' => 'Octavo', '9' => 'Noveno', '10' => 'Decimo', '11' => 'Decimo Primero'],null, ['class' => 'form-control width-40']) !!}
+                                    {!! Form::select('grado_id',['' => 'Seleccione una Opcion','1' => 'Primero', '2' => 'Segundo', '3' => 'Tercero', '4' => 'Cuarto', '5' => 'Quinto', '6' => 'Sexto', '7' => 'Septimo', '8' => 'Octavo', '9' => 'Noveno', '10' => 'Decimo', '11' => 'Decimo Primero'],null, ['required'=>'','class' => 'form-control width-40']) !!}
                                 </span>
         </div>
     </div>
@@ -228,7 +226,7 @@
     <div class="form-group ">
         <label for="eduSupSemestresAprovados2" class="col-xs-12 col-sm-3 control-label no-padding-right">Curso:</label>
         <div >
-            {!! Form::select('curso_id',['' => 'Seleccione una Opcion','1' =>'1-A','2' =>'1-B','3' => '1-C','4' => '2-A','5' =>'2-B','6' =>'2-C','7'=>'3-A','8'=>'3-B','9'=>'3-C','10'=>'4-A','11' =>'4-B','12' => '4-C','13'=>'5-A','14' =>'5-B','15' => '5-C','16'=>'6-A','17' =>'6-B','18' => '6-C','19'=>'7-A','20' =>'7-B','21' => '7-C','22'=>'8-A','23' =>'8-B','24' => '8-C','25'=>'9-A','26'=>'9-B','27'=>'9-C','28'=>'10-A','29'=>'10-B','30'=>'10-C','31'=>'11-A','32'=>'11-B','33'=>'11-C'],null, ['class' => 'form-control width-40']) !!}
+            {!! Form::select('curso_id',['' => 'Seleccione una Opcion','1' =>'1-A','2' =>'1-B','3' => '1-C','4' => '2-A','5' =>'2-B','6' =>'2-C','7'=>'3-A','8'=>'3-B','9'=>'3-C','10'=>'4-A','11' =>'4-B','12' => '4-C','13'=>'5-A','14' =>'5-B','15' => '5-C','16'=>'6-A','17' =>'6-B','18' => '6-C','19'=>'7-A','20' =>'7-B','21' => '7-C','22'=>'8-A','23' =>'8-B','24' => '8-C','25'=>'9-A','26'=>'9-B','27'=>'9-C','28'=>'10-A','29'=>'10-B','30'=>'10-C','31'=>'11-A','32'=>'11-B','33'=>'11-C'],null, ['required'=>'','class' => 'form-control width-40']) !!}
         </div>
     </div>
     <br>
@@ -254,10 +252,10 @@
 
         <div class="radio-inline">
             <div class="radio">
-                <label>{!! Form::radio('tipo_vivienda', 'Propia  ') !!} Propia</label>
+                <label>{!! Form::radio('tipo_vivienda', 'Propia  ', null,['required'=>'']) !!} Propia</label>
             </div>
             <div class="radio">
-                <label>  {!! Form::radio('tipo_vivienda', 'Arriendo') !!} Arriendo</label>
+                <label>  {!! Form::radio('tipo_vivienda', 'Arriendo', null,['required'=>'']) !!} Arriendo</label>
             </div>
 
         </div>
@@ -291,7 +289,8 @@
         <div class="center">
 
             <div class="form-group" >
-                {!! Form::label('Primero',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Primero') !!}
+
+                {!! Form::label('Primero',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Primero', null,['required'=>'']) !!}
                 {!! Form::label('Segundo',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Segundo') !!}
                 {!! Form::label('Tercero',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Tercero') !!}
                 {!! Form::label('Cuarto',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]','Cuarto') !!}
@@ -304,6 +303,7 @@
                 {!! Form::label('Noveno',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Noveno') !!}
                 {!! Form::label('Decimo',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Decimo') !!}
                 {!! Form::label('Decimo Primero',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Decimo Primero') !!}
+                {!! Form::label('Ninguno',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('descripcion_anos_perdidos[]', 'Ninguno') !!}
 
             </div>
         </div>
@@ -394,10 +394,10 @@
 
         <div class="radio-inline">
             <div class="radio">
-                <label> {!!  Form::radio('rh', 'Positivo') !!} Positivo</label>
+                <label> {!!  Form::radio('rh', 'Positivo', null,['required'=>'']) !!} Positivo</label>
             </div>
             <div class="radio">
-                <label>  {!!  Form::radio('rh', 'Negativo')!!} Negativo</label>
+                <label>  {!!  Form::radio('rh', 'Negativo', null,['required'=>''])!!} Negativo</label>
             </div>
         </div>
     </div>
@@ -536,7 +536,7 @@
         <label for="" class="col-xs-12 col-sm-3 control-label no-padding-right">Parentesco con el Estudiante:</label>
         <div >
                                 <span class="block input-icon input-icon-right">
-                                    {!! Form::select('parentesco_ac_1',['' => 'Seleccione una Opcion','Padre' => 'Padre', 'Madre' => 'Madre', 'Acudiente' => 'Acudiente'],null, ['class' => 'form-control width-40']) !!}
+                                    {!! Form::select('parentesco_ac_1',['' => 'Seleccione una Opcion','Padre' => 'Padre', 'Madre' => 'Madre', 'Acudiente' => 'Acudiente'],null, ['required'=>'','class' => 'form-control width-40']) !!}
                                 </span>
         </div>
     </div>

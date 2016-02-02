@@ -604,7 +604,7 @@
 
             <div >
 						<span class="block input-icon input-icon-right">
-					    {!! Form::text('id_ac_2',$acudiente2->id,['disabled' =>'','class' => 'required number width-40']) !!}
+					    {!! Form::text('id_ac_2',$acudiente2->id,['disabled' =>'','class' => 'number width-40']) !!}
 						</span>
             </div>
 
@@ -615,7 +615,7 @@
 
             <div >
 						<span class="block input-icon input-icon-right">
-						{!! Form::text('nombre_ac_2',$acudiente2->nombre,['class' => 'required  width-40']) !!}
+						{!! Form::text('nombre_ac_2',$acudiente2->nombre,['class' => 'width-40']) !!}
 						</span>
             </div>
 
@@ -626,7 +626,7 @@
 
             <div >
 						<span class="block input-icon input-icon-right">
-						{!! Form::text('primer_apellido_ac_2',$acudiente2->primer_apellido,['class' => 'required width-40']) !!}
+						{!! Form::text('primer_apellido_ac_2',$acudiente2->primer_apellido,['class' => ' width-40']) !!}
 						</span>
             </div>
 
@@ -662,7 +662,7 @@
             <div >
 						<span class="block input-icon input-icon-right">
 
-						{!! Form::date('fecha_nacimiento_ac_2',$acudiente2->fecha_nacimiento,['class' => 'required date width-40']) !!}
+						{!! Form::date('fecha_nacimiento_ac_2',$acudiente2->fecha_nacimiento,['class' => 'date width-40']) !!}
 						</span>
             </div>
         </div>

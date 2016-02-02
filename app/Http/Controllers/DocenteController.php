@@ -480,4 +480,33 @@ class DocenteController extends Controller
 		return $personas;
 	}
 
+	//----------------------------------------------------------------------
+
+	public function indexPrueba()
+	{
+
+		$personas = $this->buscarDocentes();
+
+			return view('admin.docente.indexPrueba', compact('personas'));
+
+	}
+
+	public function llegada()
+	{
+
+
+		$persona = Persona::find(Input::get('id'));
+        $persona->nombres = Input::get('nombre');
+		$persona->primer_apellido = Input::get('primer_apellido');
+		$persona->segundo_apellido = Input::get('segundo_apellido');
+		$persona->save();
+
+		$personas = $this->buscarDocentes();
+
+		return view('admin.docente.indexPrueba', compact('personas'));
+
+	}
+
+
 }
+

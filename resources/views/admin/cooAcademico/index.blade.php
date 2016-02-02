@@ -1,4 +1,5 @@
-
+@extends('admin.menu')
+@section('contenido')
     <div class="container">
 
         <div class="row">
@@ -124,4 +125,4 @@
 
 
 </div>
-
+@stop

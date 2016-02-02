@@ -26,9 +26,15 @@
 
 
 
-    Route::group(['prefix' => 'estudiante' , 'middleware' => 'estudiante'],function(){
+    Route::group(['prefix' => 'estudiante'],function(){
+
 
         Route::get('inicio', ['uses' => 'InicioController@entrarEstudiante', 'as' => 'estudiante.inicio' ]);
+        Route::get('ver-notas', 'EstudiantesController@verNotas');
+        Route::post('ver-notas', 'EstudiantesController@verNotas');
+
+        Route::get('ver-observaciones', 'EstudiantesController@verObservaciones');
+        Route::post('ver-observaciones', 'EstudiantesController@verObservaciones');
 
     });
 
@@ -49,6 +55,19 @@
     Route::group(['prefix' => 'coordinador-disciplina'],function(){
 
         Route::get('inicio', ['uses' => 'InicioController@entrarCooDisciplina', 'as' => 'coodisciplina.inicio' ]);
+
+        Route::group(['prefix' =>'observaciones'],function(){
+            Route::get('index', ['as'=>'observaciones.index','uses' => 'ObservacionController@index']);
+            Route::post('buscando', ['as'=>'observaciones.buscar','uses' => 'ObservacionController@buscar']);
+            Route::get('crear', ['as'=>'observaciones.crear','uses' => 'ObservacionController@crear']);
+            Route::post('datos-observacion', ['as'=>'observaciones.buscar.estudiante','uses' => 'ObservacionController@buscarEstudiante']);
+            Route::post('guardar', ['as'=>'observaciones.guardar','uses' => 'ObservacionController@guardar']);
+            Route::get('modificar', ['as'=>'observaciones.modificar','uses' => 'ObservacionController@modificar']);
+            Route::post('buscando-para-modificar', ['as'=>'observaciones.buscar.modificar','uses' => 'ObservacionController@buscarModificar']);
+            Route::post('actualizar-observacion', ['as'=>'observaciones.actualizar','uses' => 'ObservacionController@actualizar']);
+
+        });
+
 
     });
 
@@ -102,11 +121,18 @@
             Route::post('busqueda-por-grado',['uses'=>'EstudianteController@buscarPorGrado', 'as' =>'busqueda.por.grado']);
             Route::post('busqueda-por-id',['uses'=>'EstudianteController@buscarPorId', 'as' =>'busqueda.por.id']);
 
+
+
         });
 
     });
 
 
+
+
+
+    Route::get('index-prueba', ['as' => 'index.prueba', 'uses' => 'DocenteController@indexPrueba']);
+    Route::post('llegada', ['as' => 'llegada', 'uses' => 'DocenteController@llegada']);
 
 
 
@@ -121,11 +147,7 @@
     Route::get('docente/consultar-estudiante', 'NotasController@mostrarConsultarEstudiante');
     Route::post('docente/consultar-estudiante', 'NotasController@consultarEstudiante');
 
-    Route::get('estudiante/ver-notas', 'EstudiantesController@verNotas');
-    Route::post('estudiante/ver-notas', 'EstudiantesController@verNotas');
 
-    Route::get('estudiante/ver-observaciones', 'EstudiantesController@verObservaciones');
-    Route::post('estudiante/ver-observaciones', 'EstudiantesController@verObservaciones');
 
 
 

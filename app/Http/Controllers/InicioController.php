@@ -37,10 +37,7 @@ class InicioController extends Controller {
 	}
 
 
-	public function wizard(Request $request){
-		dd($request);
-		return view('compartido.login');
-	}
+
 
 
 

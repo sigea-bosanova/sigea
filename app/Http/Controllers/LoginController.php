@@ -24,21 +24,29 @@ class LoginController extends Controller {
 
 	public function entrar (Request $request){
 
+
 		$id = $request->identificacion;
 		$password = $request->pass;
 
 
 
 
+
 		if (Auth::attempt(['id' => $id, 'password' => $password, 'perfil' =>'Estudiante' ])){
+
 
 			$estudiante = Estudiante::find($id);
 			$nombre = $estudiante->nombre;
 			$nombreCompleto= $nombre." ".$estudiante->primer_apellido." ".$estudiante->segundo_apellido;
 
+
+
+
 			Session::put(['id' =>$id, 'nombre' => $nombre,'nombreCompleto' => $nombreCompleto,
 				'perfil' => 'Estudiante','email' => $estudiante->email,'direccion' => $estudiante->direccion,
 				'celular' => $estudiante->celular, 'inicio' => 'estudiante.inicio']);
+
+
 
 			return redirect()->route('estudiante.inicio');
 		}

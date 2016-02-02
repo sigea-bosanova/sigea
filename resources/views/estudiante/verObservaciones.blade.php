@@ -5,7 +5,9 @@
 
     <div>
         <div class="col-lg-1"></div>
-        <div class="widget-box col-lg-10">
+        <div class="row"><br></div>
+        <div class="widget-box col-lg-12">
+
             <div class="widget-header widget-header-blue widget-header-flat">
                 <h1 class="header smaller lighter blue">Observaciones de {{  Session::get('nombre') }}</h1>
 
@@ -25,16 +27,17 @@
 
                                         @if ($mensaje=="ok")
                                             <div>
-                                                <div class="alert alert-warning">
+                                                <div class="alert alert-info">
 
 
                                                     <strong><div>
                                                             <?php  $i=1; ?>
                                                             @foreach($observaciones as $observacion)
-                                                                    <span class="label label-warning">
-						<i class="ace-icon fa fa-exclamation-triangle bigger-120"></i>
-                                                                        {{ $i }}
-					  </span>
+                                                                    <span class="label label-grey">
+						                                                <i class="ace-icon fa fa-pencil bigger-130"></i>
+                                                                        <?php $fecha = Carbon\Carbon::parse($observacion->created_at) ?>
+                                                                         {{ $fecha->toDateString()   }}
+                                                                    </span>
 
 
                                                                      &nbsp;&nbsp; {{  $observacion->descripcion }} <br><br><br>

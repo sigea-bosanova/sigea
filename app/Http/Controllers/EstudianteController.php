@@ -72,11 +72,16 @@ class EstudianteController extends Controller {
 		$demografico->cantidad_veces_come_diario = Input::get('cantidad_veces_come_diario');
 		$demografico->anos_perdidos = Input::get('anos_perdidos');
 
-		$añosPerdidos ='';
-		foreach(Input::get('descripcion_anos_perdidos') as $año){
-			$añosPerdidos = $añosPerdidos.' - '.$año;
-		}
-		$demografico->descripcion_anos_perdidos = $añosPerdidos;
+
+			$añosPerdidos = '';
+			foreach (Input::get('descripcion_anos_perdidos') as $año) {
+				$añosPerdidos = $añosPerdidos . ' - ' . $año;
+			}
+
+			$demografico->descripcion_anos_perdidos = $añosPerdidos;
+
+
+
 		$demografico->problemas_salud = Input::get('problemas_salud');
 		$demografico->tratamiento_problemas_salud = Input::get('tratamiento_problemas_salud');
 		$demografico->medicamentos_tomados = Input::get('medicamentos_tomados');

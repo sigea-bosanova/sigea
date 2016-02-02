@@ -103,40 +103,8 @@
 		//
 	}
 
-	public  function probar1(){
-
-		//Prueba de relacion entre estudiante y acudientes
-
-		$estudiante = Estudiante::find(21); // oscar
-
-		$acudiente1 = Acudiente::find(37); //Shanel
-
-		$acudiente2 = Acudiente::find(2);
-
-		$acudiente3 = Acudiente::find(3);
-
-		//$estudiante->acudientes()->attach($acudiente1,['parentesco'=>'Padre']);
-
-		//$estudiante->acudientes()->attach($acudiente2,['parentesco'=>'Madre']);
-
-		//$estudiante->acudientes()->attach($acudiente3,['parentesco'=>'Acudiente']);
-
-		//dd($estudiante->acudientes->toArray());
-
-		//dd($estudiante->wherePrimerApellido('Melgar')->get());
 
 
-	}
 
-
-	public  function probar()
-	{
-
-	 $estutiante = Estudiante::find(2020056635);
-
-
-		dd($estutiante->respuestas);
-
-	}
 
 }

@@ -1,8 +1,10 @@
 @extends('estudiante.menu')
 @section('contenido')
 <div>
-    <div class="col-md-1"></div>
-    <div class= "col-md-10   widget-box">
+    <div class="col-md-1"><br></div><br>
+
+    <div class= "col-md-12 widget-box">
+
         <div class="widget-header widget-header-blue widget-header-flat">
             <h1  class="header smaller lighter blue " >Notas de {{ Session::get('nombre') }} </h1>
         </div>

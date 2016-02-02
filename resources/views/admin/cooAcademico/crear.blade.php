@@ -1,4 +1,5 @@
-
+@extends('admin.menu')
+@section('contenido')
         <h2 class="header smaller lighter blue">Creando Coordinador Academico</h2>
 
 
@@ -45,7 +46,7 @@
             </div>
         </div>
 
-
+@stop
 
 
 
