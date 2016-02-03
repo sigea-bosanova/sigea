@@ -93,13 +93,17 @@ class ObservacionController extends Controller {
 
 	public function actualizar(){
 
+
 		$observaciones = Observacion::find(Input::all('id_observacion'));
 		$observacion = $observaciones[0];
-		$observacion->descripcion = Input::get('descripcion');
+		$observacion->descripcion = Input::get('observacion');
 		$observacion->save();
 
-		Session::flush(['mensaje' => 'ok']);
-		return view('coodisciplina.observaciones.modificar2');
+		$estudiante = Estudiante::find(Input::get('id_estudiante'));
+		$observaciones = $estudiante->observaciones;
+
+		$mensaje = 'ok';
+		return view('coodisciplina.observaciones.modificar2')->with(['estudiante'=>$estudiante, 'observaciones' => $observaciones, 'mensaje' => $mensaje]);
 
 	}
 

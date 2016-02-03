@@ -1,4 +1,4 @@
-@extends('cooacademico.menu')
+@extends('coodisciplina.menu')
 
 @section('contenido')
 
@@ -7,7 +7,7 @@
 
                 <div ><h2 class="text-center text-primary green"> Modificar Observacion</h2></div>
             @if(isset($mensaje))
-                @if(Session::get('mensaje')=='ok')
+                @if($mensaje =='ok')
                     <div ><h2 class="alert alert-info"> Observacion modificada con Exito.</h2></div>
                 @endif
             @endif
@@ -63,7 +63,7 @@
 												<i class="ace-icon fa fa-pencil-square-o x2"></i> Observacion:
 											</span>
                                         {!! Form::hidden('id_observacion',$observacion->id) !!}
-                                        {!! Form::hidden('id_estudiante',$observacion->id) !!}
+                                        {!! Form::hidden('id_estudiante',$estudiante->id) !!}
                                         {!! Form::textarea('observacion', $observacion->descripcion, ['class' => ' form-control ']) !!}
 
                                     </div>

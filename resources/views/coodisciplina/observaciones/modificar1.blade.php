@@ -1,4 +1,4 @@
-@extends('cooacademico.menu')
+@extends('coodisciplina.menu')
 
 @section('contenido')
 

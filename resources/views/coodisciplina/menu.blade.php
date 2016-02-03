@@ -99,7 +99,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href="{{route('observaciones.modificar')}}">
                         <i class="fa fa-pencil fa-fw"></i>&nbsp;
                         Modificar Observaci&oacute;n
                     </a>
