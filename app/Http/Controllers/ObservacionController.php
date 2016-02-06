@@ -81,11 +81,11 @@ class ObservacionController extends Controller {
 		}
 		else {
 		  $observaciones = $estudiante->observaciones;
-			$mensaje = 'ok';
+
 		}
 
 
-		return view('coodisciplina.observaciones.modificar2')->with(['estudiante' => $estudiante, 'observaciones' => $observaciones,'mensaje' =>$mensaje]);
+		return view('coodisciplina.observaciones.modificar2')->with(['estudiante' => $estudiante, 'observaciones' => $observaciones]);
 
 
 

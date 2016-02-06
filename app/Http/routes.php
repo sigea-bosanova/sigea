@@ -49,6 +49,8 @@
     Route::group(['prefix' => 'coordinador-academico'],function(){
 
         Route::get('inicio', ['uses' => 'InicioController@entrarCooAcademico', 'as' => 'cooacademico.inicio' ]);
+        Route::resource('grado', 'GradoController');
+
 
     });
 

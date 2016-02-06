@@ -27,6 +27,13 @@ class DocenteController extends Controller
 			return view('secretaria.docente.index', compact('personas'));
 		} else if (\Session::get('perfil') == 'Administrador') {
 			return view('admin.docente.index', compact('personas'));
+
+		} else if (\Session::get('perfil') == 'Coordinador Academico') {
+			return view('cooacademico.docente.index', compact('personas'));
+
+		} else if (\Session::get('perfil') == 'Coordinador Disciplina') {
+			return view('cooacademico.docente.index', compact('personas'));
+
 		} else
 			echo "Acceso no valido...";
 	}
@@ -43,7 +50,7 @@ class DocenteController extends Controller
 		} else if (\Session::get('perfil') == 'Administrador') {
 			return view('admin.docente.crear');
 		} else
-			echo "Acceso no valido...";
+			echo "No tiene los permisos necesarios...";
 	}
 
 	/**
@@ -250,19 +257,34 @@ class DocenteController extends Controller
 			\Session::flash('error', 'Error: Registro no Encontrado');
 			if (\Session::get('perfil') == 'Secretaria') {
 				return view('secretaria.docente.mostrar');
+
 			} else if (\Session::get('perfil') == 'Administrador') {
-				return view('admin.docente.mostrar');
+				return view('admin.docente.mostrar');}
+
+			else if (\Session::get('perfil') == 'Coordinador Academico') {
+					return view('cooacademico.docente.mostrar');}
+
+			else if (\Session::get('perfil') == 'Coordinador Disciplina') {
+					return view('coodisciplina.docente.mostrar');
+
 			} else
-				echo "Acceso no valido...";
+				echo "No tiene los permisos necesarios para visitar esta página...";
 
 		}
+
 		$materias = $persona->materias;
 		if (\Session::get('perfil') == 'Secretaria') {
 			return view('secretaria.docente.mostrar', compact('persona', 'materias'));
 		} else if (\Session::get('perfil') == 'Administrador') {
-			return view('admin.docente.mostrar', compact('persona', 'materias'));
+			return view('admin.docente.mostrar', compact('persona', 'materias'));}
+
+			else if (\Session::get('perfil') == 'Coordinador Academico') {
+				return view('cooacademico.docente.mostrar', compact('persona', 'materias'));}
+
+			else if (\Session::get('perfil') == 'Coordinador Disciplina') {
+				return view('coodisciplina.docente.mostrar', compact('persona', 'materias'));
 		} else
-			echo "Acceso no valido...";
+				echo "No tiene los permisos necesarios para visitar esta página...";
 	}
 
 	/**
@@ -280,7 +302,7 @@ class DocenteController extends Controller
 		} else if (\Session::get('perfil') == 'Administrador') {
 			return view('admin.docente.editar', compact('persona'));
 		} else
-			echo "Acceso no valido...";
+			echo "El perfil ". \Session::get('perfil')." no tiene permisos para visitar esta pagina.";
 	}
 
 	/**

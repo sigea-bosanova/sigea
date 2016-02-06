@@ -1273,7 +1273,7 @@
         <div class="center">
 
             <div class="form-group" >
-                {!! Form::label('Matematicas',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('materia[]', '1') !!}
+                {!! Form::label('Matematicas',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('materia[]', '1', null,['required'=>'']) !!}
                 {!! Form::label('Sociales',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('materia[]', '2') !!}
                 {!! Form::label('Castellano',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('materia[]', '3') !!}
                 {!! Form::label('Ciencias Naturales',null,  ['class' => 'checkbox-inline']) !!} {!!  Form::checkbox('materia[]',4) !!}
