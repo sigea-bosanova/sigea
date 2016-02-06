@@ -483,14 +483,24 @@ class DocenteController extends Controller
 	 */
 	public function destroy($id)
 	{
-		$persona = Persona::find($id);
-		$persona->delete();
 
-		$user = User::find($id);
-		$user->delete();
 
-		\Session::Flash('message','Docente Eliminado Correctamente');
-		return \Redirect::to('gestionar/docentes/persona');
+		if ((\Session::get('perfil') == 'Secretaria')||  (\Session::get('perfil') == 'Administrador')) {
+
+			$persona = Persona::find($id);
+			$persona->delete();
+
+			$user = User::find($id);
+			$user->delete();
+
+			\Session::Flash('message','Docente Eliminado Correctamente');
+			return \Redirect::to('gestionar/docentes/persona');
+
+
+		} else
+			echo "El perfil ". \Session::get('perfil')." no tiene permisos para eliminar docentes.";
+
+
 	}
 
 	public function buscarDocentes(){

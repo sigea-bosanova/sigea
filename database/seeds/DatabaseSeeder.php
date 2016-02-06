@@ -14,6 +14,7 @@
 			{
 				Model::unguard();
 
+					$this->call('GradoTableSeeder');
 				    $this->call('DocenteSeeder');
 				    $this->call('SecretariaSeeder');
 					 $this->call('CooDisciplinaSeeder');
@@ -28,7 +29,7 @@
 				   $this->call('MateriaTableSeeder');
 				 //  $this->call('EstudianteMateriaTableSeeder');
 				 //  $this->call('MateriaPersonaTableSeeder');
-				   $this->call('GradoTableSeeder');
+
 				 //	 $this->call('PeriodoTableSeeder');
 				 	 $this->call('ObservacionTableSeeder');
 				 //	 $this->call('PreguntaTableSeeder');

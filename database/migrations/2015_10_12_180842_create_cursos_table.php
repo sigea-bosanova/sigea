@@ -17,6 +17,7 @@ class CreateCursosTable extends Migration {
 			$table->increments('id');
 			$table->integer('cantidad_estudiantes');
 			$table->bigInteger('persona_id')->unsigned(); //Director de curso
+			$table->integer('grado_id')->unsigned()->nullable();
 			$table->string('nombre');
 			$table->timestamps();
 		});

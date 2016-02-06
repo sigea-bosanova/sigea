@@ -17,6 +17,7 @@ class CreateMateriasTable extends Migration {
 			$table->increments('id');
 			$table->string('nombre');
 			$table->integer('intensidad_horaria');
+			$table->integer('grado_id')->nullable();
 			$table->timestamps();
 		});
 	}

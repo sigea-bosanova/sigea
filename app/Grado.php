@@ -9,4 +9,9 @@ class Grado extends Model {
         return $this->hasMany('Sigea\Estudiante');
     }
 
+    public function cursos(){
+
+        return $this->hasMany('Sigea\Curso');
+    }
+
 }

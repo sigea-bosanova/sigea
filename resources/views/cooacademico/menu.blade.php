@@ -144,7 +144,7 @@
 
             <ul class="submenu">
                 <li class="">
-                    <a href="#">
+                    <a href=" {{ route('coordinador-academico.curso.create') }}">
                         <!--<i class="menu-icon fa fa-caret-right"></i>-->
                         <i class="fa fa-plus"></i>&nbsp;
                         Crear Curso
@@ -154,7 +154,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href=" {{ route('coordinador-academico.curso.index') }}">
                         <i class="fa fa-pencil fa-fw"></i>&nbsp;
                         Modificar Curso
                     </a>
@@ -163,7 +163,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href=" {{ route('coordinador-academico.curso.index') }}">
                         <i class="fa fa-book fa-fw"></i>&nbsp;
                         Consultar Curso
                     </a>
@@ -172,7 +172,7 @@
                 </li>
 
                 <li class="">
-                    <a href="#">
+                    <a href=" {{ route('coordinador-academico.curso.index') }}">
                         <i class="fa fa-trash-o fa-fw"></i>&nbsp
                         Eliminar Curso
                     </a>

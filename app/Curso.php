@@ -10,4 +10,9 @@ class Curso extends Model {
         return $this->hasMany('Sigea\Estudiante');
     }
 
+    public function grado(){
+
+        return $this->belongsTo('Sigea\Grado');
+    }
+
 }
