@@ -18,6 +18,11 @@ class CreateMateriasTable extends Migration {
 			$table->string('nombre');
 			$table->integer('intensidad_horaria');
 			$table->integer('grado_id')->nullable();
+			$table->text('logro1');
+			$table->text('logro2');
+			$table->text('logro3');
+			$table->text('logro4');
+			$table->text('logro_final');
 			$table->timestamps();
 		});
 	}

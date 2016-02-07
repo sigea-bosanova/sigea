@@ -51,6 +51,7 @@
         Route::get('inicio', ['uses' => 'InicioController@entrarCooAcademico', 'as' => 'cooacademico.inicio' ]);
         Route::resource('grado', 'GradoController');
         Route::resource('curso', 'CursoController');
+        Route::resource('materia', 'MateriaController');
 
 
     });

@@ -14,4 +14,18 @@ class Grado extends Model {
         return $this->hasMany('Sigea\Curso');
     }
 
+    public function materias(){
+
+        return $this->hasMany('Sigea\Materia');
+    }
+    public static function formatear(){
+        $gradosAux = Grado::all();
+        $respuesta = array();
+
+        foreach ($gradosAux as $grado){
+            $respuesta [$grado->id] = $grado->nombre;
+        }
+        return $respuesta;
+    }
+
 }

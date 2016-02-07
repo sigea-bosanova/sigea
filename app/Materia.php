@@ -16,5 +16,10 @@ class Materia extends Model {
         return $this->belongsToMany('Sigea\Persona');
     }
 
+    public function grado(){
+
+        return $this->belongsTo('Sigea\Grado');
+    }
+
 
 }
